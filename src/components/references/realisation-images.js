@@ -1,25 +1,25 @@
 import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 import "../../scss/references/realisation-images.scss"; // Create a CSS file for styling
 
-const images = [
-  "https://placekitten.com/300/200",
-  "https://placekitten.com/300/203",
-  "https://placekitten.com/300/200",
-  "https://placekitten.com/300/203",
-];
 
-const Slider = () => {
+const Slider = ({items}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const { id } = useParams();
+
+  // Find the corresponding service based on the ID
+  const service = items.find((item) => item.id === parseInt(id));
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+      prevIndex === 0 ? service.images.length - 1 : prevIndex - 1
     );
   };
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      prevIndex === service.images.length - 1 ? 0 : prevIndex + 1
     );
   };
 
@@ -45,15 +45,20 @@ const Slider = () => {
               </svg>
             </button>
             <div className="slider">
-              {images.map((image, index) => (
+              {service.images.map((image, index) => (
                 <div
                   key={index}
                   className={`slide ${index === currentIndex ? "active" : ""}`}
                   style={{ transform: `translateX(-${currentIndex * 100}%)` }}
                 >
-                  <img src={image} alt={`Slide ${index}`} />
+                  <img src={image.image} alt={`Slide ${index}`} />
                 </div>
               ))}
+            </div>
+          </div>
+          <div className="slider-counter">
+            <div>
+              {currentIndex + 1}/{service.images.length}
             </div>
           </div>
         </div>

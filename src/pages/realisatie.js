@@ -29,8 +29,8 @@ function References() {
         }
       />
       <CustomerPreferences  items={Data} />
-      <CustomerReview item={Data} />
-      <Slider />
+      <CustomerReview items={Data} />
+      <Slider items={Data}/>
       <Footer />
     </div>
   );

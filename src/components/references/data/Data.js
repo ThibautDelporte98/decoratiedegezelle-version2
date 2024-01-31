@@ -139,6 +139,63 @@ const References = [
         showGoalChoice: true,
       },
     },
+    images:[
+      {
+        id:1,
+        image:before,
+      },
+      {
+        id:2,
+        image:before1,
+      },
+      {
+        id:3,
+        image:before2,
+      },
+      {
+        id:4,
+        image:before3,
+      },
+      {
+        id:5,
+        image:before4,
+      },
+      {
+        id:6,
+        image:before5,
+      },
+      {
+        id:7,
+        image:before6,
+      },
+      {
+        id:8,
+        image:after1,
+      },
+      {
+        id:9,
+        image:after2,
+      },
+      {
+        id:10,
+        image:after3,
+      },
+      {
+        id:11,
+        image:after4,
+      },
+      {
+        id:12,
+        image:after5,
+      },
+      {
+        id:13,
+        image:after6,
+      }
+
+
+    ]
+
   },
   {
     id: 2,
