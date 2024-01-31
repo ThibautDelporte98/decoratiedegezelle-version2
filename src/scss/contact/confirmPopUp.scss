@@ -1,0 +1,15 @@
+.confirmPopUp{
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    &-text{
+        padding: 2.5rem 0;
+    }
+}

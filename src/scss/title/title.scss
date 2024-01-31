@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    padding: 5rem 0;
+    text-transform: uppercase;
+    h2{
+        letter-spacing: .5rem;
+    }
+}
+

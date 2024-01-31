@@ -1,0 +1,91 @@
+@import "../variables.scss";
+
+
+.form{
+    padding-bottom: 10rem;
+}
+
+.c-form{
+    width: calc(100% / 2 - 2rem);
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__input{
+        padding: .5rem .5rem .5rem .5rem ;
+        margin: 1.25rem 0;
+        line-height: 2rem;
+        border: none;
+        background-color: transparent;
+        font-size: .95rem;
+        font-weight: 300;
+        width: 100%;
+        color: $color-primairy;
+        &:active{
+            background-color: transparent !important;
+        }
+        &--privacypolicy{
+            font-size: .95rem !important;
+        }
+    }
+    &__select{
+        padding: .5rem 0 .5rem 0;
+        margin: 1.25rem 0;
+
+    }   
+    &__textarea{
+        padding-bottom: .25rem;
+
+    }
+
+    &__policy{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+    &__policyLink{
+        color: $color-accent;
+    }
+    &__checkboxTxt{
+        margin-left: .5rem;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+}
+
+
+input:active{
+    border-top: none !important;    
+   }
+input{
+ border-bottom: 1px solid white !important; 
+}
+
+select{
+    color: $color-secundairy;
+    border-bottom: 1px solid white !important;
+    option{
+        border-radius: 0 !important;
+        background-color: black;
+
+    }    
+}
+textarea{
+    border-bottom: 1px solid white !important;
+    resize: none !important;
+
+}
+
+.optionDisabled{
+    color: gray !important;
+}
+
+.error{
+    color: red;
+    font-weight: 300;
+    font-size: .85rem;
+
+}

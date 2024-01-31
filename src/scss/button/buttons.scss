@@ -1,0 +1,97 @@
+@import "../variables.scss";
+
+
+.Button{
+    margin-top: 2rem;
+    width: 100%;
+    color: $color-primairy;
+    text-decoration: none;
+    @media screen and (max-width:992px) {
+        justify-content: center;
+    }
+    &-txt{
+        width: auto;
+        height: auto;
+        padding: 1rem 3rem;
+        background: $color-accent;
+        text-align: center;
+        --c:  #caa35c; /* the color*/
+    
+        box-shadow: 0 0 0 .1em inset var(--c); 
+        --_g: linear-gradient(var(--c) 0 0) no-repeat;
+        background: 
+          var(--_g) calc(var(--_p,0%) - 100%) 0%,
+          var(--_g) calc(200% - var(--_p,0%)) 0%,
+          var(--_g) calc(var(--_p,0%) - 100%) 100%,
+          var(--_g) calc(200% - var(--_p,0%)) 100%;
+        background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+        outline-offset: .1em;
+        transition: background-size .4s, background-position 0s .4s, color .4s;
+
+        @media screen and (max-width:992px) {
+            width: 100%;
+        }
+    }
+}
+
+  .Button-txt:hover {
+    color: white !important;
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s, color .4s;
+  }
+  .Button-txt:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+  }
+.button-item{
+    display: flex;
+    justify-content: flex-end;
+
+    &-more{
+        justify-content: center !important;
+    }
+    .button-link{
+        position: relative;
+        color: black;
+        background-color: transparent;
+        font-family: soleil, sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        transition: background-color .2s ease-out;
+        cursor: pointer;
+        .button-text-wrapper {
+            display: flex;
+            align-items: center;
+        }
+        .button-subject-more{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .button-icon{
+            color: #caa35c;
+            margin-left: .75rem;
+            transform: rotate(-45deg);
+            transition: transform .25s ease-out;
+            &-more{
+                transform: rotate(0);
+            }
+            .plus{
+                font-size: 2rem;
+                font-weight: 700;
+                &-active{
+                    transform: rotate(-22.5deg) !important;
+                }
+          }
+
+        }
+
+        
+
+
+
+    }    
+}
+

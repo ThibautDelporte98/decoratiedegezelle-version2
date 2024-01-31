@@ -1,0 +1,25 @@
+@import "../variables.scss";
+
+.Contact{
+    // margin-top: -9rem;
+    background-color: $color-secundairy;
+    height: auto;
+    color: $color-primairy;
+    // padding-bottom: 10rem;
+    @media screen and (max-width:992px) {
+        height: 100%;
+        
+    }
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50rem;
+    padding-bottom: 5rem;
+    @media screen and (max-width:992px) {
+        height: 100%;
+        
+    }
+}

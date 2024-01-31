@@ -1,0 +1,255 @@
+@import url("https://use.typekit.net/azv4duq.css");
+@import url("https://use.typekit.net/ipv2vul.css");
+@import url("https://use.typekit.net/tni1svk.css");
+@import url("https://use.typekit.net/hrl6dqz.css");
+@import url("https://use.typekit.net/wgy0hyc.css");
+
+
+@import "../scss/variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    position: relative;
+    background-color: white;
+    color: black;
+    
+
+}
+
+body {
+  margin: 0;
+  font-family: $txt-font;
+}
+
+
+
+
+/* width */
+p::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white !important;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black !important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555 !important;
+  }
+
+  ::selection{
+    background-color: $color-accent;
+  }
+
+.container-xl{
+    max-width: 1320px !important;
+}
+
+.custom-container{
+    margin-left: 0;
+    margin-right: auto;
+    max-width: 660px;
+}
+
+.position{
+    position: sticky;
+    z-index: 999;
+}
+
+
+.flex-mobile{
+  @media screen and (max-width:992px) {
+    display: flex;
+    flex-direction: column;    
+  }
+
+}
+
+
+
+h1{
+    font-size: 2rem;
+    font-family: soleil, sans-serif;
+    font-weight: 800;
+}
+
+h2{
+  font-weight: 800;
+  font-size: 1.25rem ;
+  font-family: soleil, sans-serif ;
+  @media screen and (max-width:576px) {
+    font-size: 1.1rem;
+  }
+}
+h3{
+  font-weight: 800;
+  font-size: 1.2rem ;
+  font-family: soleil, sans-serif ;
+  @media screen and (max-width:576px) {
+    font-size: 1rem !important;
+  }
+}
+
+p{
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: soleil, sans-serif;
+  margin-bottom: 0 !important; 
+  @media screen and (max-width:576px) {
+    font-size: .85rem;
+  }
+}
+.more-button{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2.5rem 0;
+  .load-more{
+    color: $color-primairy;
+    background-color: $color-secundairy;
+    border: none;
+    padding: .5rem 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: all .25s ease-out;
+    &:hover{
+      transition: all .25s ease-in;
+      background-color: $color-primairy;
+      color: $color-secundairy;
+    }
+  }
+}
+
+
+.no-items-message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  h2{
+    text-align: center;
+    width: 90%;
+  }
+  p{
+    text-align: center;
+    width: 50%;
+    @media screen and (max-width:576px) {
+      width: 90%;
+    }
+  }
+}
+
+.bold{
+  font-weight: 800;
+}
+
+
+.title-white{
+    color: white;
+}
+.title-black-m{
+    @media screen and (max-width:992px) {
+        color: black;
+    }
+}
+.title-gold{
+    color: #caa35c;
+}
+.p-white{
+    color: white;
+    font-weight: 200;
+}
+
+.pmobile-black{
+    @media screen and (max-width:992px) {
+        color: black;
+        font-weight: 200;        
+    }
+
+}
+ul{
+    padding-left: 0 !important;
+    list-style-type: none;
+}
+ol { 
+  list-style-type: none;
+  counter-reset: li;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+
+}
+
+.display-flex-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.display-flex-center{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+.display-flex-end{
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center;
+}
+.display-flex-column-end{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.text-align-start{
+  text-align: start ;
+}
+.flex-direction-column{
+  flex-direction: column;
+}
+
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  // @keyframes fog_effect {
+  //   0% {
+  //     opacity: 0;
+  //     transform: scale(1);
+  //   }
+  //   25%,
+  //   75% {
+  //     opacity: 1;
+  //   }
+  //   100% {
+  //     transform: scale(3);
+  //     opacity: 0;
+  //   }
+  // }
+
+
+
+
+
+
+

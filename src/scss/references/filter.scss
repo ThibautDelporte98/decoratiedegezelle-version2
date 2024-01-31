@@ -1,0 +1,55 @@
+@import '../variables.scss';
+
+.filter{
+        margin-top: -4rem;
+        // padding-bottom: 1rem;
+        display: flex;
+        width: 100%;
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: flex-end;
+        z-index: 2;
+        @media screen and (max-width:1400px){
+            max-width: 1120px;
+        }
+        @media screen and (max-width:1200px){
+            max-width: 940px;
+        }
+        @media screen and (max-width:992px){
+            max-width: 700px;
+        }
+        @media screen and (max-width:767px){
+            max-width: 520px;
+        }
+        @media screen and (max-width:576px){
+            top: 29.5rem;
+            max-width: 90%;
+        }
+    .filterTitle{
+        height: 2.5rem;
+        font-weight: 300;
+        padding: .5rem 1rem;
+        background-color: transparent;
+        border-radius: .15rem;
+    }
+    .select{
+        border: none !important;
+        color: $color-primairy;
+        background-color: $color-secundairy;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-left: .5rem;
+        border-bottom: 1px solid $color-primairy !important;
+        padding: 0 0 0 .5rem;
+        border-radius: .15rem;
+        @media screen and (max-width: 300px) {
+            width: 9rem;
+        }
+        
+    }
+    .option{
+        color: $color-secundairy;
+        background-color: $color-primairy !important;
+    }
+}

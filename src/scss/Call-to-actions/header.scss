@@ -1,0 +1,32 @@
+@import "../variables.scss";
+
+.call-to-actions{
+  display: flex;
+  justify-content: center;
+  padding-left: 2rem;
+}
+.cta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20rem;
+  height: 20rem;
+  border: 2rem solid #caa35c;
+  transform: rotate(45deg);
+  &-2{
+      margin-top: 10.5rem;
+      width: 17rem;
+      height: 17rem;
+      h2{
+          font-size: 1rem !important;
+      }
+  }
+  .cta-item{
+      transform: rotate(-45deg);
+  }
+  h2{
+      color: white;
+      font-family: bely-display, sans-serif;
+      font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,58 @@
+@import "../variables.scss";
+
+.About{
+  position: relative;
+  z-index: 0;
+  background-color: $color-secundairy;
+  height: auto;
+  padding: 10rem 0;
+  color: $color-primairy;
+}
+
+.about{
+  &-item{
+    padding: 0 2rem;
+    h1{
+      text-transform: uppercase;
+      letter-spacing: .5rem;
+    }
+    p{
+      padding: 2rem 0;
+    }
+    img{
+      width: 100%;
+      height: 35rem;
+      object-fit: cover;
+      @media screen and (max-width:992px) {
+        height: auto;
+      }
+    }
+  }
+  &-table{
+    padding: 2.5rem 0;
+  }
+}
+
+.table-of-content {
+  width: 100%;
+  @media screen and (max-width: 992px) {
+    width: 100%;
+  }
+  a {
+    font-style: italic;
+    font-weight: 200;
+    color: $color-primairy;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+    &:hover {
+      font-weight: 300;
+      color: #caa35c;
+      font-style: italic;
+      transition: all 0.25s ease-in;
+    }
+  }
+  .content-item {
+    list-style-type: none;
+    padding: 0.5rem 0;
+  }
+}

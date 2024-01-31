@@ -1,0 +1,164 @@
+@import "../variables.scss";
+
+.Preferences{
+    padding: 5rem 0;
+    background-color: $color-secundairy;
+    @media screen and (max-width:992px) {
+        padding: 5rem 0;
+    }
+}
+
+.preferences{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: $color-primairy;
+    // @media screen and (max-width:992px) {
+    //     padding: 1.5rem;
+    // }
+    &::before{
+        content: "Klant Voorkeur";
+        position: absolute;
+        top: -4.5rem;
+        left: 1rem;
+        width: 100%;
+        height: 5rem;
+        color: $color-primairy;
+        font-size: 4rem;
+        font-weight: 800;
+        letter-spacing: .5rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        @media screen and (max-width: 992px) {
+            top: -3.5rem;
+            font-size: 3rem;
+            letter-spacing: .25rem;
+        }
+        @media screen and (max-width:576px) {
+            top: -2rem;
+            left: 0.5rem;
+            font-size: 1.75rem;
+        }
+
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        top: -2.25rem;
+        right: 0;
+        width: 100%;
+        max-width: 660px;
+        height: 7.5px;
+        color: $color-primairy;
+        font-size: 5rem;
+        font-weight: 800;
+        letter-spacing: .5rem;
+        background-color: $color-primairy;
+        @media screen and (max-width: 1400px) {
+            max-width: 500px;
+        }
+        @media screen and (max-width: 1200px) {
+            max-width: 320px;
+        }
+        @media screen and (max-width: 992px) {
+            top: -1.5rem;
+            max-width: 240px;
+            height: 5px;
+            font-size: 3rem;
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 90px;
+
+        }
+        @media screen and (max-width:576px) {
+            top: -2.25rem;
+            right: 0;
+            height: 2px;
+            max-width: 50%;
+        }
+    }
+
+    &-request{
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        border-right: 10px solid $color-secundairy;
+        @media screen and (max-width:992px) {
+            padding: 0 0 1.3rem 0;
+            border-right: unset;
+            border-bottom: 5px solid $color-secundairy;
+
+
+        }
+        
+        p{
+            width: 85%;
+            height: auto;
+            padding: .5rem 0;
+        }
+    }
+    &-info{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding:0 0 0 2.5rem;
+        @media screen and (max-width:992px) {
+            padding: 1rem 0;
+        }
+    }
+    &-response{
+        width: 50%;
+        height: auto;
+        padding: 1rem 0;
+        @media screen and (max-width:576px) {
+            width: 100%;
+        }
+        &-color{
+            .color-item{
+                .color-square{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
+                .color-info{
+                    margin-left: 1rem;
+                    h4{
+                        font-size: 1rem;
+                        font-weight: 800;
+                    }
+                    p{
+                        font-size: .8rem;
+                        font-weight: 200;
+                    }
+                }                
+            }
+
+        }
+        &-product{
+            .product-item{
+                img{
+                    width: 5rem;
+                    height: 5rem;
+                    object-fit: contain;
+                }
+                .product-info{
+                    margin-left: 1rem;
+                    h4{
+                        font-size: 1rem;
+                        font-weight: 800;
+                    }
+                    p{
+                        font-size: .8rem;
+                        font-weight: 200;
+                    }
+                }
+            }
+        }
+        &-goal{
+            width: 100%;
+        }
+        
+    }
+}

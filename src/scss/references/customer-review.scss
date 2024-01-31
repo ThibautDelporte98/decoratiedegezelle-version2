@@ -1,0 +1,62 @@
+@import "../variables.scss";
+
+.Review{
+    padding: 5rem 0 5rem 0;
+    background-color: $color-secundairy;
+    color:$color-primairy;
+}
+
+.review{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 15rem);
+    height: auto;
+    margin-left: 15rem;
+    @media screen and (max-width:992px) {
+        width: 100%;
+        margin-left: unset;
+    }
+    &-text{
+        position: relative;
+        width: 100%;
+        height: auto;
+        max-width: 567px;
+        text-align: center;
+        font-style: italic;
+        z-index: 10;
+        @media screen and (max-width:576px) {
+            max-width: 320px;
+        }
+
+        &::before{
+            content: '"';
+            position: absolute;
+            top: -10rem;
+            left: -15rem;
+            width: 100%;
+            height: auto;
+            font-size: 15rem;
+            font-style: normal;
+            font-weight: 800;
+            color: $color-accent;
+            transform: rotate(-5deg);
+            opacity: 0.2;
+            z-index: -1;
+            @media screen and (max-width:576px) {
+                left: -7.5rem;
+            }
+        }
+    }
+    &-signature{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        max-width: 720px;
+        padding: 2rem 0;
+        font-size: .8rem;
+        font-weight: 800;
+    }
+}

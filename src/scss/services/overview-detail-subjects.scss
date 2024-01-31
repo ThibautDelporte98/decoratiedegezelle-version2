@@ -1,0 +1,29 @@
+@import "../variables.scss";
+
+.subjects{
+    background-color: $color-secundairy;
+    &-object{
+        padding: 2rem 0;
+        img{
+            width: calc(100% - 2rem);
+            height: 35rem;
+            object-fit: cover;
+        }
+        &-content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            color: $color-primairy;
+            height: 100%;
+            h2{
+                font-size: 3rem;
+                text-transform: uppercase;
+
+                @media screen and (max-width:576px) {
+                    font-size: 2rem;
+                }
+            }
+
+        }
+    }
+}

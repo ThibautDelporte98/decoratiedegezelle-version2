@@ -1,0 +1,72 @@
+@import "../variables.scss";
+
+.contact-details{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $color-accent;
+    height: 100%;
+    padding: 1rem;
+    @media screen and (max-width:992px) {
+        // justify-content: center;
+    }
+    .block{
+        padding: 1rem;
+        &-list{
+            padding: 1rem 0;
+            @media screen and (max-width:576px) {
+                display: flex;
+
+            }
+        }
+        &-link{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+            padding: .75rem 0;
+            position: relative;
+            color:$color-primairy;
+            text-decoration: none;
+            transition: all .25s ease-out;
+            @media screen and (max-width:576px) {
+                padding: .75rem .75rem .75rem 0;                
+            }
+            &:hover{
+                color: $color-primairy;
+                opacity: .5;
+                transition: all .25s ease-in;
+            }
+
+            img{
+                width: 2rem;
+                height: 2rem;
+                object-fit: contain;
+
+            }
+        }
+        &-item{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            height: 2rem;
+            margin-left: 1rem;
+            @media screen and (max-width:576px) {
+                display: none;
+                
+            }
+            &-hours{
+                color:$color-primairy;
+                @media screen and (max-width:576px) {
+                    display: block;                    
+                }
+                .bold{
+                    margin-right: .5rem;
+                    font-weight: 800;
+                }
+                margin-left: 0;
+            }
+
+        }
+    }
+}

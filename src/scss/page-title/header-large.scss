@@ -1,0 +1,115 @@
+  
+  .component {
+      width: 100%;
+      height: 50rem;
+      z-index: -1;
+  
+      @media screen and (max-width:992px) {
+        height: 45rem;
+      }
+  
+    
+    
+      .view {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &-overlay{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: linear-gradient(to bottom,rgba(0, 0, 0, .15), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 1));
+            z-index: 1;
+          &-testimonials{
+            background: linear-gradient(to bottom,rgba(0, 0, 0, 1),rgba(0, 0, 0, .75), rgba(0, 0, 0, .65), rgba(0, 0, 0, .75), rgba(0, 0, 0, 1));
+  
+          }
+            .bg-smoke{
+                position: absolute;
+                z-index: 0;
+                img{
+                    width: 100vw;
+                    height: 100%;
+                    object-fit: cover;
+                    animation: fog_effect calc(3s * var(--i)) ease-in infinite;
+                }
+        
+            }
+            .head-title{
+                position: relative;
+                width: 100%;
+                h1{
+                    font-size: 1rem;
+                }
+            }
+    
+        }
+    
+        .overlay-item{
+            position: relative;
+            z-index: 2;
+            h1{
+                @media screen and (max-width:992px) {
+                    font-size: 1.25rem !important;
+                }
+                @media screen and (max-width: 576px )
+                 {
+                  font-size: 1rem !important;  
+                }
+            }
+        }
+    
+    
+    
+        .carousel {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          transition: opacity 0.75s ease-out;
+          overflow: hidden;
+          &-testimonial{
+            @media screen and (max-width:992px) {
+                height: 45rem !important;
+            }
+            @media screen and (max-width:520px) {
+              height: 60rem !important;
+            }
+  
+          }
+          @media screen and (max-width: 992px) {
+            height: 45rem;
+          }
+          &.active {
+            opacity: 1;
+            img{
+                transform: scale(1.1);
+                transition: transform .5s ease-in; /* Adjust the zoom level */
+                transition-duration: 6s ;
+    
+    
+            }
+    
+          }
+    
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: scale(1);
+            transition: transform 0.5s ease-out;
+            transition-duration: 6s ;
+  
+          }
+        }
+      }
+    
+    }
+  
+  

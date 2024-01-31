@@ -1,0 +1,93 @@
+@import "../variables.scss";
+
+.call-to-action{
+  background-color: $color-secundairy;
+
+  .reviews{
+    &-items{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding: 2.5rem 0;
+    .info{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      @media screen and (max-width:576px) {
+        flex-direction: column;
+      }
+    }
+    .average-score{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      color: $color-primairy;
+      padding: 2rem 2rem;
+      @media screen and (max-width: 992px) {
+        padding: 1rem 1rem;
+      }
+      @media screen and (max-width:576px) {
+        justify-content: center;
+      }
+
+
+      }
+      .score{
+        position: relative;
+        font-size: 5rem;
+        font-weight: 800;
+        padding: 1.2rem 1.2rem;
+        z-index: 0;
+        .review-logo{
+          position: absolute;
+          top: -1rem;
+          left: 0;
+          transform: rotate(-15deg);
+          z-index: -1;
+        
+        img{
+          width: 2.5rem;
+          height: auto;
+          object-fit: contain;
+        }  
+      }
+    }
+  }
+  &-item{
+    line-height: 1.25rem;
+  }
+  &-title{
+    position: relative;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  &-amount{
+    font-size: .8rem;
+    color: gray;
+  }
+}
+  
+}
+
+.star-rating {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star {
+  color: $color-primairy;
+  margin-right: .4rem;
+  font-size: 1rem;
+}
+
+.star.filled {
+  color: $color-accent;
+}
+
+.star.half-filled{
+  width: 50%;
+  color: $color-accent;
+}
