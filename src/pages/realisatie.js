@@ -7,6 +7,7 @@ import Text from "../components/references/text.js";
 import Data from "../components/references/data/Data.js";
 import CustomerPreferences from "../components/references/customer-preferences.js";
 import CustomerReview from "../components/references/customer-review.js";
+import Slider from "../components/references/realisation-images.js";
 
 function References() {
   const { id } = useParams();
@@ -29,6 +30,7 @@ function References() {
       />
       <CustomerPreferences  items={Data} />
       <CustomerReview item={Data} />
+      <Slider />
       <Footer />
     </div>
   );

@@ -1,0 +1,85 @@
+@import "../variables.scss";
+
+.before-after{
+    padding: 5rem 0;
+    background-color: $color-secundairy;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    // margin: 0 auto;
+    z-index: 0;
+  }
+  .slider-element{
+    position: relative;
+    max-width: 920px;
+
+  }
+  .slider {
+    display: flex;
+    width: 100%;
+    max-width: 920px;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+
+
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease-in-out;
+
+  }
+  
+  .active {
+    opacity: 1;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-button {
+    position: absolute;
+    bottom: 2rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 10px;
+    background-color: $color-accent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    &:hover{
+      background-color: $color-primairy;
+      transition: all .25s ease-in;
+      svg{
+        fill: $color-secundairy;
+        transition: all .25s ease-out;
+      }
+    }
+    @media screen and (max-width:992px) {
+      bottom: 0;
+    }
+    svg{
+      width: 1rem;
+      fill: $color-primairy;
+    }
+    &-prev{
+        right: 0;
+        @media screen and (max-width:992px) {
+          right: 4rem;
+        }
+    }
+    &-next{
+        right: -4rem;
+        @media screen and (max-width:992px) {
+          right: 0;
+        }
+    }
+  }
+  
