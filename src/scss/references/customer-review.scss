@@ -1,9 +1,9 @@
 @import "../variables.scss";
 
 .Review{
-    padding: 5rem 0 5rem 0;
-    background-color: $color-secundairy;
-    color:$color-primairy;
+    padding: 10rem 0 5rem 0;
+    background-color: $color-primairy;
+    color:$color-secundairy;
 }
 
 .review{
@@ -40,7 +40,7 @@
             font-size: 15rem;
             font-style: normal;
             font-weight: 800;
-            color: $color-accent;
+            color: $color-secundairy;
             transform: rotate(-5deg);
             opacity: 0.2;
             z-index: -1;

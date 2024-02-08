@@ -15,7 +15,7 @@ function Contact() {
         title="Contact"
         text="Aarzel niet om contact met ons op te nemen bij vragen of nood aan advies!"
         image={image}
-        showImage={false}
+        showImage={true}
       />
       <ContactElements  />
       <Footer />

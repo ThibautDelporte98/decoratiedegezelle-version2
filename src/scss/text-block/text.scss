@@ -3,38 +3,13 @@
 .text{
     background-color: $color-secundairy;
     color:$color-primairy;
-    padding: 7.5rem 0;
-    @media screen and (max-width:992px) {
-        padding: 5rem 0;
-    }
+    padding: 5rem 0;
     &-content{
         position: relative;
         width: 100%;
         z-index: 0;
-        margin-top: 5rem;
         @media screen and (max-width:992px) {
             margin-top: 2.5rem;
-        }
-        h2{
-            position: absolute;
-            font-size: 5rem;
-            color: $color-accent;
-            opacity: .75;
-            top: -6rem;
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-            left: 0;
-            z-index: 1;
-            @media screen and (max-width:992px) {
-                top: -5rem;
-                font-size: 5rem;
-                opacity: .35;
-            }
-            @media screen and (max-width:576px) {
-                top: -3rem;
-                font-size: 3rem;
-            }
         }
         p{  
             position: relative;

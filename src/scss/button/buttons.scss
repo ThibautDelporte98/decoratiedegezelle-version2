@@ -9,6 +9,9 @@
     @media screen and (max-width:992px) {
         justify-content: center;
     }
+    &-link{
+        text-decoration: none;
+    }
     &-txt{
         width: auto;
         height: auto;
@@ -44,54 +47,5 @@
     background-color: var(--c);
     color: #fff;
   }
-.button-item{
-    display: flex;
-    justify-content: flex-end;
 
-    &-more{
-        justify-content: center !important;
-    }
-    .button-link{
-        position: relative;
-        color: black;
-        background-color: transparent;
-        font-family: soleil, sans-serif;
-        font-weight: 800;
-        text-decoration: none;
-        transition: background-color .2s ease-out;
-        cursor: pointer;
-        .button-text-wrapper {
-            display: flex;
-            align-items: center;
-        }
-        .button-subject-more{
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-
-        .button-icon{
-            color: #caa35c;
-            margin-left: .75rem;
-            transform: rotate(-45deg);
-            transition: transform .25s ease-out;
-            &-more{
-                transform: rotate(0);
-            }
-            .plus{
-                font-size: 2rem;
-                font-weight: 700;
-                &-active{
-                    transform: rotate(-22.5deg) !important;
-                }
-          }
-
-        }
-
-        
-
-
-
-    }    
-}
 

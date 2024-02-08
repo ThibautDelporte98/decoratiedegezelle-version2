@@ -15,7 +15,7 @@ const ConfirmPopUp = ({ onClose }) => {
         <div className="confirmPopUp-text">
           <h2>Uw bericht is succesvol verzonden!</h2>
           <p>
-            We nemen binnen de 24u contact met u op!
+            We nemen zo snel mogelijk contact met u op!
           </p>          
         </div>
         <Button 

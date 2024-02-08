@@ -19,7 +19,7 @@ function References() {
     <div>
       <Nav />
       <Header
-        title={realisation.title}
+        title={realisation.subject}
         image={realisation.image}
         showImage={true}
       />
@@ -30,6 +30,11 @@ function References() {
       />
       <CustomerPreferences  items={Data} />
       <CustomerReview items={Data} />
+      <Text
+        text={
+          "Na overleg met [persoon] is besloten om de entree van de woning in Komen-Waasten een verfrissende make-over te geven. In deze realisatie/storie nemen we je mee door het proces en laten we zien hoe de nieuwe voordeur een stijlvolle transformatie heeft ondergaan."
+        }
+      />
       <Slider items={Data}/>
       <Footer />
     </div>

@@ -12,12 +12,12 @@ function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isWhiteInView, setIsWhiteInView] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 992);
+  const [isScrollPosition, setIsScrollPosition] = useState(0)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const whiteRef = useRef(null);
 
   
   useEffect(() => {
@@ -33,36 +33,6 @@ function Nav() {
   }, []);
 
 
-
-  // Function to check if the "white" component is in the viewport
-  const isWhiteComponentInView = () => {
-    const whiteComponent = document.getElementById("black");
-
-    if (!whiteComponent) {
-      return false;
-    }
-
-    const rect = whiteComponent.getBoundingClientRect();
-    return rect.top < window.innerHeight && rect.bottom >= 0;
-  };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      // Check if the "white" component is in the viewport and add the "white-menu" class
-      const menuToggle = document.querySelector(".menu-toggle");
-      if (menuToggle) {
-        menuToggle.classList.toggle("white-menu", isWhiteComponentInView());
-      }
-    };
-
-    // Attach the scroll event listener
-    window.addEventListener("scroll", handleScroll);
-
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [isWhiteComponentInView]);
 
 
   useEffect(() => {
@@ -187,7 +157,7 @@ function Nav() {
               <img src={Logo} alt="/" width="75" height="auto" />
             </div>
           </Link>
-          <div className={`ham ${isWhiteInView ? "white-menu" : ""} ${isSmallScreen ? "black-menu" : ""}`}>
+          <div className="ham">
             <div className={`menu-toggle ${isMenuOpen ? "toggled" : ""}`}>
               <div
                 className={isMenuOpen ? "box toggled" : "box"}

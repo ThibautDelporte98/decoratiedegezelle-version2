@@ -7,7 +7,6 @@ function Text({ text, layout}) {
     <div className="text">
       <div className="container">
         <div className={`text-content ${getLayoutClass(layout)}`}>
-          <h2>Introductie</h2>
           <p>
             {text}
           </p>

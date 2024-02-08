@@ -259,14 +259,14 @@ function Form() {
               </div>
             </div>
           )}
-          <Button
+        </form>
+        <Button
             color={"white"}
             layout={"display-flex-start"}
             onClick={handleSubmit}
           >
             Verstuur
           </Button>
-        </form>
       </div>
       {showPopup && <ConfirmPopUp onClose={handlePopUpClose} />}
     </div>
