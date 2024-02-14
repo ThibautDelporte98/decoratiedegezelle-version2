@@ -10,16 +10,13 @@ import "../../scss/nav.scss";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isWhiteInView, setIsWhiteInView] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 992);
-  const [isScrollPosition, setIsScrollPosition] = useState(0)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
 
-  
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerWidth < 992);
@@ -31,7 +28,6 @@ function Nav() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
 
 
 
@@ -78,6 +74,13 @@ function Nav() {
       setIsActiveContact(false);
     }
   }, [location]);
+
+  const handleNavLinkClick = () => {
+    window.scrollTo(
+      0,
+      0 * parseFloat(getComputedStyle(document.documentElement).fontSize)
+    );
+  };
 
   return (
     <div className="nav position">
@@ -203,7 +206,7 @@ function Nav() {
                 </button>
               </div>
               <ul className="nav-list">
-                <li className="nav-item">
+                <li className="nav-item" onClick={handleNavLinkClick}>
                   <NavLink
                     to="/"
                     className="nav-path"
@@ -217,7 +220,7 @@ function Nav() {
                     Home
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" onClick={handleNavLinkClick}>
                   <NavLink
                     to="/diensten"
                     className="nav-path"
@@ -231,7 +234,7 @@ function Nav() {
                     Diensten
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" onClick={handleNavLinkClick}>
                   <NavLink
                     to="/realisaties"
                     className="nav-path"
@@ -245,7 +248,7 @@ function Nav() {
                     Referentie
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" onClick={handleNavLinkClick}>
                   <NavLink
                     to="/overons"
                     className="nav-path"
@@ -259,7 +262,7 @@ function Nav() {
                     Over ons
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" onClick={handleNavLinkClick}>
                   <NavLink
                     to="/contact"
                     className="nav-path"
@@ -270,7 +273,7 @@ function Nav() {
                       };
                     }}
                   >
-                    Gratis offerte
+                    Vrijblijvende offerte
                   </NavLink>
                 </li>
               </ul>

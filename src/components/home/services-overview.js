@@ -14,23 +14,19 @@ const ServiceOverview = ({ items }) => {
   const [mouseHover, setMouseHover] = useState(null);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    const urlId = queryParams.get("id");
-    const parsedId = parseInt(urlId);
-
-    if (!isNaN(parsedId) && items.some((item) => item.id === parsedId)) {
-      // If a valid id is present in the URL, set it as the selected service
-      setSelectService(parsedId);
-    } else {
-      // If the id is not valid or not present, reset to the default id (1)
-      setSelectService(1);
-    }
-  }, [location.search, queryParams, items]);
 
   const defaulItem = items.find((item) => item.id === 1);
 
   const handleNavLinkClick = (id) => {
-    setSelectService(id);
+    if(windowWidth >= 992){
+
+      window.scrollTo(
+        0,
+        0 * parseFloat(getComputedStyle(document.documentElement).fontSize)
+      );
+    }else{
+      setSelectService(id);
+    }
   };
 
   const handleMouseEnter = (id) => {
@@ -124,9 +120,10 @@ const ServiceOverview = ({ items }) => {
                             key={index}
                             to={`${
                               windowWidth >= 992
-                                ? `/dienst/:id=${item.id}`
-                                : `/:id=${item.id}`
+                                ? `/dienst/${item.id}`
+                                : ''
                             }`}
+
                             onClick={() => handleNavLinkClick(item.id)}
                             onMouseEnter={() => handleMouseEnter(item.id)}
                             onMouseLeave={handleMouseLeave}

@@ -5,9 +5,9 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 40rem;
+  height: auto;
   margin-top: -8rem;
-  padding: 8rem 0 0 0;
+  padding: 10rem 0 0 0;
   background-color: $color-secundairy;
   overflow-x: hidden;
   @media screen and (max-width: 992px) {
@@ -35,7 +35,7 @@
 
     h1 {
       position: relative;
-      width: auto;
+      width: 100vw;
       font-size: 2.5rem;
       text-transform: uppercase;
       letter-spacing: 0.5rem;
@@ -65,7 +65,7 @@
     height: 100%;
     img {
       width: 100%;
-      height: 30rem;
+      height: 40rem;
       object-fit: cover;
     }
   }

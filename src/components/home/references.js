@@ -6,7 +6,6 @@ import "../../scss/home/references.scss";
 
 const References = ({ items }) => {
   const [randomItems, setRandomItems] = useState([]);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     // Willekeurige sortering van de items
@@ -18,12 +17,19 @@ const References = ({ items }) => {
     setRandomItems(selectedItems);
   }, [items]);
 
+  const handleNavLinkClick = () => {
+    window.scrollTo(
+      0,
+      0 * parseFloat(getComputedStyle(document.documentElement).fontSize)
+    );
+  };
+
   return (
     <div className="references" id="recent-projects">
       <div className="container">
-        <Title id="black">Recent projects</Title>
+        <Title id="black">Recente projecten</Title>
         <div className="intro">
-          <h2>Discover our craftsmanship</h2>
+          <h2>Ontdek ons vakmanschap</h2>
           <p>
             Neem een kijkje in onze projecten en beleef het meet van begin tot
             einde. Wij zorgen voor een vernieuwde uitstraling om jouw omgeving
@@ -40,9 +46,11 @@ const References = ({ items }) => {
                 key={index}
               >
                 <div className="item-project z-index-3">
-                  <Link className="item-project-link" to={item.url}>
+                  <Link className="item-project-link" to={`/realisatie/${item.id}`} onClick={handleNavLinkClick} >
                     <div className="item-project-image">
-                      <div className="item-project-location">{item.location}</div>
+                      <div className="item-project-location">
+                        {item.city}
+                        </div>
                       <img src={item.image} />
                     </div>
                   </Link>
@@ -54,7 +62,7 @@ const References = ({ items }) => {
                       {item.techniques &&
                         item.techniques.map((tech, index) => (
                           <li>
-                            <Link to={tech.url} key={index}>
+                            <Link to={tech.url}  key={index} onClick={handleNavLinkClick} >
                               {tech.title}
                             </Link>
                           </li>

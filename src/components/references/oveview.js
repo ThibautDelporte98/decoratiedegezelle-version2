@@ -14,7 +14,6 @@ const ReferencesItems = ({ items }) => {
   const [animate, setAnimate] = useState(false);
   const [visibleItems, setVisibleItems] = useState(6);
 
-
   const options = [
     "Alle",
     "Interieur",
@@ -53,35 +52,37 @@ const ReferencesItems = ({ items }) => {
 
   return (
     <div className="References">
-      <Header
-        title="Realisaties"
-        text="Neem een moment om de realisaties te verkennen en ontdek waarom samenwerken met Decoratie Degezelle een positieve impact heeft. Neem een kijkje en ontdek hoe wij waarde toevoegen aan elke samenwerking."
-      />
       <div className="container">
-          <div className="filter">
-              <div className="filterTitle">Filter op:</div>
-              <select
-                className="select"
-                value={selectedCategory}
-                onChange={handleOptionSelect}
-              >
-                <option value="" disabled>
-                  -- Kies een optie --
-                </option>
-                {options.map((option, index) => (
-                  <option className="option" key={index} value={option}>
-                    {option}
-                  </option>
-                ))}
-              </select>
-            </div>        
+        <div className="filter">
+          <div className="filterTitle">Filter op:</div>
+          <select
+            className="select"
+            value={selectedCategory}
+            onChange={handleOptionSelect}
+          >
+            <option value="" disabled>
+              -- Kies een optie --
+            </option>
+            {options.map((option, index) => (
+              <option className="option" key={index} value={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
       <div className="container">
-        <div className="c-references" >
-        {filteredItems.length === 0 ? (
+        <div className="c-references">
+          {filteredItems.length === 0 ? (
             <div className="no-items-message">
-              <h2>Er zijn nog geen realisaties beschikbaar voor deze categorie.</h2>
-              <p>Door onze digitale opstart en niet de mogelijkheid te hebben om op elke werf beeld en video materiaal te verzamelen is het mogelijk dat hier nog geen realisaties te zien zijn.</p>
+              <h2>
+                Er zijn nog geen realisaties beschikbaar voor deze categorie.
+              </h2>
+              <p>
+                Door onze digitale opstart en niet de mogelijkheid te hebben om
+                op elke werf beeld en video materiaal te verzamelen is het
+                mogelijk dat hier nog geen realisaties te zien zijn.
+              </p>
             </div>
           ) : (
             <>
@@ -92,10 +93,9 @@ const ReferencesItems = ({ items }) => {
                   {filteredItems.slice(0, visibleItems).map((item, index) => (
                     <Link
                       className="c-references__link"
-                      to={`/realisatie/${item.id}`}
+                      to={`/realisatie/${item.url}`}
                       onClick={handleNavLinkClick}
                       key={index}
-                      
                     >
                       <div
                         className={`c-references__item ${
@@ -109,7 +109,10 @@ const ReferencesItems = ({ items }) => {
                               style={{
                                 height: `${item.height}rem`,
                                 // Set a default height under 992px
-                                maxHeight: window.innerWidth <= 992 ? `${item.defaultHeight}rem` : 'auto',
+                                maxHeight:
+                                  window.innerWidth <= 992
+                                    ? `${item.defaultHeight}rem`
+                                    : "auto",
                               }}
                               alt="referentie 1"
                             />
@@ -117,7 +120,7 @@ const ReferencesItems = ({ items }) => {
                           <div className="c-references__overlay">
                             <div className="c-references__label">
                               <div className="c-references__subject">
-                                {item.subject}
+                                {item.subject} | {item.city}
                               </div>
                             </div>
                             <div className="c-references__arrow">
@@ -146,15 +149,14 @@ const ReferencesItems = ({ items }) => {
                 <div className="more-button">
                   <button className="load-more" onClick={loadMore}>
                     Meer realisaties
-                  </button>                
+                  </button>
                 </div>
               )}
             </>
           )}
-
-          </div>
         </div>
       </div>
+    </div>
   );
 };
 

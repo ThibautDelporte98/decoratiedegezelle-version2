@@ -10,16 +10,18 @@ import CustomerReview from "../components/references/customer-review.js";
 import Slider from "../components/references/realisation-images.js";
 
 function References() {
-  const { id } = useParams();
+  const { url } = useParams();
 
   // Find the corresponding service based on the ID
-  const realisation = Data.find((item) => item.id === parseInt(id));
+  const realisation = Data.find((item) => item.url === url);
+
+  const title = `${realisation.subject} | ${realisation.city}`;
 
   return (
     <div>
       <Nav />
       <Header
-        title={realisation.subject}
+        title={title}
         image={realisation.image}
         showImage={true}
       />

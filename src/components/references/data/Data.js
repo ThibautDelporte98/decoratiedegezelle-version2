@@ -105,12 +105,26 @@ import Elasto from "../../../images/References/Exterieur/Komen-waasten/elasto.pn
 const References = [
   {
     id: 1,
+    url: "Exterieur-Komen-waasten",
     image: Front,
     category: "Exterieur",
-    subject: "Exterieur | Komen-Waasten",
+    subject: "Exterieur",
+    city: "Komen-Waasten",
     height: 35,
     defaultHeight: 25,
-    title: "Houtwerk: Schilderen met Elastosatin One",
+    title: "Schilderen voordeur",
+    techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/dienst/1",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
     preferences: {
       color: [
         {
@@ -135,184 +149,1430 @@ const References = [
 
       goalChoice: {
         title: "Doel van keuze",
-        text:"Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
         showGoalChoice: true,
       },
     },
-    images:[
+    images: [
       {
-        id:1,
-        image:before,
+        id: 1,
+        image: before,
       },
       {
-        id:2,
-        image:before1,
+        id: 2,
+        image: before1,
       },
       {
-        id:3,
-        image:before2,
+        id: 3,
+        image: before2,
       },
       {
-        id:4,
-        image:before3,
+        id: 4,
+        image: before3,
       },
       {
-        id:5,
-        image:before4,
+        id: 5,
+        image: before4,
       },
       {
-        id:6,
-        image:before5,
+        id: 6,
+        image: before5,
       },
       {
-        id:7,
-        image:before6,
+        id: 7,
+        image: before6,
       },
       {
-        id:8,
-        image:after1,
+        id: 8,
+        image: after1,
       },
       {
-        id:9,
-        image:after2,
+        id: 9,
+        image: after2,
       },
       {
-        id:10,
-        image:after3,
+        id: 10,
+        image: after3,
       },
       {
-        id:11,
-        image:after4,
+        id: 11,
+        image: after4,
       },
       {
-        id:12,
-        image:after5,
+        id: 12,
+        image: after5,
       },
       {
-        id:13,
-        image:after6,
-      }
-
-
-    ]
-
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 2,
+    url: "Interieur-Bissegem",
     image: Bissegem,
     category: "Interieur",
-    subject: "Interieur | Bissegem",
+    subject: "Interieur ",
+    city: "Bissegem",
     height: 40,
     defaultHeight: 25,
     title: "Woning te Bissegem",
+    techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 3,
+    url: "Interieur-Gullegem",
     image: Gullegem,
     category: "Interieur",
-    subject: "Interieur | Gullegem",
+    subject: "Interieur ",
+    city: "Gullegem",
     height: 30,
     defaultHeight: 25,
     title: "Etalage in Gullegem",
+    techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 4,
+    url: "Interieur-Wevelgem",
     image: WevelgemIn,
     category: "Interieur",
-    subject: "Interieur | Wevelgem",
+    subject: "Interieur ",
+    city: "Wevelgem",
     height: 30,
     defaultHeight: 25,
     title: "Woning in Wevelgem",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 5,
+    url: "Interieur-Harelbeke",
     image: Harelbeke,
     category: "Interieur",
-    subject: "Interieur | Harelbeke",
+    subject: "Interieur ",
+    city: "Harelbeke",
     height: 30,
     defaultHeight: 25,
     title: "Project in Harelbeke",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 6,
+    url: "Interieur-Kortrijk",
     image: Kortrijk,
     category: "Interieur",
-    subject: "Interieur | Kortrijk",
+    subject: "Interieur ",
+    city: "Kortrijk",
     height: 30,
     defaultHeight: 25,
     title: "Project Frituur Natuur",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 7,
+    url: "Interieur-Harelbeke2",
     image: Harelbeke21,
     category: "Interieur",
-    subject: "Interieur | Harelbeke",
+    subject: "Interieur ",
+    city: "Harelbeke",
     height: 35,
     defaultHeight: 25,
     title: "Project Frituur Natuur",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 8,
+    url: "Aqua-Sensa-Oostduinkerke",
     image: HarelbekeAS2,
     category: "Decoratieve technieken",
-    subject: "Aqua Sensa | Oostduinkerke",
+    subject: "Aqua Sensa ",
+    city: "Oostduinkerke",
     height: 35,
     defaultHeight: 25,
     title: "Project in Harelbeke",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 9,
+    url: "Exterieur-Zwevegem",
     image: OnbekendExterieur,
     category: "Exterieur",
     subject: "Exterieur | Zwevegem",
+    subject: "Exterieur ",
+    city: "Zwevegem",
     height: 35,
     defaultHeight: 25,
     title: "Buitenschilder project",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 10,
+    url: "Exterieur-Wevelgem",
     image: WevelgemEx,
     category: "Exterieur",
-    subject: "Exterieur | Wevelgem",
+    subject: "Exterieur ",
+    city: "Wevelgem",
     height: 35,
     defaultHeight: 25,
     title: "Project in Wevelgem",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 11,
+    url: "Exterieur-Moen",
     image: Moen,
     category: "Exterieur",
-    subject: "Exterieur | Izegem",
+    subject: "Exterieur ",
+    city: "Izegem",
     height: 35,
     defaultHeight: 25,
     title: "Project in Moen",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 12,
+    url: "Exterieur-Harelbeke",
     image: HarelbekeEx,
     category: "Exterieur",
-    subject: "Exterieur | Harelbeke",
+    subject: "Exterieur ",
+    city: "Harelbeke",
     height: 35,
     defaultHeight: 25,
     title: "Project in Harelbeke",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 13,
+    url: "Exterieur-Oostduinkerke",
     image: MarkeIn,
     category: "Interieur",
-    subject: "Interieur | Oostduinkerke",
+    subject: "Interieur",
+    city: "Oostduinkerke",
     height: 35,
     defaultHeight: 25,
     title: "Project in Marke",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
   {
     id: 14,
+    url: "Behangwerken-Marke",
     image: MarkeBe,
     category: "Behangwerken",
-    subject: "Behangwerken | Marke",
+    subject: "Behangwerken",
+    city: "Marke",
     height: 35,
     defaultHeight: 25,
     title: "Project in Marke",
+        techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Buiten Houtwerk",
+        url: "/diensten",
+      },
+      {
+        id: 2,
+        title: "Dakgoot schilderen",
+        url: "/diensten",
+      },
+    ],
+    preferences: {
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: true,
+      },
+    },
+    images: [
+      {
+        id: 1,
+        image: before,
+      },
+      {
+        id: 2,
+        image: before1,
+      },
+      {
+        id: 3,
+        image: before2,
+      },
+      {
+        id: 4,
+        image: before3,
+      },
+      {
+        id: 5,
+        image: before4,
+      },
+      {
+        id: 6,
+        image: before5,
+      },
+      {
+        id: 7,
+        image: before6,
+      },
+      {
+        id: 8,
+        image: after1,
+      },
+      {
+        id: 9,
+        image: after2,
+      },
+      {
+        id: 10,
+        image: after3,
+      },
+      {
+        id: 11,
+        image: after4,
+      },
+      {
+        id: 12,
+        image: after5,
+      },
+      {
+        id: 13,
+        image: after6,
+      },
+    ],
   },
 ];
 

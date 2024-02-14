@@ -7,17 +7,14 @@ import Values from "./components/home/values";
 import ServiceOverview from "./components/home/services-overview";
 import References from "./components/home/references";
 import DataValues from "./components/home/data/values";
-import DataProjects from "./components/home/data/service-overview";
-import DataRefs from "./components/home/data/references";
+import DataProjects from "./components/services/data/overview";
+import DataRefs from "./components/references/data/Data";
 import Footer from "./components/footer/Footer";
 import Cta from "./components/call-to-actions/cta";
 import CookieAcceptance from "./components/cookies/cookie";
-// import Image1 from './images/carouselImages/home/A1.webp';
-// import Image2 from './images/carouselImages/home/A2.webp';
-// import Image3 from './images/carouselImages/home/A3.webp';
+
 
 function App() {
-  // const images = [Image1, Image2, Image3];
 
   
 

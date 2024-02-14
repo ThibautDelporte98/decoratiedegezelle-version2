@@ -4,10 +4,10 @@ import Title from "../title/title";
 import "../../scss/services/overview-detail-subjects.scss";
 
 const ServiceSubject = ({ items }) => {
-  const { id } = useParams();
+  const { url } = useParams();
 
   // Find the corresponding service based on the ID
-  const service = items.find((item) => item.id === parseInt(id));
+  const service = items.find((item) => item.url === url);
 
   return (
     <div className="subjects">

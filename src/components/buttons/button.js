@@ -8,9 +8,24 @@ function Button({ to, children, layout, color, bgborder, onClick }) {
     color: color,
     "--c": bgborder,
   };
+
+  const handleNavLinkClick = () => {
+    window.scrollTo(
+      0,
+      0 * parseFloat(getComputedStyle(document.documentElement).fontSize)
+    );
+  };
+
   return (
     <div className={`Button ${layout}`}>
-      <Link className="Button-link" to={to} onClick={onClick}>
+      <Link
+        className="Button-link"
+        to={to}
+        onClick={(e) => {
+          if (onClick) onClick(e);
+          handleNavLinkClick();
+        }}
+      >
         <div className="Button-txt Button-txt-form" style={buttonStyle}>
           {children}
         </div>

@@ -3,6 +3,7 @@
 .Contact{
     background-color: $color-secundairy;
     height: auto;
+    padding: 5rem 0;
     color: $color-primairy;
     @media screen and (max-width:992px) {
         height: 100%;
@@ -14,7 +15,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 50rem;
+    height: auto;
     @media screen and (max-width:992px) {
         height: 100%;
         

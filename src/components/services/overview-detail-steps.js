@@ -9,7 +9,6 @@ const WayOfWork = ({ items }) => {
         <ol className="wayofwork-list">
           <div className="row">
             {items.map((item, index) => {
-              console.log(item.id);
               return (
                 <div className="col-12 col-lg-6">
                   <li className="wayofwork-item" key={index}>

@@ -12,6 +12,8 @@ function Services() {
     <div>
       <Nav />
       <Header
+        height={40}
+        heightState={true}
         title="Diensten"
         text="              
               Met een ongeëvenaarde mix van creativiteit en vakmanschap
@@ -19,7 +21,6 @@ function Services() {
               verfijnde schoonheid, stimuleren ze persoonlijke groei en
               verrijken ze jouw leven. Ervaar de kracht van maatwerk speciaal
               ontworpen om aan jouw unieke behoeften te voldoen."
-
       />
       <Overview items={Data} />
       <Cta />

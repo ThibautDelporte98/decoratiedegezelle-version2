@@ -6,10 +6,10 @@ import "../../scss/references/realisation-images.scss"; // Create a CSS file for
 const Slider = ({items}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const { id } = useParams();
+  const { url } = useParams();
 
   // Find the corresponding service based on the ID
-  const service = items.find((item) => item.id === parseInt(id));
+  const service = items.find((item) => item.url === url);
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>

@@ -8,16 +8,17 @@ import DataDienst from "../components/services/data/overview.js";
 import WayOfWork from "../components/services/overview-detail-steps.js";
 import steps from "../components/services/data/wayofwork.js";
 import ServiceSubject from "../components/services/overview-detail-subjects.js";
-import Data from "../components/services/data/overview.js"
+// import Data from "../components/services/data/overview.js"
 import image from "../images/carouselImages/home/A1.webp"
 
 
 
 function Service() {
-  const { id } = useParams();
+  const { url } = useParams();
 
   // Find the corresponding service based on the ID
-  const service = DataDienst.find((item) => item.id === parseInt(id));
+  const service = DataDienst.find((item) => item.url === url);
+
   return (
     <div>
       <Nav />
@@ -25,11 +26,11 @@ function Service() {
       <Header
         title={service.title}
         text="Wilt u graag uw huis opnieuw inrichten? Dan kunt u bij ons terecht voor zowel binnen- als buitenschilderwerken.Onze klassieke schilderwerken beslaan een breed gamma aan mogelijkheden. U kunt daarbij denken aan het schilderen van uw trap, plafonds, deuren, muren enz. Wij lichten graag alle mogelijkheden voor u toe zodat u op die manier de juiste keuze kunt maken."
-        image={image}
+        image={service.image}
         showImage={true}
       />
       <WayOfWork items={steps}/>
-      <ServiceSubject items={Data}/>
+      <ServiceSubject items={DataDienst}/>
       <Cta />
       <Footer />
     </div>

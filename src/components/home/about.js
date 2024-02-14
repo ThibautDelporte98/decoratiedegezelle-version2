@@ -13,12 +13,6 @@ function About() {
     }
   };
 
-  const handleNavLinkClick = () => {
-    window.scrollTo(
-      0,
-      0 * parseFloat(getComputedStyle(document.documentElement).fontSize)
-    );
-  };
 
   return (
     <div className="About">
@@ -40,7 +34,6 @@ function About() {
                 <Button
                   to={"./overons"}
                   color={"white"}
-                  onClick={handleNavLinkClick}
                   layout={"display-flex-start"}
                 >
                   Over ons

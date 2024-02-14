@@ -5,10 +5,11 @@ import image from "../../images/carouselImages/home/A1.webp";
 import Header from "../page-title/header";
 
 const OverviewDetail = ({ items }) => {
-  const { id } = useParams();
+  const { url } = useParams();
 
   // Find the corresponding service based on the ID
-  const service = items.find((item) => item.id === parseInt(id));
+  const service = items.find((item) => item.url === url);
+
   return (
     <div className="overview-detail">
       <div className="container-xl">

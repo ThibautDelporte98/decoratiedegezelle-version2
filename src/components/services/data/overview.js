@@ -37,9 +37,10 @@ import Tusk2 from '../../../images/Services/Decoratieve technieken/Tusk/tusk2.we
 const Services = [
   {
     id: 1,
+    url: 'interieur',
     image:imgInterieur,
     title: 'Interieur',
-    link: 'IndoorPainting.js',
+    subject: "plafond, muur & houtwerk schilderen",
     IntroTxt:`Transformeer uw interieur met professioneel binnenschilderwerk! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de perfecte kleuren en afwerkingen, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
     Steps: [
       {
@@ -124,9 +125,10 @@ const Services = [
   },
   {
     id: 2,
+    url: 'exterieur',
     image:imgExterieur,
     title: "Exterieur",
-    link: '../Services/IndoorPainting.js',
+    subject: "buiten houtwerk, gevel schilderen & dakgoot schilderen",
     IntroTxt:`Transformeer uw exterieur met professioneel buitenschilderwerk! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de perfecte kleuren en afwerkingen, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
     Steps: [
       {
@@ -212,9 +214,10 @@ const Services = [
   },
   {
     id: 3,
+    url: 'decoratieve-technieken',
     image:AquaSensa,
     title: "Decoratieve technieken",
-    link: './Services/IndoorPainting.js',
+    subject: "aqae sensa, calco, tusk & claystuc",
     IntroTxt:`Transformeer uw interieur met onze decoratieve technieken! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de perfecte kleuren en afwerkingen, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
     Steps: [
       {
@@ -385,9 +388,10 @@ const Services = [
   // },
   {
     id: 5,
+    url: 'plamuurwerken',
     image:Plamuurwerken,
     title: "Plamuurwerken",
-    link: '../Services/IndoorPainting.js',
+    subject: "plamuurwerken & plamuren van gipsplaten",
     IntroTxt:
     `Ontdek de kunst van professioneel plamuurwerk en geef uw interieur een nieuwe dimensie! Onze ervaren vakmannen zijn meesters in het vakkundig vullen van scheuren, deuken en oneffenheden, waardoor uw muren naadloos en strak worden. Laat ons u begeleiden bij het kiezen van de perfecte kleuren en afwerkingen die passen bij uw stijl, terwijl wij zorgen voor een snelle en efficiënte uitvoering zonder onnodige hinder. Transformeer uw ruimtes met onze expertise in plamuurwerken en creëer een interieur dat spreekt van vakmanschap en elegantie.`,
     Steps: [
@@ -457,9 +461,10 @@ const Services = [
     ],
   },  {
     id: 6,
+    url: 'behangwerken',
     image:Behangen,
     title: "Behangwerken",
-    link: '../Services/IndoorPainting.js',
+    subject: "behangen met motief & vliesbehang",
     IntroTxt:
     `Transformeer uw interieur met professioneel behangwerken! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de perfecte kleuren, motief en afwerkingen, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
     Steps: [
@@ -531,9 +536,10 @@ const Services = [
   },
   {
     id: 7,
+    url: 'raamdecoratie',
     image:Raamdecoratie,
     title: "Raamdecoratie",
-    link: '../Services/IndoorPainting.js',
+    subject: "Gordijnen jaloezieën en meer",
     IntroTxt:
     `Transformeer uw interieur met raamdecoratie! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de juiste stof & kleuren, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
     Steps: [
