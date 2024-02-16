@@ -28,6 +28,7 @@ function Service() {
         text="Wilt u graag uw huis opnieuw inrichten? Dan kunt u bij ons terecht voor zowel binnen- als buitenschilderwerken.Onze klassieke schilderwerken beslaan een breed gamma aan mogelijkheden. U kunt daarbij denken aan het schilderen van uw trap, plafonds, deuren, muren enz. Wij lichten graag alle mogelijkheden voor u toe zodat u op die manier de juiste keuze kunt maken."
         image={service.image}
         showImage={true}
+        showGoBack={true}
       />
       <WayOfWork items={steps}/>
       <ServiceSubject items={DataDienst}/>

@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import "../../scss/button/buttons.scss";
 
 function Button({ to, children, layout, color, bgborder, onClick }) {
+  
   const buttonStyle = {
     color: color,
     "--c": bgborder,

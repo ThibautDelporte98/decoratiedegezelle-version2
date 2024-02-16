@@ -24,6 +24,7 @@ function References() {
         title={title}
         image={realisation.image}
         showImage={true}
+        showGoBack={true}
       />
       <Text
         text={
@@ -34,8 +35,11 @@ function References() {
       <CustomerReview items={Data} />
       <Text
         text={
-          "Na overleg met [persoon] is besloten om de entree van de woning in Komen-Waasten een verfrissende make-over te geven. In deze realisatie/storie nemen we je mee door het proces en laten we zien hoe de nieuwe voordeur een stijlvolle transformatie heeft ondergaan."
+          "Beweeg de slider van links naar rechts om getuige te zijn van de opmerkelijke verandering. Deze afbeeldingen onthullen twee gezichten van elke plek, moment, of item - de 'voor' en 'na'. Een visuele reis in één frame. Benieuwd naar de transformatie? Neem de controle, klik op de pijltjes en ervaar de kracht van verandering."
         }
+        layout="start"
+        colorText="black"
+        bgColor="white"
       />
       <Slider items={Data}/>
       <Footer />

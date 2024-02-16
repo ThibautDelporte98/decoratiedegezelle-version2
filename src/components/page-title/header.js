@@ -1,31 +1,41 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import "../../scss/page-title/header.scss";
-// import image from "../../images/carouselImages/home/A1.webp";
 
-function Header({ title, text, height, image, showImage }) {
+function Header({ title, text, height, image, showImage, showGoBack }) {
+  const navigate = useNavigate();
+
+  const goBack = () => {
+    navigate(-1);
+  };
+
   const dividerStyle = {
     color: "orange",
     margin: "0 5px", // Adjust the margin as needed
   };
 
   return (
-    <div className="header" style={{height:`${height}rem`}}>
+    <div className="header" style={{ height: `${height}rem` }}>
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-6">
             <div className="header-object">
-              <h1>
-                <div className="header-title">
+              {showGoBack && (
+                <div className="header-return" onClick={goBack}>
+                  Terug naar overzicht
+                </div>
+              )}
+              <div className="header-title">
+                <h1>
                   {title.split("|").map((part, index) => (
                     <span key={index}>
                       {index > 0 && <span style={dividerStyle}>|</span>}
                       {part}
                     </span>
                   ))}{" "}
-                </div>
-              </h1>
+                </h1>
+              </div>
               <p>{text}</p>
             </div>
           </div>
@@ -49,6 +59,7 @@ Header.propTypes = {
   heightState: PropTypes.bool,
   image: PropTypes.string,
   showImage: PropTypes.bool,
+  showGoBack: PropTypes.bool,
 };
 
 export default Header;

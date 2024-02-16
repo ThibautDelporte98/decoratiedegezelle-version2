@@ -33,6 +33,37 @@
       min-width: unset;
     }
 
+
+
+    p {
+      position: relative;
+      width: 100%;
+
+      @media screen and (max-width: 992px) {
+        text-align: start;
+        font-size: 0.8rem;
+        width: 100%;
+      }
+    }
+  }
+
+  &-return{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    transition: all .25s ease-in;
+    cursor: pointer;
+    z-index: 1000;
+    &:hover{
+      transition: all .25s ease-in;
+      color: $color-accent;
+      letter-spacing: .45rem;
+    }
+  }
+
+  &-title{
     h1 {
       position: relative;
       width: 100vw;
@@ -46,17 +77,6 @@
 
       @media screen and (max-width: 576px) {
         font-size: 1.25rem;
-      }
-    }
-
-    p {
-      position: relative;
-      width: 100%;
-
-      @media screen and (max-width: 992px) {
-        text-align: start;
-        font-size: 0.8rem;
-        width: 100%;
       }
     }
   }

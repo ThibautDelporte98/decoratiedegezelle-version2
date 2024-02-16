@@ -153,6 +153,14 @@ const References = [
         showGoalChoice: true,
       },
     },
+
+    review: [
+      {
+        text: " Test Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: " test Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -258,6 +266,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -363,6 +378,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -428,7 +450,7 @@ const References = [
     height: 30,
     defaultHeight: 25,
     title: "Woning in Wevelgem",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -468,6 +490,12 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
     images: [
       {
         id: 1,
@@ -533,7 +561,7 @@ const References = [
     height: 30,
     defaultHeight: 25,
     title: "Project in Harelbeke",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -573,6 +601,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -638,7 +673,7 @@ const References = [
     height: 30,
     defaultHeight: 25,
     title: "Project Frituur Natuur",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -678,6 +713,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -743,7 +785,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project Frituur Natuur",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -783,6 +825,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -848,7 +897,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Harelbeke",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -888,6 +937,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -954,7 +1010,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Buitenschilder project",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -994,6 +1050,12 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
     images: [
       {
         id: 1,
@@ -1059,7 +1121,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Wevelgem",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -1099,6 +1161,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -1164,7 +1233,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Moen",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -1204,6 +1273,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -1269,7 +1345,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Harelbeke",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -1309,6 +1385,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,
@@ -1374,7 +1457,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Marke",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -1414,6 +1497,12 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
     images: [
       {
         id: 1,
@@ -1479,7 +1568,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Marke",
-        techniques: [
+    techniques: [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
@@ -1519,6 +1608,13 @@ const References = [
         showGoalChoice: true,
       },
     },
+    review: [
+      {
+        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+        owner: "Peggy Herrisen - eigenaresse",
+      },
+    ],
+
     images: [
       {
         id: 1,

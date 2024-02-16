@@ -3,28 +3,31 @@ import { useParams } from "react-router-dom";
 import "../../scss/references/customer-review.scss";
 
 const CustomerReview = ({ items }) => {
-  // const { id } = useParams();
+  const { url } = useParams();
+  console.log("URL Parameter:", url);
+  console.log("Items:", items);
 
-  // // Find the corresponding service based on the ID
-  // const realisation = items.find((item) => item.id === parseInt(id));
+  const realisation = items.find((item) => item.url === url);
+  console.log("Review Data:", realisation && realisation.review);
+
+
 
   return (
     <div className="Review">
       <div className="container">
-        <div className="review">
-          <div className="review-text">
-            <p>
-              Mijn verouderde inrichting was aan vernieuwing toe. Zelf
-              schilderen was geen optie dus op zoek naar een schilder. Gelukkig
-              via mond op mond reclame contact genomen met Decoratie Degezelle
-              wat een schot in de roos blijkt te zijn. Strakke planning, goeie
-              begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke
-              prijs voor dit alles. Mijn living is een pareltje geworden.
-              Bedankt Alexandro
-            </p>
-          </div>
-          <div className="review-signature">Peggy Herrisen - eigenaresse</div>
-        </div>
+        {realisation &&
+          realisation.review && (
+            <div className="review">
+              <div className="review-text">
+                <p>
+                  {realisation.review[0].text}
+                </p>
+              </div>
+              <div className="review-signature">
+              {realisation.review[0].owner}
+              </div>
+            </div>
+          )}
       </div>
     </div>
   );

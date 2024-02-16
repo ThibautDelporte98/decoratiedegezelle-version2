@@ -4,10 +4,10 @@ import Preferences from "./preferences";
 import "../../scss/references/customer-preferences.scss";
 
 const CustomerPreferences = ({ items }) => {
-  const { id } = useParams();
+  const { url } = useParams();
 
   // Find the corresponding service based on the ID
-  const realisation = items.find((item) => item.id === parseInt(id));
+  const realisation = items.find((item) => item.url === url);
 
   return (
     <div className="Preferences">

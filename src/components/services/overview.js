@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../../scss/services/overview.scss";
+import LoadMoreButton from "../buttons/load-more";
 import image from "../../images/carouselImages/home/A1.webp";
 import Header from "../page-title/header";
 
 const Overview = ({ items }) => {
+  const [visibleItems, setVisibleItems] = useState(6);
+
+  const loadMore = () => {
+    setVisibleItems((prevVisibleItems) => prevVisibleItems + 6);
+  };
+
   const handleNavLinkClick = () => {
     window.scrollTo(
       0,
@@ -16,7 +23,7 @@ const Overview = ({ items }) => {
     <div className="overview">
       <div className="container-xl">
         <div className="row">
-          {items.map((item, index) => (
+          {items.slice(0, visibleItems).map((item, index) => (
             <div className="col-12 col-md-6 col-lg-4" key={index}>
               <Link
                 className="overview-link"
@@ -33,6 +40,9 @@ const Overview = ({ items }) => {
               </Link>
             </div>
           ))}
+          {visibleItems < items.length && (
+            <LoadMoreButton text="meer diensten" color="white" bgColor="white" bgborder="#caa35c" onClick={loadMore} />
+          )}
         </div>
       </div>
     </div>

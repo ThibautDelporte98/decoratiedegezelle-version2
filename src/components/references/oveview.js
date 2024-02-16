@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../../scss/references/References.scss";
 import "../../scss/references/filter.scss";
-
+import LoadMoreButton from "../buttons/load-more";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Header from "../page-title/header";
 
@@ -146,11 +146,7 @@ const ReferencesItems = ({ items }) => {
                 </Masonry>
               </ResponsiveMasonry>
               {visibleItems < filteredItems.length && (
-                <div className="more-button">
-                  <button className="load-more" onClick={loadMore}>
-                    Meer realisaties
-                  </button>
-                </div>
+                    <LoadMoreButton text="meer realisaties" color="black" bgColor="white" bgborder="black" onClick={loadMore} />
               )}
             </>
           )}

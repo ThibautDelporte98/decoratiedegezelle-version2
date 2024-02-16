@@ -111,25 +111,7 @@ p{
     font-size: .85rem;
   }
 }
-.more-button{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 2.5rem 0;
-  .load-more{
-    color: $color-primairy;
-    background-color: $color-secundairy;
-    border: none;
-    padding: .5rem 1rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    transition: all .25s ease-out;
-    &:hover{
-      transition: all .25s ease-in;
-      background-color: $color-primairy;
-      color: $color-secundairy;
-    }
-  }
-}
+
 
 
 .no-items-message{
