@@ -111,7 +111,6 @@ const ServiceOverview = ({ items }) => {
             <div className="custom-container">
               <div className="row">
                 <div className="align-items">
-                  <div className="col-12">
                     <div className="service-items">
                       <ol className="service-list">
                         {items.map((item, index) => (
@@ -120,7 +119,7 @@ const ServiceOverview = ({ items }) => {
                             key={index}
                             to={`${
                               windowWidth >= 992
-                                ? `/dienst/${item.id}`
+                                ? `/dienst/${item.url}`
                                 : ''
                             }`}
 
@@ -163,7 +162,6 @@ const ServiceOverview = ({ items }) => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

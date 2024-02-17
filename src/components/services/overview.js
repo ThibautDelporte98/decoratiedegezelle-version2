@@ -6,7 +6,7 @@ import image from "../../images/carouselImages/home/A1.webp";
 import Header from "../page-title/header";
 
 const Overview = ({ items }) => {
-  const [visibleItems, setVisibleItems] = useState(6);
+  const [visibleItems, setVisibleItems] = useState(5);
 
   const loadMore = () => {
     setVisibleItems((prevVisibleItems) => prevVisibleItems + 6);
@@ -41,7 +41,7 @@ const Overview = ({ items }) => {
             </div>
           ))}
           {visibleItems < items.length && (
-            <LoadMoreButton text="meer diensten" color="white" bgColor="white" bgborder="#caa35c" onClick={loadMore} />
+            <LoadMoreButton text="meer diensten" color="white" bgColor="" bgborder="#caa35c" onClick={loadMore} />
           )}
         </div>
       </div>

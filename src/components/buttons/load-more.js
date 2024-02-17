@@ -6,6 +6,7 @@ function loadMore({ text, color, bgColor, bgborder, onClick }) {
 
   const buttonStyle = {
     color: color,
+    backgroundColor: bgColor,
     "--c": bgborder,
   };
 

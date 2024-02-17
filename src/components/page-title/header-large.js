@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "../../scss/home/header.scss";
 import "../../scss/page-title/header-large.scss";
 // import HeaderLarge from "../page-title/header-large.js";
 import PropTypes from "prop-types";

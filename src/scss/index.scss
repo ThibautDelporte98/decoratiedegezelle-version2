@@ -61,6 +61,10 @@ p::-webkit-scrollbar {
     margin-left: 0;
     margin-right: auto;
     max-width: 660px;
+    @media screen and (max-width:992px) {
+      max-width: 720px;
+      margin-left: auto;
+    }
 }
 
 .position{

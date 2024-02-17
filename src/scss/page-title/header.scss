@@ -1,5 +1,12 @@
 @import "../variables.scss";
 
+.component{
+  margin-top: -9rem;
+  @media screen and (max-width:992px) {
+    margin-top: -10rem;
+  }
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -72,6 +79,7 @@
       letter-spacing: 0.5rem;
 
       @media screen and (max-width: 992px) {
+        width: 100%;
         font-size: 1.5rem;
       }
 
