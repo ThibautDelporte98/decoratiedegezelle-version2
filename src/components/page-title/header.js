@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
+import Breadcrumb from "../breadcrumb/breadcrumb";
 import "../../scss/page-title/header.scss";
 
 function Header({ title, text, height, image, showImage, showGoBack }) {
@@ -15,17 +16,16 @@ function Header({ title, text, height, image, showImage, showGoBack }) {
     margin: "0 5px", // Adjust the margin as needed
   };
 
+  const paragraphs = Array.isArray(text) ? text : [text];
+
+
   return (
     <div className="header" style={{ height: `${height}rem` }}>
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-6">
             <div className="header-object">
-              {showGoBack && (
-                <div className="header-return" onClick={goBack}>
-                  Terug naar overzicht
-                </div>
-              )}
+              <Breadcrumb />
               <div className="header-title">
                 <h1>
                   {title.split("|").map((part, index) => (
@@ -36,7 +36,11 @@ function Header({ title, text, height, image, showImage, showGoBack }) {
                   ))}{" "}
                 </h1>
               </div>
-              <p>{text}</p>
+              {paragraphs.map((paragraph, index) => (
+                <p key={index} style={{ marginBottom: "1rem" }}>
+                  {paragraph}
+                </p>
+              ))}{" "}
             </div>
           </div>
           <div className="col-lg-6">

@@ -85,14 +85,12 @@ p::-webkit-scrollbar {
 
 h1{
     font-size: 2rem;
-    font-family: soleil, sans-serif;
     font-weight: 800;
 }
 
 h2{
   font-weight: 800;
   font-size: 1.25rem ;
-  font-family: soleil, sans-serif ;
   @media screen and (max-width:576px) {
     font-size: 1.1rem;
   }
@@ -100,19 +98,30 @@ h2{
 h3{
   font-weight: 800;
   font-size: 1.2rem ;
-  font-family: soleil, sans-serif ;
   @media screen and (max-width:576px) {
+
     font-size: 1rem !important;
   }
 }
 
+h4{
+  font-size: .9rem;
+  font-weight: 600;
+
+}
+
 p{
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 200;
   font-family: soleil, sans-serif;
-  margin-bottom: 0 !important; 
   @media screen and (max-width:576px) {
     font-size: .85rem;
+  }
+}
+
+.mobile-hide{
+  @media screen and (max-width: 576px) {
+    display: none;
   }
 }
 

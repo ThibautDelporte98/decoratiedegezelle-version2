@@ -10,7 +10,7 @@
     margin-right: auto;
     width: 100%;
     height: auto;
-    padding: 2.5rem 0;
+    padding: 5rem 0;
     .info{
       display: flex;
       width: 100%;
@@ -41,6 +41,9 @@
         font-weight: 800;
         padding: 1.2rem 1.2rem;
         z-index: 0;
+        @media screen and (max-width:576px) {
+          font-size: 3.5rem;
+        }
         .review-logo{
           position: absolute;
           top: -1rem;

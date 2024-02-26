@@ -1,7 +1,6 @@
 @import "../variables.scss";
 
 .Button {
-  margin-top: 2rem;
   width: 100%;
   color: $color-primairy;
   text-decoration: none;
@@ -39,7 +38,7 @@
 }
 
 .Button-txt:hover {
-  color: white !important;
+  color: white;
   --_p: 100%;
   transition: background-position 0.4s, background-size 0s, color 0.4s;
 }

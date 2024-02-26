@@ -3,14 +3,12 @@
 import image from "../../../images/carouselImages/home/A2.webp";
 import image2 from "../../../images/carouselImages/home/A1.webp";
 
-import Male from "../../../images/genders/male.svg";
 
 const testimonials = [
   {
     id: 1,
     image: image,
     name: "Francois Verschueren",
-    gender: Male,
     dateAndPlace: "31/08/2023 | Etikhove",
     subject: "Interieur",
     quote:
@@ -22,7 +20,6 @@ const testimonials = [
     id: 2,
     image: image2,
     name: "Shirley",
-    gender: Male,
     dateAndPlace: "16/04/2023 | Beveren-leie",
     subject: "Interieur",
     quote:
@@ -34,7 +31,6 @@ const testimonials = [
     id: 3,
     image: image,
     name: "Van Maldeghem Sandrine",
-    gender: Male,
     dateAndPlace: "24/04/2023 | Harelbeke",
     subject: "Behangen",
     quote:
@@ -46,7 +42,6 @@ const testimonials = [
     id: 4,
     image: image,
     name: "Sabrina Bekaert",
-    gender: Male,
     dateAndPlace: "23/04/2023 | Bissegem",
     subject: "Exterieur",
     quote:
@@ -58,7 +53,6 @@ const testimonials = [
     id: 5,
     image: image,
     name: "Kris Vandoorne",
-    gender: Male,
     dateAndPlace: "23/04/2023 | Kortrijk",
     subject: "Interieur",
     quote:
@@ -70,7 +64,6 @@ const testimonials = [
     id: 6,
     image: image,
     name: "Eddy syx",
-    gender: Male,
     dateAndPlace: "18/05/2023 | Harelbeke",
     subject: "Aqua-Sensa",
     quote:

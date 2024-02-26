@@ -4,100 +4,59 @@ import Footer from "../components/footer/Footer.js";
 import Caption from "../components/about/caption.js";
 import Caption2 from "../components/about/caption.js";
 import Caption3 from "../components/about/caption.js";
+import Header from "../components/page-title/header.js";
 import HeaderLarge from "../components/page-title/header-large.js";
-import image from "../images/carouselImages/home/A1.webp";
+import Announcement from "../components/about/announcement.js";
+import image from "../images/about/about-us.webp";
+import AboutSubject from "../components/about/about-subjects.js";
+import trust from "../images/about/trust.webp";
+import experience from "../images/about/experience.webp";
+import Text from "../components/references/text.js";
 import Image from "../components/about/image.js";
 import Owner from "../components/about/owner.js";
 import Cta from "../components/call-to-actions/cta.js";
-import iconThrust from "../images/backgrounds/about/flex&thrust.png";
-import iconBrush from "../images/backgrounds/about/brush.png";
-import iconBook from "../images/backgrounds/about/book.png";
-import iconQuality from "../images/backgrounds/about/diamond.png";
 
 function About() {
   return (
     <div>
       <Nav />
-
-      <HeaderLarge
-        color="black"
-        title="Professioneel profiel"
-        subtitle="experience & certification"
-        text="Bij Decoratie Degezelle hebben we een rijke geschiedenis van het succesvol voltooien van diverse schilderprojecten, variërend van particuliere woningen tot commerciële ruimtes. Ons getalenteerde team van schilders heeft uitgebreide ervaring in het aanbrengen van hoogwaardige verf en decoratieve afwerkingen, waardoor we de visie van onze klanten tot leven kunnen brengen."
-        showCarousel={false}
-
-      />
-
-      <Image
-        position="display-flex-start"
-        title="Thurst & flexibility"
+      <Header
+        title="Ons profiel"
+        text={[
+          "Bij Decoratie Degezelle hebben we een rijke geschiedenis van het succesvol voltooien van diverse schilderprojecten, variërend van particuliere woningen tot commerciële ruimtes. ",
+          "Ons getalenteerde team van schilders heeft uitgebreide ervaring in het aanbrengen van hoogwaardige verf en decoratieve afwerkingen, waardoor we de visie van onze klanten tot leven kunnen brengen."
+        ]}        
         image={image}
-        paddingTop="0"
-        paddingRight="0"
-        paddingBottom="0"
-        paddingLeft="10"
-        borderPosition="stroke-left"
+        showImage={true}
+        showGoBack={false}
       />
-      <Caption
-        text="              
-              Als betrouwbaar en flexibel schilderbedrijf begrijpen we dat elke
-              klant unieke behoeften heeft. Daarom bieden we maatwerkoplossingen
-              die voldoen aan jouw specifieke wensen en eisen."
-        layout={"center"}
-        image={iconThrust}
+      <Announcement
+        layout="start"
+        title="Up to date met de laatste nieuwe trends!"
       />
-      <Image
-        position="display-flex-end"
-        title="experience"
-        image={image}
-        paddingTop="0"
-        paddingRight="10"
-        paddingBottom="0"
-        paddingLeft="0"
-        borderPosition="stroke-right"
+      <Text
+        text={
+          "Voortdurende educatie en training vormen de ruggengraat van onze toewijding aan uitmuntendheid in de schildersindustrie. Het is cruciaal om voortdurend op de hoogte te blijven van de meest recente technieken en trends die onze branche vormgeven. Bij ons staat het team niet stil; integendeel, we doen er alles aan om continu bij te leren en voorop te blijven lopen in de dynamische wereld van de schilderkunst."
+        }
+        layout="start"
       />
-      <Caption2
-        text="Ervaring die spreekt! Deze uitgebreide ervaring stelt ons in staat om niet alleen aan de verwachtingen van onze klanten te voldoen, maar deze te overtreffen. "
-        layout={"center"}
-        image={iconBrush}
+      <AboutSubject 
+          title="Vertrouwen & Flexibiliteit"
+          text="Bij ons staat de combinatie van vertrouwen en flexibiliteit centraal. Wij begrijpen dat elke klant unieke behoeften heeft en geen twee projecten hetzelfde zijn. Onze toewijding gaat verder dan alleen schilderen; wij streven ernaar maatwerkoplossingen te bieden die perfect aansluiten bij jouw specifieke wensen en eisen."
+          image={trust}
       />
-      <Image
-        position="display-flex-start"
-        title="Education"
-        image={image}
-        paddingTop="0"
-        paddingRight="0"
-        paddingBottom="0"
-        paddingLeft="10"
-        borderPosition="stroke-left"
+      <Announcement layout="end" title="Kwaliteit is bij ons prioriteit!" />
+      <Text
+        text={
+          "Of het nu gaat om het voorbereiden van oppervlakken met zorgvuldige aandacht voor detail, het zorgvuldig selecteren van hoogwaardige verven die niet alleen visueel aantrekkelijk zijn maar ook duurzaamheid garanderen, of het toepassen van geavanceerde schildertechnieken met ongeëvenaarde precisie - wij gaan verder dan alleen esthetische indrukken. Ons streven is om schilderwerk te leveren dat niet alleen een visueel meesterwerk is, maar ook langdurige schoonheid biedt die bestand is tegen de tand des tijds."
+        }
+        layout="end"
       />
-
-      <Caption3
-        text="Voortdurende educatie en training zijn essentieel om op de hoogte te blijven van de nieuwste technieken en trends in de schildersindustrie, en ons team doet er alles aan om bij te blijven.
-
-"
-        layout={"center"}
-        image={iconBook}
-      />
-      <Image
-        position="display-flex-end"
-        title="Quality"
-        image={image}
-        paddingTop="0"
-        paddingRight="10"
-        paddingBottom="0"
-        paddingLeft="0"
-        borderPosition="stroke-right"
-      />
-
-      <Caption3
-        text=" Of het nu gaat om het voorbereiden van oppervlakken, het kiezen van hoogwaardige verven of het toepassen van technieken met precisie, wij zetten ons in voor het leveren van schilderwerk dat niet alleen esthetisch indrukwekkend is, maar ook langdurige schoonheid biedt.
-
-"
-        layout={"center"}
-        image={iconQuality}
-      />
-      <Owner />
+      <AboutSubject 
+          title="Ervaring die spreekt"
+          text="Met jaren ervaring in de branche hebben we een schat aan kennis opgebouwd die we graag inzetten om uw visie werkelijkheid te maken. Of het nu gaat om interieur- of exterieurschilderwerk, renovaties of kleuradvies, we hebben de ervaring die spreekt voor zich."
+          image={experience}
+      />      {/* <Owner /> */}
       <Cta />
       <Footer />
     </div>

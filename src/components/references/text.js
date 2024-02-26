@@ -20,7 +20,7 @@ function getLayoutClass(layout) {
   switch (layout) {
     case "start":
       return "display-flex-start";
-    case "center":
+    case "end":
       return "display-flex-end";
     default:
       return "display-flex-center";

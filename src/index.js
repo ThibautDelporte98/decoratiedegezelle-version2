@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     element: <Services />,
   },
   {
-    path: "/dienst/:url",
+    path: "/diensten/:url",
     element: <Service />,
   },
   {
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
     element: <References />,
   },
   {
-    path: "/realisatie/:url",
+    path: "/realisaties/:url",
     element: <Realisation />,
   },
   {

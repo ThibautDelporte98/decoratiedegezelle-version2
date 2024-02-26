@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
-import { Link, useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../../scss/references/References.scss";
 import "../../scss/references/filter.scss";
 import LoadMoreButton from "../buttons/load-more";
@@ -9,27 +9,34 @@ import Header from "../page-title/header";
 const ReferencesItems = ({ items }) => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
-  const initialCategory = queryParams.get("category") || "Alle";
+  const initialCategory = queryParams.get("category") || "Alle items";
   const [selectedCategory, setSelectedCategory] = useState(initialCategory);
   const [animate, setAnimate] = useState(false);
   const [visibleItems, setVisibleItems] = useState(6);
+  const navigate = useNavigate();
 
   const options = [
-    "Alle",
-    "Interieur",
-    "Exterieur",
-    "Decoratieve technieken",
-    "Plamuurwerken",
-    "Behangwerken",
-    "Raamdecoratie",
-    "Vloer Egaliseren",
+    "Alle items",
+    "interieur",
+    "exterieur",
+    "decoratieve technieken",
+    "plamuurwerken",
+    "behangwerken",
+    "raamdecoratie",
+    "vloer egaliseren",
   ];
 
   const handleOptionSelect = (e) => {
-    setSelectedCategory(e.target.value);
-    // Scroll to the top of the page smoothly
+    const selectedValue = e.target.value;
+
+    // Update the URL with the selected category
+    navigate(`?categorie=${selectedValue}`);
+
+    setSelectedCategory(selectedValue);
+
+
     window.scrollTo({
-      top: 0,
+      top: 500,
       behavior: "smooth",
     });
   };
@@ -47,7 +54,7 @@ const ReferencesItems = ({ items }) => {
   };
 
   const filteredItems = items.filter((item) =>
-    selectedCategory === "Alle" ? true : item.category === selectedCategory
+    selectedCategory === "Alle items" ? true : item.category === selectedCategory
   );
 
   return (
@@ -93,7 +100,7 @@ const ReferencesItems = ({ items }) => {
                   {filteredItems.slice(0, visibleItems).map((item, index) => (
                     <Link
                       className="c-references__link"
-                      to={`/realisatie/${item.url}`}
+                      to={`/realisaties/${item.url}`}
                       onClick={handleNavLinkClick}
                       key={index}
                     >

@@ -4,7 +4,7 @@ import Header from "../components/page-title/header.js";
 import Footer from "../components/footer/Footer.js";
 import ContactElements from "../components/contact/contact.js";
 import dataWithLinks from "../components/contact/data/social.js";
-import image from "../images/carouselImages/home/A1.webp"
+import image from "../images/contact/contact.webp";
 
 function Contact() {
 
@@ -12,7 +12,7 @@ function Contact() {
     <div>
       <Nav />
       <Header
-        title="Contact"
+        title="Vrijblijvend contact"
         text="Aarzel niet om contact met ons op te nemen bij vragen of nood aan advies!"
         image={image}
         showImage={true}

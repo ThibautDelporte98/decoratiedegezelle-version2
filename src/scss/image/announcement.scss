@@ -1,0 +1,43 @@
+@import "../variables.scss";
+
+.announcement{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    background-color: black;
+    &-object{
+        width: 100%;
+        height: auto;
+
+    }
+
+        h3{
+            display: flex;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: .5rem;
+            font-size: 2rem;
+            padding: 2rem;
+            @media screen and (max-width:992px) {
+                font-size: 1.5rem;
+                letter-spacing: .25rem;
+            }
+
+        }
+
+
+}
+
+.border-left{
+    border-left: 1.5rem solid $color-accent;
+    @media screen and (max-width:992px) {
+        border-left: 1rem solid $color-accent;
+    }
+}
+
+.border-right{
+    border-right: 1.5rem solid $color-accent;
+    @media screen and (max-width:992px) {
+        border-right: 1rem solid $color-accent;
+    }
+}

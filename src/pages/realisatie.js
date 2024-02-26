@@ -28,7 +28,7 @@ function References() {
       />
       <Text
         text={
-          "Na overleg met [persoon] is besloten om de entree van de woning in Komen-Waasten een verfrissende make-over te geven. In deze realisatie/storie nemen we je mee door het proces en laten we zien hoe de nieuwe voordeur een stijlvolle transformatie heeft ondergaan."
+          "Na overleg is besloten om de woonkamer van de woning in Wevelgem een nieuw leven in te blazen. In deze realisatie nemen we je mee door het proces en laten we zien hoe de woonkamer een transformatie heeft ondergaan."
         }
       />
       <CustomerPreferences  items={Data} />

@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../scss/services/cta.scss";
-import logo from "../../images/logo/trustlocal.png";
-import Button from "../buttons/button";
 import thrustlocal from "../../images/logo/trustlocal.png";
 import google from "../../images/logo/Google.png";
 import dataGoogle  from "./data/google-review.js";

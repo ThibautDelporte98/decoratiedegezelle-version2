@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Title from "../title/title";
+import Button from "../buttons/button";
 import "../../scss/services/overview-detail-subjects.scss";
 
 const ServiceSubject = ({ items }) => {
@@ -9,13 +9,17 @@ const ServiceSubject = ({ items }) => {
   // Find the corresponding service based on the ID
   const service = items.find((item) => item.url === url);
 
+  const link = items.find((item) => item.url === url);
+
+  console.log(link);
+
   return (
     <div className="subjects">
       <div className="container">
         {service.Services &&
           service.Services.map((item, index) => {
             // Check if customOrder property exists, otherwise use default order
-            const customOrder = item.customOrder || (index % 2) < 0;
+            const customOrder = item.customOrder || index % 2 < 0;
 
             const colImageClass = customOrder ? "order-lg-2" : "order-lg-1";
             const colTextClass = customOrder ? "order-lg-1" : "order-lg-2";
@@ -24,12 +28,37 @@ const ServiceSubject = ({ items }) => {
               <div className="subjects-object" key={index}>
                 <div className="row">
                   <div className={`col-12 col-lg-6 ${colImageClass}`}>
-                    <img src={item.image2} alt={item.image2} />
+                    <div className="subjects-object-image">
+                      <div className="subjects-object-image--overlay">
+                        <Button
+                          to={`/realisaties?category=${link.url}`}
+                          color={"white"}
+                          layout={"display-flex-center"}
+                        >
+                          Bekijk realisaties 
+                        </Button>
+                      </div>
+                      <img src={item.image} alt={item.image} />
+                    </div>
                   </div>
                   <div className={`col-12 col-lg-6 ${colTextClass}`}>
                     <div className="subjects-object-content">
                       <h2>{item.title}</h2>
-                      <p>{item.descriptions}</p>
+                      <p>{item.descriptions[0]}</p>
+                      <div className="subjects-object-list">
+                        <h3>{item.subTitle}</h3>
+                        <ul>
+                          {item.pros.map((pro) => (
+                            <li
+                              className="subjects-object-list--item "
+                              key={pro.id}
+                            >
+                              <h4>{pro.title}</h4>
+                              <p>{pro.text}</p>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>

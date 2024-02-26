@@ -9,9 +9,7 @@ import WayOfWork from "../components/services/overview-detail-steps.js";
 import steps from "../components/services/data/wayofwork.js";
 import ServiceSubject from "../components/services/overview-detail-subjects.js";
 // import Data from "../components/services/data/overview.js"
-import image from "../images/carouselImages/home/A1.webp"
-
-
+import image from "../images/carouselImages/home/A1.webp";
 
 function Service() {
   const { url } = useParams();
@@ -25,13 +23,15 @@ function Service() {
       {}
       <Header
         title={service.title}
-        text="Wilt u graag uw huis opnieuw inrichten? Dan kunt u bij ons terecht voor zowel binnen- als buitenschilderwerken.Onze klassieke schilderwerken beslaan een breed gamma aan mogelijkheden. U kunt daarbij denken aan het schilderen van uw trap, plafonds, deuren, muren enz. Wij lichten graag alle mogelijkheden voor u toe zodat u op die manier de juiste keuze kunt maken."
+        text=" Wilt u uw interieur een frisse make-over geven? Ontdek dan ons uitgebreide aanbod voor binnenhuis schilderwerken 
+        Onze klassieke schildertechnieken bieden een breed scala aan mogelijkheden, variërend van het verfraaien van uw trap, plafonds, deuren tot het aanpakken van muren en meer. 
+        We staan klaar om alle opties met u door te nemen, zodat u weloverwogen de juiste keuzes kunt maken voor een vernieuwd en stijlvol interieur."
         image={service.image}
         showImage={true}
         showGoBack={true}
       />
-      <WayOfWork items={steps}/>
-      <ServiceSubject items={DataDienst}/>
+      <WayOfWork items={steps} />
+      <ServiceSubject items={DataDienst} />
       <Cta />
       <Footer />
     </div>

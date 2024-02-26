@@ -84,7 +84,7 @@ function Nav() {
 
   return (
     <div className="nav position">
-      <div className="container-xl">
+      <div className="container">
         <div className="navbarTop">
           <div className="navTop-items">
             <div className="navTop-item">
@@ -101,7 +101,7 @@ function Nav() {
                     <img src={phone} alt={phone} />
                   </div>
                   <div className="ItemName">
-                    <div>+32 478 36 60 70</div>
+                    <div className="mobile-hide">+32 478 36 60 70</div>
                   </div>
                 </div>
               </Link>
@@ -118,7 +118,7 @@ function Nav() {
                     <img src={email} alt={email} />
                   </div>
                   <div className="ItemName">
-                    <div>info@decoratiedegezelle.be</div>
+                    <div className="mobile-hide">info@decoratiedegezelle.be</div>
                   </div>
                 </div>
               </Link>

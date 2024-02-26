@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import Button from "../buttons/button";
 import { Link } from "react-router-dom";
-import Person from "../../images/carouselImages/home/A1.webp";
+import Person from "../../images/home/cta-about/call-to-action-about-home.webp";
 import "../../scss/home/about.scss";
 
 function About() {
@@ -21,7 +21,7 @@ function About() {
           <div className="row">
             <div className="col-12 col-lg-6">
               <div className="about-item">
-                <h1>Maak kennis met Decoratie Degezelle</h1>
+                <h2>Maak kennis met Decoratie Degezelle</h2>
                 <p>
                   Elke penseelstreek verteld een verhaal, en jouw huis of
                   bedrijfsruimte is het canvas waarop dit verhaal tot leven
@@ -40,7 +40,7 @@ function About() {
                 </Button>
 
                 <div className="about-table ">
-                <h2 className="about-table-title">Ook op deze pagina:</h2>
+                <h3 className="about-table-title">Ook op deze pagina:</h3>
                 <div className="list">
                   <ul className="table-of-content">
                     <li className="content-item">

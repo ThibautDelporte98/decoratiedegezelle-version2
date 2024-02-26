@@ -4,6 +4,7 @@
   animation: fade-in .75s ease-in;
     img{
         width: 5rem;
+        margin-left: -1rem;
         @media screen and (max-width: 992px) {
             width: 3.5rem;
         }
@@ -92,9 +93,6 @@
   position: fixed;
   top: 4.5rem;
   cursor: pointer;
-  @media screen and (max-width:576px) {
-    top: 6rem;
-  }
 }
 
 .box {
@@ -189,18 +187,8 @@
     justify-content: space-between;
     align-items: center;
     @media screen and (max-width: 1400.5px) {
-      width: 40%;
-    }
-    @media screen and (max-width: 1200.5px) {
-      width: 60%;
-    }
-    @media screen and (max-width: 992.5px) {
       width: 100%;
     }
-    @media screen and (max-width:576px) {
-        height: 4.5rem;
-    }
-
   }
   &-item {
     display: flex;
@@ -211,11 +199,6 @@
                 fill:#caa35c;
             }
         }
-    }
-
-    @media screen and (max-width: 520px) {
-        display: flex;
-        flex-direction: column;
     }
   }
   &-item.white {

@@ -1,0 +1,40 @@
+@import "../variables.scss";
+
+.breadcrumb {
+    position: relative;
+  width: 100vw;
+  @media screen and (max-width:992px) {
+    width: 100%;
+  }
+  &-item {
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    @media screen and (max-width: 992px) {
+        & + .breadcrumb-item{
+          padding-left: .1rem;
+  
+        }
+      }
+    @media screen and (max-width: 576px) {
+      font-size: .8rem;
+      letter-spacing: 0.25rem;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    &.active {
+      color: $color-accent;
+    }
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "|";
+  color: $color-primairy;
+  @media screen and (max-width: 992px) {
+    padding-right: .1rem;
+  }
+}

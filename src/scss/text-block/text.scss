@@ -3,14 +3,11 @@
 .text{
     background-color: $color-secundairy;
     color:$color-primairy;
-    padding: 5rem 0;
+    padding: 2.5rem 0;
     &-content{
         position: relative;
         width: 100%;
         z-index: 0;
-        @media screen and (max-width:992px) {
-            margin-top: 2.5rem;
-        }
         p{  
             position: relative;
             max-width: 920px;

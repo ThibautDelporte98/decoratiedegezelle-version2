@@ -1,16 +1,16 @@
 //Komen-Waasten
 import Front from "../../../images/Services/Exterieur/Exterieur.webp";
 import before from "../../../images/References/Exterieur/Komen-waasten/before/A1.webp";
-import before1 from "../../../images/References/Exterieur/Komen-waasten/before/KW1.webp";
-import before2 from "../../../images/References/Exterieur/Komen-waasten/before/KW2.webp";
-import before3 from "../../../images/References/Exterieur/Komen-waasten/before/KW3.webp";
-import before4 from "../../../images/References/Exterieur/Komen-waasten/before/KW4.webp";
+import before1 from "../../../images/References/Exterieur/Komen-waasten/before/A1.webp";
+import before2 from "../../../images/References/Exterieur/Komen-waasten/before/A2.webp";
+import before3 from "../../../images/References/Exterieur/Komen-waasten/before/A3.webp";
+import before4 from "../../../images/References/Exterieur/Komen-waasten/before/A4.webp";
 import before5 from "../../../images/References/Exterieur/Komen-waasten/before/KW5.webp";
 import before6 from "../../../images/References/Exterieur/Komen-waasten/before/KW6.webp";
-import after1 from "../../../images/References/Exterieur/Komen-waasten/after/KW1.webp";
-import after2 from "../../../images/References/Exterieur/Komen-waasten/after/KW2.webp";
-import after3 from "../../../images/References/Exterieur/Komen-waasten/after/KW3.webp";
-import after4 from "../../../images/References/Exterieur/Komen-waasten/after/KW4.webp";
+import after1 from "../../../images/References/Exterieur/Komen-waasten/after/B1.webp";
+import after2 from "../../../images/References/Exterieur/Komen-waasten/after/B2.webp";
+import after3 from "../../../images/References/Exterieur/Komen-waasten/after/B3.webp";
+import after4 from "../../../images/References/Exterieur/Komen-waasten/after/B4.webp";
 import after5 from "../../../images/References/Exterieur/Komen-waasten/after/KW5.webp";
 import after6 from "../../../images/References/Exterieur/Komen-waasten/after/KW6.webp";
 //Interieur Bissegem
@@ -107,7 +107,7 @@ const References = [
     id: 1,
     url: "Exterieur-Komen-waasten",
     image: Front,
-    category: "Exterieur",
+    category: "exterieur",
     subject: "Exterieur",
     city: "Komen-Waasten",
     height: 35,
@@ -117,12 +117,12 @@ const References = [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
-        url: "/dienst/1",
+        url: "/dienst/exterieur",
       },
       {
         id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
+        title: "Exterieur | Dakgoot schilderen",
+        url: "/dienst/exterieur",
       },
     ],
     preferences: {
@@ -156,23 +156,24 @@ const References = [
 
     review: [
       {
-        text: " Test Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: " test Peggy Herrisen - eigenaresse",
+        text: "",
+        owner: "",
       },
     ],
 
     images: [
+
       {
         id: 1,
-        image: before,
+        image: after1,
       },
       {
         id: 2,
-        image: before1,
+        image: before2,
       },
       {
         id: 3,
-        image: before2,
+        image: after2,
       },
       {
         id: 4,
@@ -180,39 +181,15 @@ const References = [
       },
       {
         id: 5,
-        image: before4,
-      },
-      {
-        id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
         image: after3,
       },
       {
-        id: 11,
+        id: 6,
+        image: before4,
+      },
+      {
+        id: 7,
         image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
       },
     ],
   },
@@ -220,7 +197,7 @@ const References = [
     id: 2,
     url: "Interieur-Bissegem",
     image: Bissegem,
-    category: "Interieur",
+    category: "interieur",
     subject: "Interieur ",
     city: "Bissegem",
     height: 40,
@@ -268,8 +245,8 @@ const References = [
     },
     review: [
       {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
+        text: "",
+        owner: "",
       },
     ],
 
@@ -332,7 +309,7 @@ const References = [
     id: 3,
     url: "Interieur-Gullegem",
     image: Gullegem,
-    category: "Interieur",
+    category: "interieur",
     subject: "Interieur ",
     city: "Gullegem",
     height: 30,
@@ -380,8 +357,8 @@ const References = [
     },
     review: [
       {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
+        text: "",
+        owner: "",
       },
     ],
 
@@ -444,7 +421,7 @@ const References = [
     id: 4,
     url: "Interieur-Wevelgem",
     image: WevelgemIn,
-    category: "Interieur",
+    category: "interieur",
     subject: "Interieur ",
     city: "Wevelgem",
     height: 30,
@@ -555,7 +532,7 @@ const References = [
     id: 5,
     url: "Interieur-Harelbeke",
     image: Harelbeke,
-    category: "Interieur",
+    category: "interieur",
     subject: "Interieur ",
     city: "Harelbeke",
     height: 30,
@@ -603,8 +580,8 @@ const References = [
     },
     review: [
       {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
+        text: "",
+        owner: "",
       },
     ],
 
@@ -667,7 +644,7 @@ const References = [
     id: 6,
     url: "Interieur-Kortrijk",
     image: Kortrijk,
-    category: "Interieur",
+    category: "interieur",
     subject: "Interieur ",
     city: "Kortrijk",
     height: 30,
@@ -715,8 +692,8 @@ const References = [
     },
     review: [
       {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
+        text: "",
+        owner: "",
       },
     ],
 
@@ -779,7 +756,7 @@ const References = [
     id: 7,
     url: "Interieur-Harelbeke2",
     image: Harelbeke21,
-    category: "Interieur",
+    category: "interieur",
     subject: "Interieur ",
     city: "Harelbeke",
     height: 35,
@@ -891,7 +868,7 @@ const References = [
     id: 8,
     url: "Aqua-Sensa-Oostduinkerke",
     image: HarelbekeAS2,
-    category: "Decoratieve technieken",
+    category: "decoratieve technieken",
     subject: "Aqua Sensa ",
     city: "Oostduinkerke",
     height: 35,
@@ -1003,7 +980,7 @@ const References = [
     id: 9,
     url: "Exterieur-Zwevegem",
     image: OnbekendExterieur,
-    category: "Exterieur",
+    category: "exterieur",
     subject: "Exterieur | Zwevegem",
     subject: "Exterieur ",
     city: "Zwevegem",
@@ -1115,7 +1092,7 @@ const References = [
     id: 10,
     url: "Exterieur-Wevelgem",
     image: WevelgemEx,
-    category: "Exterieur",
+    category: "exterieur",
     subject: "Exterieur ",
     city: "Wevelgem",
     height: 35,
@@ -1227,7 +1204,7 @@ const References = [
     id: 11,
     url: "Exterieur-Moen",
     image: Moen,
-    category: "Exterieur",
+    category: "exterieur",
     subject: "Exterieur ",
     city: "Izegem",
     height: 35,
@@ -1339,7 +1316,7 @@ const References = [
     id: 12,
     url: "Exterieur-Harelbeke",
     image: HarelbekeEx,
-    category: "Exterieur",
+    category: "exterieur",
     subject: "Exterieur ",
     city: "Harelbeke",
     height: 35,
@@ -1451,7 +1428,7 @@ const References = [
     id: 13,
     url: "Exterieur-Oostduinkerke",
     image: MarkeIn,
-    category: "Interieur",
+    category: "interieur",
     subject: "Interieur",
     city: "Oostduinkerke",
     height: 35,
@@ -1562,7 +1539,7 @@ const References = [
     id: 14,
     url: "Behangwerken-Marke",
     image: MarkeBe,
-    category: "Behangwerken",
+    category: "behangwerken",
     subject: "Behangwerken",
     city: "Marke",
     height: 35,

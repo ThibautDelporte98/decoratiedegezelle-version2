@@ -10,9 +10,11 @@ const WayOfWork = ({ items }) => {
           <div className="row">
             {items.map((item, index) => {
               return (
-                <div className="col-12 col-lg-6">
+                <div className="col-12">
                   <li className="wayofwork-item" key={index}>
-                    <span className="number">{item.id}</span>
+                    <div className="number">
+                      <span className="number-symbol">{item.id}</span>
+                    </div>
                     <div className="wayofwork-content">
                       <h2>{item.title}</h2>
                       <ul>

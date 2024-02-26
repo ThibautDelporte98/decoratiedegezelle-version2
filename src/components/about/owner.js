@@ -14,7 +14,7 @@ function Owner() {
           </div>
           <div className="owner-info">
             <h2>Alexandro Degezelle</h2>
-            <div className="proffesion">SEO & Founder</div>
+            <div className="proffesion">Eigenaar &  Ondernemer</div>
             <p>
               Ik ben Alexandro Degezelle en zaakvoerder van Decoratie Degezelle.
               Bij ons kan u terecht voor zowel binnen als buitenschilderwerk.

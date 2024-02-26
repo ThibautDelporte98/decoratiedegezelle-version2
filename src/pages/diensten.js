@@ -14,13 +14,13 @@ function Services() {
       <Header
         height={40}
         heightState={true}
-        title="Diensten"
+        title="Ons aanbod"
         text="              
               Met een ongeëvenaarde mix van creativiteit en vakmanschap
               transformeren onze diensten uw woning tot een meesterwerk van
               verfijnde schoonheid, stimuleren ze persoonlijke groei en
               verrijken ze jouw leven. Ervaar de kracht van maatwerk speciaal
-              ontworpen om aan jouw unieke behoeften te voldoen."
+              ontworpen om aan jouw behoeften te voldoen."
       />
       <Overview items={Data} />
       <Cta />

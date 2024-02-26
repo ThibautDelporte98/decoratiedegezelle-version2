@@ -1,115 +1,188 @@
-  
-  .component {
+@import "../variables.scss";
+
+
+.component {
+  width: 100%;
+  height: 50rem;
+  z-index: -1;
+
+  @media screen and (max-width: 992px) {
+    height: 45rem;
+  }
+  @media screen and (max-width: 767px) {
+    height: 35rem;
+  }
+
+
+  .view {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @media screen and (max-width: 567px) {
+      background-color: black;
+    }
+
+    &-overlay {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       width: 100%;
-      height: 50rem;
-      z-index: -1;
-  
-      @media screen and (max-width:992px) {
-        height: 45rem;
-      }
-  
-    
-    
-      .view {
+      height: 100%;
+      overflow: hidden;
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 1)
+      );
+      z-index: 1;
+      // .bg-smoke {
+      //   position: absolute;
+      //   z-index: 0;
+      //   img {
+      //     width: 100vw;
+      //     height: 100%;
+      //     object-fit: cover;
+      //     animation: fog_effect calc(3s * var(--i)) ease-in infinite;
+      //   }
+      // }
+      .head-title {
         position: relative;
         width: 100%;
-        height: 100%;
-        &-overlay{
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            background: linear-gradient(to bottom,rgba(0, 0, 0, .15), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 1));
-            z-index: 1;
-          &-testimonials{
-            background: linear-gradient(to bottom,rgba(0, 0, 0, 1),rgba(0, 0, 0, .75), rgba(0, 0, 0, .65), rgba(0, 0, 0, .75), rgba(0, 0, 0, 1));
-  
-          }
-            .bg-smoke{
-                position: absolute;
-                z-index: 0;
-                img{
-                    width: 100vw;
-                    height: 100%;
-                    object-fit: cover;
-                    animation: fog_effect calc(3s * var(--i)) ease-in infinite;
-                }
-        
-            }
-            .head-title{
-                position: relative;
-                width: 100%;
-                h1{
-                    font-size: 1rem;
-                }
-            }
-    
-        }
-    
-        .overlay-item{
-            position: relative;
-            z-index: 2;
-            h1{
-                @media screen and (max-width:992px) {
-                    font-size: 1.25rem !important;
-                }
-                @media screen and (max-width: 576px )
-                 {
-                  font-size: 1rem !important;  
-                }
-            }
-        }
-    
-    
-    
-        .carousel {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          opacity: 0;
-          transition: opacity 0.75s ease-out;
-          overflow: hidden;
-          &-testimonial{
-            @media screen and (max-width:992px) {
-                height: 45rem !important;
-            }
-            @media screen and (max-width:520px) {
-              height: 60rem !important;
-            }
-  
-          }
-          @media screen and (max-width: 992px) {
-            height: 45rem;
-          }
-          &.active {
-            opacity: 1;
-            img{
-                transform: scale(1.1);
-                transition: transform .5s ease-in; /* Adjust the zoom level */
-                transition-duration: 6s ;
-    
-    
-            }
-    
-          }
-    
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transform: scale(1);
-            transition: transform 0.5s ease-out;
-            transition-duration: 6s ;
-  
-          }
+        h1 {
+          font-size: 1rem;
         }
       }
-    
     }
-  
-  
+
+    .overlay-item {
+      position: relative;
+      z-index: 2;
+      h1 {
+        @media screen and (max-width: 992px) {
+          font-size: 1.25rem !important;
+        }
+        @media screen and (max-width: 576px) {
+          font-size: 1rem !important;
+        }
+      }
+    }
+
+    .carousel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.75s ease-out;
+      overflow: hidden;
+      @media screen and (max-width: 992px) {
+        height: 45rem;
+      }
+      @media screen and (max-width: 767px) {
+        height: 35rem;
+      }
+      @media screen and (max-width: 567px) {
+        height: 17.5rem;
+      }
+
+      &.active {
+        opacity: 1;
+        img {
+          transform: scale(1.1);
+          transition: transform 0.5s ease-in; /* Adjust the zoom level */
+          transition-duration: 6s;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: scale(1);
+        transition: transform 0.5s ease-out;
+        transition-duration: 6s;
+      }
+    }
+  }
+}
+
+
+
+.header1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 10rem 0;
+  @media screen and (max-width:576px) {
+    align-items: flex-end;
+    padding: 2.5rem 1rem;
+  }
+  &-object {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 25rem;
+    color: $color-primairy;
+    @media screen and (max-width: 992px) {
+      width: 100%;
+      align-items: flex-start;
+      justify-content: flex-start;
+      height: auto;
+      // padding: 2rem 1rem;
+    }
+
+    p {
+      position: relative;
+      width: 75%;
+
+      @media screen and (max-width: 992px) {
+        text-align: start;
+        font-size: 0.8rem;
+        width: 100%;
+      }
+    }
+  }
+  &-title {
+    .header1-subtitle {
+      font-size: 1.5rem;
+      color: $color-primairy;
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
+      @media screen and (max-width: 992px) {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 576px) {
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+      }
+    }
+    h1 {
+      position: relative;
+      width: auto;
+      position: relative;
+      font-size: 4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5rem;
+      @media screen and (max-width: 992px) {
+        font-size: 2rem;
+        text-align: start;
+      }
+      @media screen and (max-width: 576px) {
+        font-size: 1.5rem;
+        letter-spacing: 0.25rem;
+      }
+    }
+  }
+}
+
+.colored-ampersand{
+  color: $color-accent !important;
+}

@@ -10,6 +10,11 @@ const CustomerReview = ({ items }) => {
   const realisation = items.find((item) => item.url === url);
   console.log("Review Data:", realisation && realisation.review);
 
+  
+  if (!realisation || !realisation.review || !realisation.review[0].text.trim()) {
+    return null; // Return null to prevent rendering the component
+  }
+
 
 
   return (

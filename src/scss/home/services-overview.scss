@@ -16,7 +16,7 @@
     height: 100%;
     text-align: center;
     color: $color-primairy;
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0, 0.25);
     h3 {
       position: absolute;
       // width: 20rem;
@@ -57,7 +57,7 @@
       height: 30rem;
     }
     @media screen and (max-width: 576px) {
-      height: 15rem;
+      height: 22.5rem;
     }
 
     img {

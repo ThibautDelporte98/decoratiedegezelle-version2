@@ -14,7 +14,7 @@ function References() {
       <Header
         height={40}
         heightState={true}
-        title="Realisaties"
+        title="Projecten"
         text="Neem een moment om de realisaties te verkennen en ontdek waarom samenwerken met Decoratie Degezelle een positieve impact heeft. Neem een kijkje en ontdek hoe wij waarde toevoegen aan elke samenwerking."
       />
       <Overview items={Data}/>
