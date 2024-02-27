@@ -20,7 +20,6 @@ function Service() {
   return (
     <div>
       <Nav />
-      {}
       <Header
         title={service.title}
         text=" Wilt u uw interieur een frisse make-over geven? Ontdek dan ons uitgebreide aanbod voor binnenhuis schilderwerken 
