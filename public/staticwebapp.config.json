@@ -5,10 +5,5 @@
     },
     "mimeTypes": {
     ".json": "text/json"
-    },
-    "routes": [
-        {
-                
-          }
-    ]
+    }
     }
