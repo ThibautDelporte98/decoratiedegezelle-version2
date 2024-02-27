@@ -34,7 +34,7 @@ function About() {
                 <Button
                   to={"./overons"}
                   color={"white"}
-                  layout={"display-flex-start"}
+                  layout={"default"}
                 >
                   Over ons
                 </Button>

@@ -15,7 +15,7 @@ function References() {
         height={40}
         heightState={true}
         title="Projecten"
-        text="Neem een moment om de realisaties te verkennen en ontdek waarom samenwerken met Decoratie Degezelle een positieve impact heeft. Neem een kijkje en ontdek hoe wij waarde toevoegen aan elke samenwerking."
+        text="Neem een moment om onze projecten te verkennen en ontdek waarom samenwerken met Decoratie Degezelle een positieve impact heeft. Wij laten u zien hoe wij waarde toevoegen aan elke samenwerking."
       />
       <Overview items={Data}/>
       <Footer />

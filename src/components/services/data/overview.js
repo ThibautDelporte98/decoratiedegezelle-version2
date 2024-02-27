@@ -18,6 +18,10 @@ import Aqua2 from "../../../images/Services/Decoratieve technieken/AquaSensa/Aqu
 import Calco2 from "../../../images/Services/Decoratieve technieken/Calco/Calco2.webp";
 import Clay2 from "../../../images/Services/Decoratieve technieken/Clay/Claystuc2.webp";
 import Tusk2 from "../../../images/Services/Decoratieve technieken/Tusk/tusk2.webp";
+import Spuitwerk from "../../../images/Services/spuitwerk/spuitwerk.webp";
+import Spuitwerk2 from "../../../images/Services/spuitwerk/spuitwerk.webp";
+
+
 
 const Services = [
   {
@@ -27,35 +31,7 @@ const Services = [
     title: "Interieur",
     subject: "plafond, muur & houtwerk schilderen",
     IntroTxt: `Transformeer uw interieur met professioneel binnenschilderwerk! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de perfecte kleuren en afwerkingen, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
-    Steps: [
-      {
-        id: 1,
-        title: "Neem contact met ons op.",
-        descriptions: ["Telefonisch", "Per mail.", "Website"],
-      },
-      {
-        id: 2,
-        title: "Wij contacteren u",
-        descriptions: [
-          "Wij vragen de nodige info.",
-          "Wij plannen een afspraak in",
-        ],
-      },
-      {
-        id: 3,
-        title: "Ik kom tot bij u.",
-        descriptions: ["Bespreking.", "Op meten.", "Advies."],
-      },
-      {
-        id: 4,
-        title: "De offerte",
-        descriptions: [
-          "Opmaak offerte.",
-          "Prijs calculatie",
-          "Opbellen voor akkoord.",
-        ],
-      },
-    ],
+   
     Services: [
       {
         id: 1,
@@ -180,35 +156,7 @@ const Services = [
     title: "Exterieur",
     subject: "buiten houtwerk, gevel schilderen & dakgoot schilderen",
     IntroTxt: `Transformeer uw exterieur met professioneel buitenschilderwerk! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de perfecte kleuren en afwerkingen, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
-    Steps: [
-      {
-        id: 1,
-        title: "Neem contact met ons op.",
-        descriptions: ["Telefonisch", "Per mail.", "Website"],
-      },
-      {
-        id: 2,
-        title: "Wij contacteren u",
-        descriptions: [
-          "Wij vragen de nodige info.",
-          "Wij plannen een afspraak in",
-        ],
-      },
-      {
-        id: 3,
-        title: "Ik kom tot bij u.",
-        descriptions: ["Bespreking.", "Op meten.", "Advies."],
-      },
-      {
-        id: 4,
-        title: "De offerte",
-        descriptions: [
-          "Opmaak offerte.",
-          "Prijs calculatie",
-          "Opbellen voor akkoord.",
-        ],
-      },
-    ],
+   
     Services: [
       {
         id: 1,
@@ -330,35 +278,7 @@ const Services = [
     title: "Decoratieve technieken",
     subject: "aqae sensa, calco, tusk & claystuc",
     IntroTxt: `Transformeer uw interieur met onze decoratieve technieken! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de perfecte kleuren en afwerkingen, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
-    Steps: [
-      {
-        id: 1,
-        title: "Neem contact met ons op.",
-        descriptions: ["Telefonisch", "Per mail.", "Website"],
-      },
-      {
-        id: 2,
-        title: "Wij contacteren u",
-        descriptions: [
-          "Wij vragen de nodige info.",
-          "Wij plannen een afspraak in",
-        ],
-      },
-      {
-        id: 3,
-        title: "Ik kom tot bij u.",
-        descriptions: ["Bespreking.", "Op meten.", "Advies."],
-      },
-      {
-        id: 4,
-        title: "De offerte",
-        descriptions: [
-          "Opmaak offerte.",
-          "Prijs calculatie",
-          "Opbellen voor akkoord.",
-        ],
-      },
-    ],
+   
     Services: [
       {
         id: 1,
@@ -751,40 +671,12 @@ const Services = [
   },
   {
     id: 7,
-    url: "raamdecoratie",
-    image: Raamdecoratie,
-    title: "Raamdecoratie",
+    url: "spuitwerk",
+    image: Spuitwerk,
+    title: "Spuitwerk",
     subject: "Gordijnen jaloezieën en meer",
     IntroTxt: `Transformeer uw interieur met raamdecoratie! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de juiste stof & kleuren, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
-    Steps: [
-      {
-        id: 1,
-        title: "Neem contact met ons op.",
-        descriptions: ["Telefonisch", "Per mail.", "Website"],
-      },
-      {
-        id: 2,
-        title: "Wij contacteren u",
-        descriptions: [
-          "Wij vragen de nodige info.",
-          "Wij plannen een afspraak in",
-        ],
-      },
-      {
-        id: 3,
-        title: "Ik kom tot bij u.",
-        descriptions: ["Bespreking.", "Op meten.", "Advies."],
-      },
-      {
-        id: 4,
-        title: "De offerte",
-        descriptions: [
-          "Opmaak offerte.",
-          "Prijs calculatie",
-          "Opbellen voor akkoord.",
-        ],
-      },
-    ],
+   
     Services: [
       {
         id: 1,
@@ -827,6 +719,57 @@ const Services = [
       },
     ],
   },
+  {
+    id: 8,
+    url: "raamdecoratie",
+    image: Raamdecoratie,
+    title: "Raamdecoratie",
+    subject: "Gordijnen jaloezieën en meer",
+    IntroTxt: `Transformeer uw interieur met raamdecoratie! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de juiste stof & kleuren, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
+   
+    Services: [
+      {
+        id: 1,
+        customOrder: true,
+        category: "Raamdecoratie",
+        subject: "Raamdecoratie",
+        title: "Gordijnen, jaloezieën en meer",
+        subTitle: "Waarom Kiezen voor Elegante Raamdecoratie",
+        descriptions: [
+          "Breng de finishing touch aan in je interieur met elegante raamdecoratie, waaronder gordijnen, jaloezieën en meer. Deze essentiële elementen voegen niet alleen stijl toe aan je ruimte, maar bieden ook praktische voordelen zoals privacy, lichtregulering en een warme, uitnodigende sfeer. Ontdek de veelzijdigheid van raamdecoratie en transformeer je vensters in een visueel hoogtepunt.",
+        ],
+        pros: [
+          {
+            id: 1,
+            title: "Stijlvolle Esthetiek",
+            text: "Gordijnen, jaloezieën en andere raamdecoraties voegen een stijlvolle esthetiek toe aan je interieur, waardoor een verfijnde uitstraling ontstaat.",
+          },
+          {
+            id: 2,
+            title: "Privacy en Lichtregulering",
+            text: "Raamdecoratie biedt de mogelijkheid om de hoeveelheid natuurlijk licht te regelen en tegelijkertijd privacy te behouden, waardoor een gebalanceerde sfeer ontstaat.",
+          },
+          {
+            id: 3,
+            title: "Variatie in Ontwerp",
+            text: "Met een breed scala aan ontwerpen, texturen en kleuren biedt raamdecoratie talloze mogelijkheden om je persoonlijke stijl te uiten en je interieur aan te vullen.",
+          },
+          {
+            id: 4,
+            title: "Warmte en Comfort",
+            text: "Gordijnen voegen niet alleen visuele warmte toe, maar kunnen ook bijdragen aan het verbeteren van de akoestiek in de ruimte, waardoor een gezellige en comfortabele atmosfeer ontstaat.",
+          },
+          {
+            id: 5,
+            title: "Functionele Flexibiliteit",
+            text: "Of je nu kiest voor zware gordijnen voor totale verduistering of jaloezieën voor subtiele lichtinval, raamdecoratie biedt functionele flexibiliteit om aan verschillende behoeften te voldoen.",
+          },
+        ],
+        image: Raamdecoratie2,
+      },
+    ],
+  },
+  
 ];
 
 export default Services;
