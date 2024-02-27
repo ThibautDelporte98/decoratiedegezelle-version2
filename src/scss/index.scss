@@ -21,29 +21,29 @@ body {
 }
 
 
-/* width */
-p::-webkit-scrollbar {
-  width: 4px;
-}
+// /* width */
+// p::-webkit-scrollbar {
+//   width: 4px;
+// }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: white !important;
-}
+// /* Track */
+// ::-webkit-scrollbar-track {
+//   background: white !important;
+// }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: black !important;
-}
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//   background: black !important;
+// }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555 !important;
-}
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: #555 !important;
+// }
 
-::selection {
-  background-color: $color-accent;
-}
+// ::selection {
+//   background-color: $color-accent;
+// }
 
 .container-xl {
   max-width: 1320px !important;

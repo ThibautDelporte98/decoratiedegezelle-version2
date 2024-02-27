@@ -24,8 +24,8 @@ function About() {
         title="Ons profiel"
         text={[
           "Bij Decoratie Degezelle hebben we een rijke geschiedenis van het succesvol voltooien van diverse schilderprojecten, variërend van particuliere woningen tot commerciële ruimtes. ",
-          "Ons getalenteerde team van schilders heeft uitgebreide ervaring in het aanbrengen van hoogwaardige verf en decoratieve afwerkingen, waardoor we de visie van onze klanten tot leven kunnen brengen."
-        ]}        
+          "Ons getalenteerde team van schilders heeft uitgebreide ervaring in het aanbrengen van hoogwaardige verf en decoratieve afwerkingen, waardoor we de visie van onze klanten tot leven kunnen brengen.",
+        ]}
         image={image}
         showImage={true}
         showGoBack={false}
@@ -40,10 +40,15 @@ function About() {
         }
         layout="start"
       />
-      <AboutSubject 
-          title="Vertrouwen & Flexibiliteit"
-          text="Bij ons staat de combinatie van vertrouwen en flexibiliteit centraal. Wij begrijpen dat elke klant unieke behoeften heeft en geen twee projecten hetzelfde zijn. Onze toewijding gaat verder dan alleen schilderen; wij streven ernaar maatwerkoplossingen te bieden die perfect aansluiten bij jouw specifieke wensen en eisen."
-          image={trust}
+      <AboutSubject
+        title="Vertrouwen & Flexibiliteit"
+        text="Bij ons staat de combinatie van vertrouwen en flexibiliteit centraal. Wij begrijpen dat elke klant unieke behoeften heeft en geen twee projecten hetzelfde zijn. Onze toewijding gaat verder dan alleen schilderen; wij streven ernaar maatwerkoplossingen te bieden die perfect aansluiten bij jouw specifieke wensen en eisen."
+        image={trust}
+      />
+      <AboutSubject
+        title="Ervaring die spreekt"
+        text="Met jaren ervaring in de branche hebben we een schat aan kennis opgebouwd die we graag inzetten om uw visie werkelijkheid te maken. Of het nu gaat om interieur- of exterieurschilderwerk, renovaties of kleuradvies, we hebben de ervaring die spreekt voor zich."
+        image={experience}
       />
       <Announcement layout="end" title="Kwaliteit is bij ons prioriteit!" />
       <Text
@@ -52,11 +57,7 @@ function About() {
         }
         layout="end"
       />
-      <AboutSubject 
-          title="Ervaring die spreekt"
-          text="Met jaren ervaring in de branche hebben we een schat aan kennis opgebouwd die we graag inzetten om uw visie werkelijkheid te maken. Of het nu gaat om interieur- of exterieurschilderwerk, renovaties of kleuradvies, we hebben de ervaring die spreekt voor zich."
-          image={experience}
-      />      {/* <Owner /> */}
+      {/* <Owner /> */}
       <Cta />
       <Footer />
     </div>
