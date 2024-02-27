@@ -15,6 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
+      - name: Set User Configurations
+        run: |
+          git config --global user.name ThibautDelporte98
+          git config --global user.email thibaut.delporte@student.howest.be
+          chmod -R 777 .  # Change permissions as necessary
+      - name: Disable CI
+        run: echo "CI=false" >> $GITHUB_ENV
       - uses: actions/checkout@v4
         with:
           submodules: true
