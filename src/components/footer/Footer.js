@@ -175,13 +175,13 @@ function Footer() {
               <div className="conditions">
                 <ul>
                   <li className="conditions-item">
-                    <Link>Algemene voorwaarden</Link>
+                    <Link to={'/algemene-voorwaarden'}>Algemene voorwaarden</Link>
                   </li>
                   <li className="conditions-item">
-                    <Link>Privacy policy</Link>
+                    <Link to={'/privacypolicy'}>Privacy policy</Link>
                   </li>
                   <li className="conditions-item">
-                    <Link>Products by Bosspaint</Link>
+                    <Link to={'https://www.boss.be/'} target="_blank" >Products by Bosspaint</Link>
                   </li>
                 </ul>
               </div>

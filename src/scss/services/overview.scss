@@ -1,7 +1,6 @@
 @import "../variables.scss";
 
 .overview{
-    background-color: $color-secundairy;
     &-link{
         &:hover{
             .overview-item.overlay,img{

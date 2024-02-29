@@ -16,8 +16,8 @@ body {
   margin: 0;
   font-family: $txt-font;
   position: relative;
-  background-color: white;
   color: black;
+  background-color: $color-secundairy;
 }
 
 
@@ -41,7 +41,7 @@ body {
 //   background: #555 !important;
 // }
 
-// ::selection {
+// ::selection {ffe
 //   background-color: $color-accent;
 // }
 

@@ -26,17 +26,20 @@ const References = ({ items }) => {
 
   return (
     <div className="references" id="recent-projects">
-      <div className="container">
-        <Title id="black">Recente projecten</Title>
-        <div className="intro">
-          <h2>Ontdek ons vakmanschap</h2>
-          <p>
-            Neem een kijkje in onze projecten en beleef het meet van begin tot
-            einde. Wij zorgen voor een vernieuwde uitstraling om jouw omgeving
-            een warmer en sfeervoller gevoel te geven.
-          </p>
-        </div>
+      <div className="introduction">
+        <div className="container">
+          <Title id="black">Recente projecten</Title>
+          <div className="intro">
+            <h2>Ontdek ons vakmanschap</h2>
+            <p>
+              Neem een kijkje in onze projecten en beleef het meet van begin tot
+              einde. Wij zorgen voor een vernieuwde uitstraling om jouw omgeving
+              een warmer en sfeervoller gevoel te geven.
+            </p>
+          </div>
+        </div>        
       </div>
+
       <div className="objects">
         <div className="container">
           <div className="items">
