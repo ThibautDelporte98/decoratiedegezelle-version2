@@ -82,6 +82,13 @@ function Nav() {
     );
   };
 
+  const instagramUsername = "decoratie_degezelle";
+
+  const openInstagramApp = () => {
+    window.open(`instagram://user?username=${instagramUsername}`, "_self");
+  };
+
+
   return (
     <div className="nav position">
       <div className="container">
@@ -127,9 +134,9 @@ function Nav() {
             <div className="navTop-item d-flex">
               <Link
                 className="socialLink"
-                to="https://www.facebook.com/profile.php?id=100090360757782"
+                to="https://www.instagram.com/decoratie_degezelle/"
+                onClick={openInstagramApp}
                 aria-label="Bekijk meer over Decoratie Degezelle op Facebook!"
-                target="_blank"
                 style={{
                   fill: isHomepage ? "white" : "black",
                 }}
@@ -140,7 +147,7 @@ function Nav() {
               </Link>
               <Link
                 className="socialLink"
-                to="https://www.instagram.com/decoratie_degezelle/"
+                to="https://www.facebook.com/profile.php?id=100090360757782"
                 aria-label="Bekijk meer over Decoratie Degezelle op Instagram!"
                 target="_blank"
                 style={{
@@ -273,7 +280,7 @@ function Nav() {
                       };
                     }}
                   >
-                    Vrijblijvende offerte
+                      Contact
                   </NavLink>
                 </li>
               </ul>

@@ -10,7 +10,7 @@ const ContactInfo = ({ items}) => {
           <h2>Onze gegevens:</h2>
           <ul className="block-list">
             {items.map((item, index) => (
-              <Link className="block-link" to={item.link} key={index} target="_blank">
+              <Link className="block-link" to={item.link} key={index} >
                 <img src={item.icon} alt={item.title} />
                 <li className="block-item">{item.text}</li>
               </Link>

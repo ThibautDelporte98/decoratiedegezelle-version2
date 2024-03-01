@@ -49,7 +49,7 @@ const References = ({ items }) => {
                 key={index}
               >
                 <div className="item-project z-index-3">
-                  <Link className="item-project-link" to={`/realisatie/${item.url}`} onClick={handleNavLinkClick} >
+                  <Link className="item-project-link" to={`/realisaties/${item.url}`} onClick={handleNavLinkClick} >
                     <div className="item-project-image">
                       <div className="item-project-location">
                         {item.city}

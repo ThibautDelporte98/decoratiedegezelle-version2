@@ -50,7 +50,7 @@ function Footer() {
   const instagramUsername = "decoratie_degezelle";
 
   const openInstagramApp = () => {
-    window.open(`instagram://user?username=${instagramUsername}`, "_blank");
+    window.open(`instagram://user?username=${instagramUsername}`, "_self");
   };
 
   return (
@@ -108,7 +108,7 @@ function Footer() {
                 <h3>Contacteer ons!</h3>
                 <ul>
                   <li className="data-item">
-                    <Link className="d-flex" to={"/"}>
+                    <Link className="d-flex" to={"tel:+32478366070"}>
                       <span className="icon">
                         <img src={phone} alt={phone} />
                       </span>
@@ -116,7 +116,7 @@ function Footer() {
                     </Link>
                   </li>
                   <li className="data-item">
-                    <Link className="d-flex" to={"/"}>
+                    <Link className="d-flex" to={"mailto:info@decoratiedegezelle.be"}>
                       <span className="icon">
                         <img src={emailI} alt={emailI} />
                       </span>
@@ -126,8 +126,7 @@ function Footer() {
                     </Link>
                   </li>
                   <li className="data-item">
-                    <Link className="d-flex" to={"/"}>
-                      {" "}
+                    <Link className="d-flex" to={"https://maps.app.goo.gl/AJmUJCUKMdJTrzQ17"} target="_blank" >
                       <span>
                         <img src={adress} alt={adress} />
                       </span>
@@ -155,12 +154,12 @@ function Footer() {
                 <h3>Volg ons op:</h3>
                 <ul className="d-flex">
                   <li className="data-item data-item-start">
-                    <Link to={"/"}>
+                    <Link to={"https://www.facebook.com/profile.php?id=100090360757782"} target="_blank">
                       <img src={facebook} alt="facebook" />
                     </Link>
                   </li>
                   <li className="data-item">
-                    <Link to={"/"}>
+                    <Link to={"https://www.instagram.com/decoratie_degezelle/"} onClick={openInstagramApp}>
                       <img src={instagram} alt="facebook" />
                     </Link>
                   </li>

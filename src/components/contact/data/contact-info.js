@@ -28,7 +28,7 @@ const data = [
         title: "address",
         text: "Kouterstraat 42 | Harelbeke",
         icon: adress,
-        link: "https://www.google.com/maps/place/Kouterstraat+42,+8530+Harelbeke/@50.8491017,3.3105846,17z/data=!3m1!4b1!4m6!3m5!1s0x47c33b85bbda4913:0x4840866eeb66375e!8m2!3d50.8491017!4d3.3105846!16s%2Fg%2F11jygrp3z5?entry=ttu",
+        link: "https://maps.app.goo.gl/AJmUJCUKMdJTrzQ17",
       },
       {
         id: 4,
@@ -49,6 +49,8 @@ function generateLink(item) {
       return `tel:${item.text.replace(/\s/g, "")}`;
     case "email":
       return `mailto:${item.text}`;
+    case "address":
+      return `${item.link}`;
     default:
       // If the link is empty, copy the text to the clipboard
       const linkToCopy = item.link || item.text || "";

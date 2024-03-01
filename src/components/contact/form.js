@@ -110,6 +110,10 @@ function Form() {
         setSubject("");
         setTel("");
         setMessage("");
+        window.scrollTo(
+          0,
+          1000 * parseFloat(getComputedStyle(document.documentElement).fontSize)
+        );
       } catch (error) {
         console.error("Fout bij het verzenden van het formulier:", error);
       } finally {
@@ -144,6 +148,16 @@ function Form() {
       document.body.style.overflow = "auto";
     };
   }, [showPopup]);
+
+
+  
+  const handleNavLinkClick = () => {
+    // Reset the scroll position to the top of the page
+    window.scrollTo(
+      0,
+      0 * parseFloat(getComputedStyle(document.documentElement).fontSize)
+    );
+  };
 
   return (
     <div className="col-12 col-lg-8">
@@ -231,7 +245,7 @@ function Form() {
             />
             <div className="c-form__checkboxTxt">
               Ik ga akkoord met de{" "}
-              <Link className="c-form__policyLink" to="/Policy">
+              <Link className="c-form__policyLink" to="/privacypolicy" onClick={handleNavLinkClick}>
                 Privacy policy
               </Link>
             </div>
@@ -253,6 +267,7 @@ function Form() {
             color={"white"}
             layout={"display-flex-start"}
             onClick={handleSubmit}
+            scrollToTop={false}
           >
             Verstuur
           </Button>
