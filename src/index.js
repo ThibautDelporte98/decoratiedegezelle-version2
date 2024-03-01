@@ -12,6 +12,7 @@ import Service from "./pages/dienst";
 import Realisation from "./pages/realisatie";
 import ConditionsPage from "./pages/algemene-voorwaarden";
 import PolicyPage from "./pages/privacybeleid";
+import NotFound from "./pages/NotFound";
 import reportWebVitals from "./reportWebVitals";
 
 const router = createBrowserRouter([
@@ -51,6 +52,11 @@ const router = createBrowserRouter([
     path: "/algemene-voorwaarden",
     element: <ConditionsPage />,
   },
+  {
+    path: "*",
+    element: <NotFound />,
+  },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

@@ -1,0 +1,53 @@
+@import "../variables.scss";
+.pnf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    &-head{
+        width: 50%;
+        text-align: center;
+        @media screen and (max-width: 992px) {
+            width: 100%;
+        }
+        h1{
+            text-transform: uppercase;
+        }
+    }
+    &-links{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
+        a{
+            padding: .5rem 0;
+            text-decoration: none;
+            color: $color-primairy;
+            &:hover {
+                color: #caa35c;
+                transition: all 0.25s ease-in;
+                &::after {
+                  width: 100%;
+                }
+              }
+              &::after {
+                content: "";
+                position: absolute;
+                width: 0;
+                height: 2.5rem;
+                bottom: 0;
+                left: 0;
+                background-color: #caa35c;
+                transform-origin: bottom right;
+                transition: width 0.25s ease-in;
+                z-index: -1;
+              }
+
+        }
+    }
+}
