@@ -41,9 +41,9 @@ body {
 //   background: #555 !important;
 // }
 
-// ::selection {ffe
-//   background-color: $color-accent;
-// }
+::selection {
+  background-color: $color-accent;
+}
 
 .container-xl {
   max-width: 1320px !important;
