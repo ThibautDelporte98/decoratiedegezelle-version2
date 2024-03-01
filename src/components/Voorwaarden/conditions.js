@@ -7,9 +7,6 @@ function Conditions() {
     <div className="Policy">
       <div className="container">
         <div className="Content">
-          <div className="head">
-            <br></br>
-          </div>
           <div className="policy">
             <h2>1.</h2>
             <p>

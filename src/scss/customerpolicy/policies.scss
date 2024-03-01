@@ -2,5 +2,13 @@
 
 
 .Policy{
+    padding: 5rem 0;
     background-color: $color-primairy;
+    .head{
+        padding: 0 0 5rem 0;
+    }
+    ul{
+        font-size: .9rem;
+        font-weight: 300;
+    }
 }

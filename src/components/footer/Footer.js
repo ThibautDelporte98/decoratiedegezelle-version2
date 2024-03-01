@@ -137,7 +137,7 @@ function Footer() {
                     </Link>
                   </li>
                   <CopyToClipboard text={textToCopy} onCopy={onCopyHandler}>
-                    <li className="data-item d-flex" style={{ cursor: 'pointer' }} title="Kopieer BTW-nummer">
+                    <li className="data-item d-flex" style={{ cursor: 'pointer' }} title="BTW-nummer kopieren">
                         <span>
                           <img src={btw} alt={btw} />
                         </span>
@@ -175,10 +175,10 @@ function Footer() {
               <div className="conditions">
                 <ul>
                   <li className="conditions-item">
-                    <Link to={'/algemene-voorwaarden'}>Algemene voorwaarden</Link>
+                    <Link to={'/algemene-voorwaarden'} onClick={handleNavLinkClick} >Algemene voorwaarden</Link>
                   </li>
                   <li className="conditions-item">
-                    <Link to={'/privacypolicy'}>Privacy policy</Link>
+                    <Link to={'/privacypolicy'} onClick={handleNavLinkClick}>Privacy policy</Link>
                   </li>
                   <li className="conditions-item">
                     <Link to={'https://www.boss.be/'} target="_blank" >Products by Bosspaint</Link>
