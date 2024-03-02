@@ -1,5 +1,4 @@
 import React from "react";
-import Title from "../title/title";
 import "../../scss/services/overview-detail-steps.scss";
 
 const WayOfWork = ({ items }) => {
@@ -10,8 +9,8 @@ const WayOfWork = ({ items }) => {
           <div className="row">
             {items.map((item, index) => {
               return (
-                <div className="col-12">
-                  <li className="wayofwork-item" key={index}>
+                <div className="col-12" key={index}>
+                  <li className="wayofwork-item">
                     <div className="number">
                       <span className="number-symbol">{item.id}</span>
                     </div>

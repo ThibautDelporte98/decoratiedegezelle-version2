@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Breadcrumb from "../breadcrumb/breadcrumb";
 import "../../scss/page-title/header.scss";
 
-function Header({ title, text, height, image, showImage, showGoBack }) {
+function Header({ title, text, height, image, showImage}) {
   const navigate = useNavigate();
 
   const goBack = () => {
@@ -58,12 +58,11 @@ function Header({ title, text, height, image, showImage, showGoBack }) {
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
-  height: PropTypes.string,
+  text: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+  height: PropTypes.number,
   heightState: PropTypes.bool,
   image: PropTypes.string,
   showImage: PropTypes.bool,
-  showGoBack: PropTypes.bool,
 };
 
 export default Header;

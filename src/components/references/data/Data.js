@@ -675,7 +675,7 @@ const References = [
       ],
       product: [
         {
-          id: 1,
+          id: 2,
           title: "Bescherming",
           showProduct: true,
           productImage: Elasto,
@@ -684,11 +684,13 @@ const References = [
         },
       ],
 
-      goalChoice: {
+      goalChoice: [
+        {
+        id:3,
         title: "Doel van keuze",
         text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
         showGoalChoice: true,
-      },
+      }],
     },
     review: [
       {

@@ -149,8 +149,8 @@ const ServiceOverview = ({ items }) => {
                       <Button
                         to={"./diensten"}
                         color={"white"}
-                        onClick={handleNavLinkClick}
-                        layout={"display-flex-end"}
+                        onClick={""}
+                        layout={"end"}
                       >
                         Overzicht diensten
                       </Button>

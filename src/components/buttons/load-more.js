@@ -26,7 +26,7 @@ loadMore.propTypes = {
   text: PropTypes.string,  
   color: PropTypes.string,
   bgColor: PropTypes.string,
-  onClick: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 loadMore.defaultProps = {

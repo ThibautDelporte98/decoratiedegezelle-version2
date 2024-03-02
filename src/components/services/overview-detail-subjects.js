@@ -6,12 +6,9 @@ import "../../scss/services/overview-detail-subjects.scss";
 const ServiceSubject = ({ items }) => {
   const { url } = useParams();
 
-  // Find the corresponding service based on the ID
   const service = items.find((item) => item.url === url);
 
   const link = items.find((item) => item.url === url);
-
-  console.log(link);
 
   return (
     <div className="subjects">
@@ -33,9 +30,10 @@ const ServiceSubject = ({ items }) => {
                         <Button
                           to={`/realisaties?category=${link.url}`}
                           color={"white"}
-                          layout={"display-flex-center"}
+                          layout={"default"}
+                          onClick={""}
                         >
-                          Bekijk realisaties 
+                          Bekijk realisaties
                         </Button>
                       </div>
                       <img src={item.image} alt={item.image} />

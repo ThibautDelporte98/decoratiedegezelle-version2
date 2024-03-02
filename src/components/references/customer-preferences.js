@@ -29,12 +29,12 @@ const CustomerPreferences = ({ items }) => {
                 {realisation && realisation.preferences && (
                   <>
                     {/* Render color preference */}
-                    {realisation.preferences.color && realisation.preferences.color.map((product) => (
+                    {realisation.preferences.color && realisation.preferences.color.map((product, index) => (
                       <Preferences
                         color={product.color}
                         colorName={product.colorName}
                         colorInfo={product.colorInfo}
-
+                        key={index}
                         showColor={product.showColor}
                       />
 

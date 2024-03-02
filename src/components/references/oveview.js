@@ -29,11 +29,9 @@ const ReferencesItems = ({ items }) => {
   const handleOptionSelect = (e) => {
     const selectedValue = e.target.value;
 
-    // Update the URL with the selected category
     navigate(`?categorie=${selectedValue}`);
 
     setSelectedCategory(selectedValue);
-
 
     window.scrollTo({
       top: 500,
@@ -42,7 +40,6 @@ const ReferencesItems = ({ items }) => {
   };
 
   const handleNavLinkClick = () => {
-    // Reset the scroll position to the top of the page
     window.scrollTo(
       0,
       0 * parseFloat(getComputedStyle(document.documentElement).fontSize)
@@ -54,7 +51,9 @@ const ReferencesItems = ({ items }) => {
   };
 
   const filteredItems = items.filter((item) =>
-    selectedCategory === "Alle items" ? true : item.category === selectedCategory
+    selectedCategory === "Alle items"
+      ? true
+      : item.category === selectedCategory
   );
 
   return (
@@ -78,7 +77,7 @@ const ReferencesItems = ({ items }) => {
               ))}
             </select>
           </div>
-        </div>        
+        </div>
       </div>
       <div className="Overview">
         <div className="container">
@@ -89,8 +88,8 @@ const ReferencesItems = ({ items }) => {
                   Er zijn nog geen realisaties beschikbaar voor deze categorie.
                 </h2>
                 <p>
-                  Door onze digitale opstart en niet de mogelijkheid te hebben om
-                  op elke werf beeld en video materiaal te verzamelen is het
+                  Door onze digitale opstart en niet de mogelijkheid te hebben
+                  om op elke werf beeld en video materiaal te verzamelen is het
                   mogelijk dat hier nog geen realisaties te zien zijn.
                 </p>
               </div>
@@ -156,14 +155,19 @@ const ReferencesItems = ({ items }) => {
                   </Masonry>
                 </ResponsiveMasonry>
                 {visibleItems < filteredItems.length && (
-                      <LoadMoreButton text="meer realisaties" color="black" bgColor="white" bgborder="black" onClick={loadMore} />
+                  <LoadMoreButton
+                    text="meer realisaties"
+                    color="black"
+                    bgColor="white"
+                    bgborder="black"
+                    onClick={loadMore}
+                  />
                 )}
               </>
             )}
           </div>
-        </div>        
+        </div>
       </div>
-
     </div>
   );
 };

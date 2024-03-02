@@ -41,11 +41,11 @@ function Button({ to, children, layout, color, bgborder, onClick, scrollToTop })
 }
 
 Button.propTypes = {
-  to: PropTypes.string.isRequired,
+  to: PropTypes.string,
   children: PropTypes.node.isRequired,
   color: PropTypes.string,
-  layout: PropTypes.oneOf(["default", "end"]),
-  onClick: PropTypes.string,
+  layout: PropTypes.oneOf(["default", "display-flex-start" , "end"]),
+  onClick: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
   scrollToTop: PropTypes.bool,
 
 };
@@ -53,8 +53,8 @@ Button.propTypes = {
 Button.defaultProps = {
   layout: "default",
   color: "#caa35c",
-  onClick: () => {}, // Default empty function
-  scrollToTop: true, // Default to scroll to top
+  onClick: () => {},
+  scrollToTop: true, 
 };
 
 export default Button;

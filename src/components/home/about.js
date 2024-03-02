@@ -35,6 +35,7 @@ function About() {
                   to={"./overons"}
                   color={"white"}
                   layout={"default"}
+                  onClick={""}
                 >
                   Over ons
                 </Button>

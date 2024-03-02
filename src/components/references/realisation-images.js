@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import "../../scss/references/realisation-images.scss"; // Create a CSS file for styling
+import "../../scss/references/realisation-images.scss";
 
 
 const Slider = ({items}) => {
@@ -8,7 +8,6 @@ const Slider = ({items}) => {
 
   const { url } = useParams();
 
-  // Find the corresponding service based on the ID
   const service = items.find((item) => item.url === url);
 
   const handlePrev = () => {

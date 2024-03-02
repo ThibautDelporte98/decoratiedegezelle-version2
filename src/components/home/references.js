@@ -64,8 +64,8 @@ const References = ({ items }) => {
                     <ul>
                       {item.techniques &&
                         item.techniques.map((tech, index) => (
-                          <li>
-                            <Link to={tech.url}  key={index} onClick={handleNavLinkClick} >
+                          <li key={index}>
+                            <Link to={tech.url} onClick={handleNavLinkClick} >
                               {tech.title}
                             </Link>
                           </li>

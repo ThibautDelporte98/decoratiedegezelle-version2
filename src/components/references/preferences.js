@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "../../scss/button/buttons.scss";
 
@@ -56,7 +55,7 @@ function Preferences({
 }
 
 Preferences.propTypes = {
-  titleProduct: PropTypes.node.isRequired,
+  titleProduct: PropTypes.node,
 
   //Color element
   color: PropTypes.string,
