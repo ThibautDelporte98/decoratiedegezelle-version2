@@ -1,27 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useMemo } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Button from "../buttons/button";
 import Title from "../title/title";
 import "../../scss/home/references.scss";
 
 const References = ({ items }) => {
-  const [randomItems, setRandomItems] = useState([]);
-
-  useEffect(() => {
-    // Willekeurige sortering van de items
+  const randomItems = useMemo(() => {
     const shuffledItems = [...items].sort(() => Math.random() - 0.5);
-
-    // Selecteer de eerste 3 items
-    const selectedItems = shuffledItems.slice(0, 3);
-
-    setRandomItems(selectedItems);
+    return shuffledItems.slice(0, 3);
   }, [items]);
 
   const handleNavLinkClick = () => {
-    window.scrollTo(
-      0,
-      0 * parseFloat(getComputedStyle(document.documentElement).fontSize)
-    );
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -37,7 +27,7 @@ const References = ({ items }) => {
               een warmer en sfeervoller gevoel te geven.
             </p>
           </div>
-        </div>        
+        </div>
       </div>
 
       <div className="objects">
@@ -49,12 +39,14 @@ const References = ({ items }) => {
                 key={index}
               >
                 <div className="item-project z-index-3">
-                  <Link className="item-project-link" to={`/realisaties/${item.url}`} onClick={handleNavLinkClick} >
+                  <Link
+                    className="item-project-link"
+                    to={`/realisaties/${item.url}`}
+                    onClick={handleNavLinkClick}
+                  >
                     <div className="item-project-image">
-                      <div className="item-project-location">
-                        {item.city}
-                        </div>
-                      <img src={item.image} />
+                      <div className="item-project-location">{item.city}</div>
+                      <img src={item.image} alt="realisatie" loading="lazy" />
                     </div>
                   </Link>
                   <div className="content">
@@ -65,7 +57,7 @@ const References = ({ items }) => {
                       {item.techniques &&
                         item.techniques.map((tech, index) => (
                           <li key={index}>
-                            <Link to={tech.url} onClick={handleNavLinkClick} >
+                            <Link to={tech.url} onClick={handleNavLinkClick}>
                               {tech.title}
                             </Link>
                           </li>

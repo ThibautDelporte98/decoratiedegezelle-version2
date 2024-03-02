@@ -14,17 +14,24 @@ const ServiceOverview = ({ items }) => {
   const [mouseHover, setMouseHover] = useState(null);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-
   const defaulItem = items.find((item) => item.id === 1);
 
-  const handleNavLinkClick = (id) => {
-    if(windowWidth >= 992){
+  useEffect(() => {
+    const handleWindowResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
 
-      window.scrollTo(
-        0,
-        0 * parseFloat(getComputedStyle(document.documentElement).fontSize)
-      );
-    }else{
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
+  const handleNavLinkClick = (id) => {
+    if (windowWidth >= 992) {
+      window.scrollTo(0, 0);
+    } else {
       setSelectService(id);
     }
   };
@@ -35,6 +42,42 @@ const ServiceOverview = ({ items }) => {
 
   const handleMouseLeave = () => {
     setMouseHover(null);
+  };
+
+  const renderServiceImage = () => {
+    const selectedImage =
+      windowWidth >= 992
+        ? mouseHover
+          ? (items.find((item) => item.id === mouseHover) || {}).image
+          : selectService === 1
+          ? defaulItem.image
+          : (items.find((item) => item.id === selectService) || {}).image
+        : selectService === 1
+        ? defaulItem.image
+        : (items.find((item) => item.id === selectService) || {}).image;
+
+    return (
+      <img
+        id="link-id"
+        className={`service-image ${
+          items.find((item) =>
+            item.id === mouseHover ? "fade-in" : "fade-out"
+          )
+        }`}
+        src={selectedImage}
+        alt={`Dienst ${
+          windowWidth >= 992
+            ? mouseHover
+              ? (items.find((item) => item.id === mouseHover) || {}).title
+              : selectService === 1
+              ? defaulItem.title
+              : ""
+            : selectService === 1
+            ? defaulItem.title
+            : (items.find((item) => item.id === selectService) || {}).title
+        }`}
+      />
+    );
   };
 
   return (
@@ -68,93 +111,54 @@ const ServiceOverview = ({ items }) => {
                 )}
               </div>
             )}
-            {defaulItem && (
-              <img
-                id="link-id"
-                className={`service-image ${items.find((item) =>
-                  item.id === mouseHover ? "fade-in" : "fade-out"
-                )}`}
-                src={
-                  windowWidth >= 992
-                    ? mouseHover
-                      ? (items.find((item) => item.id === mouseHover) || {})
-                          .image
-                      : selectService === 1
-                      ? defaulItem.image
-                      : (items.find((item) => item.id === selectService) || {})
-                          .image
-                    : 
-                    selectService === 1
-                    ? defaulItem.image
-                    : (items.find((item) => item.id === selectService) || {})
-                        .image
-                }
-                alt={`Dienst ${ 
-
-                  windowWidth >= 992 ?
-                  mouseHover
-                    ? (items.find((item) => item.id === mouseHover) || {}).title
-                    : selectService === 1
-                    ? defaulItem.title
-                    : "" 
-                    : 
-                    selectService === 1
-                    ? defaulItem.image
-                    : (items.find((item) => item.id === selectService) || {})
-                        .title
-                      }
-                `}
-              />
-            )}
+            {defaulItem && renderServiceImage()}
           </div>
           <div className="content-right">
             <div className="custom-container">
               <div className="row">
                 <div className="align-items">
-                    <div className="service-items">
-                      <ol className="service-list">
-                        {items.map((item, index) => (
-                          <Link
-                            className="service-link"
-                            key={index}
-                            to={`${
-                              windowWidth >= 992
-                                ? `/dienst/${item.url}`
-                                : ''
-                            }`}
-
-                            onClick={() => handleNavLinkClick(item.id)}
-                            onMouseEnter={() => handleMouseEnter(item.id)}
-                            onMouseLeave={handleMouseLeave}
-                          >
-                            <li className="service-list-item">
-                              {item.title} |
-                              <span className="service-list-item-subject">
-                                {item.subject}
-                              </span>
-                            </li>
-                          </Link>
-                        ))}
-                      </ol>
-                    </div>
+                  <div className="service-items">
+                    <ol className="service-list">
+                      {items.map((item, index) => (
+                        <Link
+                          className="service-link"
+                          key={index}
+                          to={`${
+                            windowWidth >= 992
+                              ? `/diensten/${item.url}`
+                              : ""
+                          }`}
+                          onClick={() => handleNavLinkClick(item.id)}
+                          onMouseEnter={() => handleMouseEnter(item.id)}
+                          onMouseLeave={handleMouseLeave}
+                        >
+                          <li className="service-list-item">
+                            {item.title} |
+                            <span className="service-list-item-subject">
+                              {item.subject}
+                            </span>
+                          </li>
+                        </Link>
+                      ))}
+                    </ol>
                   </div>
-                  <div className="col-12">
-                    <hr />
-                    <div className="service-cta">
-                      <p>
-                        Waarom genoegen nemen met gewoon, als het buitengewoon
-                        binnen handbereik is? Ontdek vandaag nog de artistieke
-                        mogelijkheden die ons schilderbedrijf te bieden heeft.
-                      </p>
-                      <Button
-                        to={"./diensten"}
-                        color={"white"}
-                        onClick={""}
-                        layout={"end"}
-                      >
-                        Overzicht diensten
-                      </Button>
-                    </div>
+                </div>
+                <div className="col-12">
+                  <hr />
+                  <div className="service-cta">
+                    <p>
+                      Waarom genoegen nemen met gewoon, als het buitengewoon
+                      binnen handbereik is? Ontdek vandaag nog de artistieke
+                      mogelijkheden die ons schilderbedrijf te bieden heeft.
+                    </p>
+                    <Button
+                      to={"./diensten"}
+                      color={"white"}
+                      onClick={""}
+                      layout={"end"}
+                    >
+                      Overzicht diensten
+                    </Button>
                   </div>
                 </div>
               </div>
@@ -162,6 +166,7 @@ const ServiceOverview = ({ items }) => {
           </div>
         </div>
       </div>
+    </div>
   );
 };
 

@@ -6,13 +6,17 @@ import "../../scss/home/about.scss";
 
 function About() {
 
+  
+  useEffect(() => {
+    scrollToSection();
+  }, []);
+
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
-
 
   return (
     <div className="About">
@@ -41,37 +45,41 @@ function About() {
                 </Button>
 
                 <div className="about-table ">
-                <h3 className="about-table-title">Ook op deze pagina:</h3>
-                <div className="list">
-                  <ul className="table-of-content">
-                    <li className="content-item">
-                      <Link onClick={() => scrollToSection("principals")}>
-                        Principes
-                      </Link>
-                    </li>
-                    <li className="content-item">
-                      <Link onClick={() => scrollToSection("service-overview")}>
-                        Dienst overzicht
-                      </Link>
-                    </li>
-                    <li className="content-item">
-                      <Link onClick={() => scrollToSection("recent-projects")}>
-                        Enkele projecten
-                      </Link>
-                    </li>
-                    <li className="content-item">
-                      <Link onClick={() => scrollToSection("testimonials")}>
-                        Klantbeoordelingen
-                      </Link>
-                    </li>
-                  </ul>
+                  <h3 className="about-table-title">Ook op deze pagina:</h3>
+                  <div className="list">
+                    <ul className="table-of-content">
+                      <li className="content-item">
+                        <Link onClick={() => scrollToSection("principals")}>
+                          Principes
+                        </Link>
+                      </li>
+                      <li className="content-item">
+                        <Link
+                          onClick={() => scrollToSection("service-overview")}
+                        >
+                          Dienst overzicht
+                        </Link>
+                      </li>
+                      <li className="content-item">
+                        <Link
+                          onClick={() => scrollToSection("recent-projects")}
+                        >
+                          Enkele projecten
+                        </Link>
+                      </li>
+                      <li className="content-item">
+                        <Link onClick={() => scrollToSection("testimonials")}>
+                          Klantbeoordelingen
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
               </div>
             </div>
             <div className="col-12 col-lg-6">
               <div className="about-item ">
-                <img src={Person} alt="" />
+                <img src={Person} alt="Over ons" loading="lazy" />
               </div>
             </div>
           </div>
