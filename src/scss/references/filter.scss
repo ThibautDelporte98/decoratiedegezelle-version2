@@ -32,6 +32,8 @@
         height: 2.5rem;
         color: $color-primairy;
         font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: .25rem;
         padding: .5rem 1rem;
         background-color: transparent;
         border-radius: .15rem;
@@ -42,6 +44,8 @@
         background-color: $color-secundairy;
         font-size: 1rem;
         font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: .25rem;
         margin-left: .5rem;
         border-bottom: 1px solid $color-primairy !important;
         padding: 0 0 0 .5rem;

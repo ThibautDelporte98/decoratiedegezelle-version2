@@ -2,7 +2,7 @@
 
 .values{
     background-color: $color-primairy;
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1024px) {
         background-color: $color-secundairy;
     }
 }
@@ -13,8 +13,12 @@
 }
 
 .value-item{
+    display: flex;
     position: relative;
     padding: 1.75rem;
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+    }
     h3{
         position: relative;
         display: flex;
@@ -40,7 +44,7 @@
             transform: rotate(-15deg);
         }
 
-        @media screen and (max-width: 992px) {
+        @media screen and (max-width: 1024px) {
             width: 100%;
             color: $color-primairy;
 
@@ -62,7 +66,7 @@
         font-size: $txt-size;
         color: $color-secundairy;
         z-index: 9;
-        @media screen and (max-width:992px) {
+        @media screen and (max-width:1024px) {
             width: 100%;
             text-align: center;
             color: $color-primairy;
@@ -70,7 +74,7 @@
         &::before{
             content: '"';
             position: absolute;
-            @media screen and (max-width:992px) {
+            @media screen and (max-width:1024px) {
                 font-size:7.5rem;
                 font-weight: bold;
                 color: $color-accent;

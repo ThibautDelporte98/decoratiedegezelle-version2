@@ -42,8 +42,8 @@ const Values = ({ items }) => {
   return (
     <div className="values" id="principals">
       <div className="container">
-        <Title color={windowWidth <= 992 ? "white" : "black"} >Principes</Title>
-          {windowWidth <= 992 && (
+        <Title color={windowWidth <= 1024.5 ? "white" : "black"} >Principes</Title>
+          {windowWidth <= 1024.5 && (
                   items.map((item, index) => (
                     <div className="value-box" key={index} >
                       <div className="value-list">
@@ -60,11 +60,11 @@ const Values = ({ items }) => {
                     </div>
                   ))
           )}
-          {windowWidth >= 992 && (
+          {windowWidth >= 1024.5 && (
                   items.map((item, index) => (
                     <div className="value-box" key={index}>
                       <div className="value-list">
-                        <div className="value-item d-flex" >
+                        <div className="value-item" >
                           <h3>
                             {item.title}
                           </h3>

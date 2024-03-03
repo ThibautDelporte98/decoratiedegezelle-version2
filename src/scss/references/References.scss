@@ -76,6 +76,8 @@
     }
     &__subject{
         font-size: .85rem;
+        letter-spacing: .25rem;
+        text-transform: uppercase;
     }
     &__arrow{
         display: flex;

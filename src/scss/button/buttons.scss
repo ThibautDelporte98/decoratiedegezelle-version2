@@ -4,13 +4,14 @@
   width: 100%;
   color: $color-primairy;
   text-decoration: none;
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1024px) {
     justify-content: center;
   }
   &-link {
+    display: flex;
     width: auto;
     text-decoration: none;
-    @media screen and (max-width:992px) {
+    @media screen and (max-width:1024px) {
       width: 100%;
     }
   }
@@ -31,7 +32,7 @@
     background-size: 50.5% calc(var(--_p, 0%) / 2 + 0.5%);
     outline-offset: 0.1em;
     transition: background-size 0.4s, background-position 0s 0.4s, color 0.4s;
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1024px) {
       width: 100%;
     }
   }

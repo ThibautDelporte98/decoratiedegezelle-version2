@@ -30,7 +30,7 @@ const ServiceSubject = ({ items }) => {
                         <Button
                           to={`/realisaties?category=${link.url}`}
                           color={"white"}
-                          layout={"default"}
+                          layout={"display-flex-center"}
                           onClick={""}
                         >
                           Bekijk realisaties

@@ -44,7 +44,7 @@ Button.propTypes = {
   to: PropTypes.string,
   children: PropTypes.node.isRequired,
   color: PropTypes.string,
-  layout: PropTypes.oneOf(["default", "display-flex-start" , "end"]),
+  layout: PropTypes.oneOf(["default", "display-flex-center" , "display-flex-end"]),
   onClick: PropTypes.oneOfType([PropTypes.func, PropTypes.string]),
   scrollToTop: PropTypes.bool,
 

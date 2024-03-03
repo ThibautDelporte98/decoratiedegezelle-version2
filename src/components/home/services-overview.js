@@ -4,7 +4,6 @@ import { animateScroll as scroll } from "react-scroll";
 import Title from "../title/title";
 import Button from "../buttons/button";
 import "../../scss/home/services-overview.scss";
-import image from "../../images/carouselImages/home/A1.webp";
 
 const ServiceOverview = ({ items }) => {
   const location = useLocation();
@@ -29,7 +28,7 @@ const ServiceOverview = ({ items }) => {
   }, []);
 
   const handleNavLinkClick = (id) => {
-    if (windowWidth >= 992) {
+    if (windowWidth >= 1024) {
       window.scrollTo(0, 0);
     } else {
       setSelectService(id);
@@ -46,7 +45,7 @@ const ServiceOverview = ({ items }) => {
 
   const renderServiceImage = () => {
     const selectedImage =
-      windowWidth >= 992
+      windowWidth >= 1024
         ? mouseHover
           ? (items.find((item) => item.id === mouseHover) || {}).image
           : selectService === 1
@@ -59,14 +58,12 @@ const ServiceOverview = ({ items }) => {
     return (
       <img
         id="link-id"
-        className={`service-image ${
-          items.find((item) =>
-            item.id === mouseHover ? "fade-in" : "fade-out"
-          )
-        }`}
+        className={`service-image ${items.find((item) =>
+          item.id === mouseHover ? "fade-in" : "fade-out"
+        )}`}
         src={selectedImage}
         alt={`Dienst ${
-          windowWidth >= 992
+          windowWidth >= 1024
             ? mouseHover
               ? (items.find((item) => item.id === mouseHover) || {}).title
               : selectService === 1
@@ -90,8 +87,8 @@ const ServiceOverview = ({ items }) => {
           <div className="img-left">
             {defaulItem && (
               <div className="service-image-overlay">
-                {windowWidth >= 992 && (
-                  <h3>
+                {windowWidth >= 1024.5 && (
+                  <h3 styles={windowWidth >= 1024.5 ? "display:none" : ""}>
                     {mouseHover
                       ? (items.find((item) => item.id === mouseHover) || {})
                           .title
@@ -101,13 +98,26 @@ const ServiceOverview = ({ items }) => {
                           .title}
                   </h3>
                 )}
-                {windowWidth <= 992 && (
-                  <h3>
-                    {selectService === 1
-                      ? defaulItem.title
-                      : (items.find((item) => item.id === selectService) || {})
-                          .title}
-                  </h3>
+                {windowWidth <= 1024.5 && (
+                  <div>
+                    <h3>
+                      {selectService === 1
+                        ? defaulItem.title
+                        : (
+                            items.find((item) => item.id === selectService) ||
+                            {}
+                          ).title}
+                    </h3>
+                    <div>
+                        {" "}
+                        {selectService === 1
+                          ? defaulItem.subject
+                          : (
+                              items.find((item) => item.id === selectService) ||
+                              {}
+                            ).subject}{" "}
+                      </div>
+                  </div>
                 )}
               </div>
             )}
@@ -124,18 +134,16 @@ const ServiceOverview = ({ items }) => {
                           className="service-link"
                           key={index}
                           to={`${
-                            windowWidth >= 992
-                              ? `/diensten/${item.url}`
-                              : ""
+                            windowWidth >= 1024 ? `/diensten/${item.url}` : ""
                           }`}
                           onClick={() => handleNavLinkClick(item.id)}
                           onMouseEnter={() => handleMouseEnter(item.id)}
                           onMouseLeave={handleMouseLeave}
                         >
-                          <li className="service-list-item">
-                            {item.title} |
+                          <li className="service-list-item d-flex">
+                            <h3>{item.title} </h3>
                             <span className="service-list-item-subject">
-                              {item.subject}
+                              | {item.subject}
                             </span>
                           </li>
                         </Link>
@@ -155,7 +163,7 @@ const ServiceOverview = ({ items }) => {
                       to={"./diensten"}
                       color={"white"}
                       onClick={""}
-                      layout={"end"}
+                      layout={"display-flex-end"}
                     >
                       Overzicht diensten
                     </Button>

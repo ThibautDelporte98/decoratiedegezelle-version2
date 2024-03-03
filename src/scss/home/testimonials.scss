@@ -40,7 +40,7 @@
     justify-content:space-around;
     color: $color-primairy;
     font-weight: $font-weight-text;
-    @media screen and (max-width:992px) {
+    @media screen and (max-width:1024px) {
         width: 90%;
         height: 45rem;
     }
@@ -110,7 +110,7 @@
         p{
             position: relative;
             max-width: 75%;
-            @media screen and (max-width: 992px) {
+            @media screen and (max-width: 1024px) {
                 max-width: 90%;
                 display: -webkit-box;
                 -webkit-line-clamp: 7;
