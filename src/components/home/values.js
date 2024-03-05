@@ -42,7 +42,10 @@ const Values = ({ items }) => {
   return (
     <div className="values" id="principals">
       <div className="container">
-        <Title color={windowWidth <= 1024.5 ? "white" : "black"} >Principes</Title>
+        <Title
+          title="Principes" 
+          children="Waarden"
+          color={windowWidth <= 1024.5 ? "white" : "black"} />
           {windowWidth <= 1024.5 && (
                   items.map((item, index) => (
                     <div className="value-box" key={index} >

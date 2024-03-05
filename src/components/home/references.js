@@ -18,7 +18,11 @@ const References = ({ items }) => {
     <div className="references" id="recent-projects">
       <div className="introduction">
         <div className="container">
-          <Title id="black">Recente projecten</Title>
+        <Title 
+          title="Projecten"
+          children="Realisaties"
+          color={"black"}>
+      </Title>
           <div className="intro">
             <h2>Ontdek ons vakmanschap</h2>
             <p>

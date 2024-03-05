@@ -1,6 +1,7 @@
 @import "../variables.scss";
 
 .title{
+    position: relative;
     display: flex;
     justify-content: center;
     position: relative;
@@ -12,3 +13,22 @@
     }
 }
 
+.bg-title{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    // color:$color-accent;
+    width: 100%;
+    top: 0;
+    left: -10rem;
+    font-size: 7rem;
+    opacity: .1;
+    font-weight: 800;
+    @media screen and (max-width:576px) {
+        font-size: 3rem;
+        top: 4rem;
+        left: 0;
+    }
+}
+
+ 

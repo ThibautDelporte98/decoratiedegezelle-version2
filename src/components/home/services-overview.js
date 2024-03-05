@@ -79,8 +79,10 @@ const ServiceOverview = ({ items }) => {
 
   return (
     <div className="service" id="service-overview">
-      <Title bg={"black"} color={"white"}>
-        Dienst overzicht
+      <Title 
+        title="Dienst overzicht"
+        children="Aanbod"
+        color={"white"}>
       </Title>
       <div className="service-overview">
         <div className="d-flex flex-mobile">
