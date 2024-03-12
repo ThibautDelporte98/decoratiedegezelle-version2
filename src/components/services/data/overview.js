@@ -285,7 +285,7 @@ const Services = [
         category: "Decoratieve technieken",
         subject: "Decoratieve Technieken",
         title: "Aqua-Sensa (Voorbereiding Ardex 8 + 9 natte omgeving)",
-        subTitle: "Waarom Kiezen voor Aqua Sensa?",
+        subTitle: "Wat is Aqua Sensa?",
         customOrder: false,
 
         descriptions: [
@@ -294,28 +294,23 @@ const Services = [
         pros: [
           {
             id: 1,
-            title: "Waterbestendige Bescherming",
-            text: "Aqua-Sensa creëert een waterafstotende barrière, waardoor je wanden en oppervlakken beschermd worden tegen vocht en schimmelvorming.",
+            text: "naadloze en waterbestendige steenimitatie op basis van cement",
           },
           {
             id: 2,
-            title: "Esthetische Veelzijdigheid",
-            text: "Deze techniek biedt een breed scala aan decoratieve mogelijkheden, van moderne texturen tot klassieke afwerkingen, waardoor je de stijl van je ruimte naar wens kunt aanpassen.",
+            text: "voor wanden én vloeren",
           },
           {
             id: 3,
-            title: "Duurzame Oplossing",
-            text: "Aqua-Sensa is ontwikkeld voor langdurige prestaties, waardoor de decoratieve elementen bestand zijn tegen de uitdagingen van vochtige omgevingen en de tand des tijds doorstaan.",
+            text: "op pleisterwerk, cementering, betegeling en tal van andere ondergronden",
           },
           {
             id: 4,
-            title: "Gemakkelijke Reiniging en Onderhoud",
-            text: "De waterafstotende eigenschappen maken reiniging eenvoudig en verminderen de ophoping van vuil en zeepresten, waardoor je ruimte langer fris blijft.",
+            text: "bijzonder kras-en stootvast en uitstekend onderhoudbaar",
           },
           {
             id: 5,
-            title: "Voortreffelijke Toepassing",
-            text: "Aqua-Sensa kan worden toegepast op verschillende ondergronden, waaronder ARDEX 8 + 9, voor een naadloze integratie in natte omgevingen zoals badkamers en keukens.",
+            text: "Met Aqua Sensa Fine zeer zachte kleurnuances mogelijk",
           },
         ],
         image: Aqua2,
@@ -325,7 +320,7 @@ const Services = [
         category: "Decoratieve technieken",
         subject: "Decoratieve Technieken",
         title: "Calco",
-        subTitle: "Belangrijke kenmerken van Calco.",
+        subTitle: "Wat is Calco?",
         customOrder: true,
         descriptions: [
           "Ontdek de kunst van subtiliteit en elegantie, waarmee je een harmonieuze ambiance kunt creëren die de tand des tijds doorstaat. Laat je inspireren door de veelzijdigheid van Calco en geef je ruimte een uniek karakter.",
@@ -333,23 +328,19 @@ const Services = [
         pros: [
           {
             id: 1,
-            title: "Weerbestendige Bescherming",
-            text: "Kwalitatieve verf op de dakgoot fungeert als een beschermende laag tegen diverse weersomstandigheden, zoals regen, zon en vorst, waardoor corrosie en roestvorming worden voorkomen.",
+            text: "een stuctechniek op basis van fijne kalk en gemalen marmer",
           },
           {
             id: 2,
-            title: "Verlenging van Levensduur",
-            text: "Dakgootschilderen vertraagt het natuurlijke verouderingsproces van het materiaal, waardoor de levensduur van de dakgoot wordt verlengd en de noodzaak van frequente vervanging wordt verminderd.",
+            text: "poeder dat je kan mengen met water, bindpasta en kleurpigmenten tot een goed verwerkbare pleister            ",
           },
           {
             id: 3,
-            title: "Onderhoudsarm",
-            text: "Een geschilderde dakgoot is over het algemeen minder vatbaar voor ophoping van vuil, bladeren en ander afval, waardoor het onderhoud aanzienlijk wordt verminderd.",
+            text: "van een strakke betonlook over een zuiderse kalkstuc naar een verweerde structuur",
           },
           {
             id: 4,
-            title: "Esthetische Afwerking",
-            text: "Het schilderen van de dakgoot draagt bij aan de algemene uitstraling van je woning, waardoor het een verzorgde en aantrekkelijke uitstraling krijgt.",
+            text: "uitermate duurzaam en krasvast en uitstekend onderhoudbaar",
           },
         ],
         image: Calco2,
@@ -359,7 +350,7 @@ const Services = [
         category: "Decoratieve technieken",
         subject: "Decoratieve Technieken",
         title: "Tusk",
-        subTitle: "Voordelen van Tusk",
+        subTitle: "Wat is Tusk?",
         customOrder: true,
         descriptions: [
           "Tusk is een stuctechniek op basis van geslepen glasparels en blinkt uit in functionaliteit. Speciaal ontwikkeld voor publieke ruimtes, maar ook populair in woonhuizen. Want ook op esthetisch vlak heeft Tusk heel wat te bieden. De licht gekorrelde reliëfstructuur creëert een warme, aangename sfeer.",
@@ -367,28 +358,27 @@ const Services = [
         pros: [
           {
             id: 1,
-            title: "Abstracte Expressie",
-            text: "Tusk biedt decoratieve technieken die abstracte expressie omarmen, waardoor je de vrijheid hebt om kunstzinnige elementen in je interieur te introduceren.",
+            text: "sterke, stootvaste en superkrasvaste structuurafwerking",
           },
           {
             id: 2,
-            title: "Diepte en Dimensie",
-            text: "De technieken van Tusk creëren visuele diepte en dimensie, waardoor een boeiende en dynamische sfeer ontstaat in elke ruimte.",
+            text: "op basis van glasparels",
           },
           {
             id: 3,
-            title: "Flexibiliteit in Stijl",
-            text: "Of je nu houdt van een moderne, minimalistische look of een meer klassieke benadering prefereert, Tusk biedt technieken die zich flexibel aanpassen aan verschillende stijlen.",
+            text: "vlot afwasbare en naadloze wandbescherming",
           },
           {
             id: 4,
-            title: "Ambachtelijke Verfijning",
-            text: "Tusk legt de nadruk op ambachtelijke verfijning, waardoor elk oppervlak een kunstwerk wordt met aandacht voor detail en vakmanschap.",
+            text: "ideaal voor drukke ruimtes: school- of ziekenhuisgangen, wachtzalen, traphallen ...",
           },
           {
             id: 5,
-            title: "Durf en Creatieve Vrijheid",
-            text: "Met Tusk decoratieve technieken moedigen we creatieve vrijheid aan. Durf unieke ontwerpen te verkennen en geef je ruimte een persoonlijke touch.",
+            text: "alternatief voor stootbanden, vinylstroken of oplapwerk met verf",
+          },
+          {
+            id: 6,
+            text: "betaalbare oplossing",
           },
         ],
         image: Tusk2,
@@ -398,7 +388,7 @@ const Services = [
         category: "Decoratieve technieken",
         subject: "Decoratieve Technieken",
         title: "Claystuc",
-        subTitle: "Voordelen van Claystuc",
+        subTitle: "Wat is Claystuc?",
         customOrder: false,
         descriptions: [
           "Transformeer uw interieur tot een oase van rust en natuurlijke schoonheid met Claystuc, een natuurlijk gesteente dat uw woning omhult met een dikke, beschermende laag. Deze techniek speelt in op het gevoel van geborgenheid met zijn zachte reliëf en natuurlijke kleuren, waardoor elke ruimte een gezellige plek wordt. Bij Claystuc draait alles om veelzijdigheid; het kan op verschillende manieren bewerkt worden, waardoor uw creatieve visie tot leven komt.",
@@ -407,28 +397,21 @@ const Services = [
           {
             id: 1,
             title: "Organische Textuur",
-            text: "Claystuc creëert een organische textuur op oppervlakken, waardoor je interieur wordt verrijkt met een natuurlijke en aardse uitstraling.",
+            text: "een stuctechniek op basis van kleimineralen",
           },
           {
             id: 2,
-            title: "Warmte en Comfort:",
-            text: "De warme tinten en aardse kleuren van Claystuc brengen een gevoel van comfort en geborgenheid in elke ruimte, waardoor een harmonieuze ambiance ontstaat.",
+            text: "het A+-Indoor-Air-Quality-label verzekert je klant van een aangenaam binnenklimaat",
           },
           {
             id: 3,
-            title: "Ademend Materiaal",
-            text: "Als ademend materiaal reguleert Claystuc de vochtigheid in je ruimte, waardoor een gezond binnenklimaat wordt bevorderd.",
+            text: "het zachte reliëf van klei in natuurlijke kleuren dat op verschillende manieren bewerkt kan worden",
           },
           {
             id: 4,
-            title: "Veelzijdigheid in Ontwerp",
-            text: "Of je nu kiest voor een rustieke, landelijke uitstraling of een eigentijds design, Claystuc biedt veelzijdigheid in ontwerp om aan diverse stijlen te voldoen.",
+            text: "versterk het ambachtelijke karakter door vezels of steentjes aan de kleimassa toe te voegen",
           },
-          {
-            id: 5,
-            title: "Milieuvriendelijk en Duurzaam",
-            text: "Gemaakt van natuurlijke en milieuvriendelijke materialen, draagt Claystuc bij aan duurzaamheid en minimaliseert de impact op het milieu.",
-          },
+
         ],
         image: Clay2,
       },
@@ -478,7 +461,7 @@ const Services = [
         category: "Plamuurwerken",
         subject: "Plamuurwerken",
         title: "Plamuurwerken",
-        subTitle: "Waarom plamuren belangrijk is",
+        subTitle: "Het belang van gipsplaten plamuren",
         descriptions: [
           "Leg de basis voor een onberispelijk interieur met plamuurwerken, de essentiële stap voor een gladde en perfecte afwerking van je muren en oppervlakken. Ontdek de voordelen van deze verfijnde techniek die niet alleen zorgt voor visuele perfectie, maar ook de duurzaamheid van je interieur bevordert.",
         ],
@@ -486,28 +469,24 @@ const Services = [
           {
             id: 1,
             title: "Strakke en Egale Ondergrond",
-            text: "Plamuurwerken zorgen voor een strakke en egale ondergrond, waardoor de basis wordt gelegd voor een vlekkeloze verfaanbreng en decoratieve afwerkingen.",
+            text: "door plamuurwerken te laten uitvoeren, ben je zeker van de kwaliteit van het werk",
           },
           {
             id: 2,
             title: "Verbergen van Oneffenheden",
-            text: "Oneffenheden, scheuren en kleine beschadigingen worden met plamuurwerken deskundig weggewerkt, waardoor muren er als nieuw uitzien.",
+            text: "het geeft een eenvoudige verwerking",
           },
           {
             id: 3,
             title: "Verbeterde Hechting",
-            text: "Een goed uitgevoerde plamuurtechniek bevordert de hechting van verf en decoratieve afwerkingen, waardoor een langdurig en duurzaam resultaat wordt gegarandeerd.",
+            text: "snelle droogtijd",
           },
           {
             id: 4,
-            title: "Optimale Oppervlaktevoorbereiding",
-            text: "Plamuurwerken vormen een essentieel onderdeel van oppervlaktevoorbereiding, waardoor de verf gelijkmatig wordt verdeeld en de textuur van de muur wordt geoptimaliseerd.",
-          },
-          {
-            id: 5,
             title: "Professioneel Uiterlijk",
-            text: "Een met zorg uitgevoerde plamuurlaag geeft muren en oppervlakken een professioneel en verzorgd uiterlijk, waardoor je interieur naar een hoger niveau wordt getild.",
+            text: "af te werken met elke soort van verf",
           },
+
         ],
         image: Plamuurwerken2,
       },
@@ -516,35 +495,25 @@ const Services = [
         category: "Plamuurwerken",
         subject: "Plamuurwerken",
         title: "Plamuren van gipsplaten",
-        subTitle: "Waarom plamuren van gipsplaten belangrijk is",
+        subTitle: "Het belang van gipsplaten plamuren",
         descriptions: [
-          "Het plamuren van gipsplaten, een cruciale stap om een naadloze en professionele afwerking van je muren te realiseren. Ontdek de voordelen van deze gespecialiseerde techniek die niet alleen de schoonheid van gipsplaten benadrukt, maar ook duurzaamheid en visuele perfectie garandeert.",
+          "Het plamuren van gipsplaten, een cruciale stap om een naadloze en professionele afwerking van je muren te realiseren.",
         ],
         pros: [
           {
             id: 1,
             title: "Naadloze Integratie",
-            text: "Plamuren van gipsplaten zorgt voor een naadloze integratie van de platen, waardoor de overgangen tussen de verschillende secties van de muur onzichtbaar worden.",
+            text: "plamuren verwijst naar het opvullen van gaten of barsten in een muur, inclusief de voegen van gyproc platen",
           },
           {
             id: 2,
             title: "Oneffenheden Wegwerken",
-            text: "Oneffenheden, schroefgaten en naden in de gipsplaten worden vakkundig weggewerkt, resulterend in een gladde en strakke ondergrond.",
+            text: "het opvullen van gaten en voegen is cruciaal voordat je de muur afwerkt, omdat dit de hechting van verf bevordert",
           },
           {
             id: 3,
             title: "Optimale Hechting van Verf",
-            text: "De plamuurlaag op de gipsplaten zorgt voor een optimale hechting van verf, waardoor de uiteindelijke afwerking duurzaam en bestendig is.",
-          },
-          {
-            id: 4,
-            title: "Creëren van een Gelijkmatige Textuur",
-            text: "Plamuren helpt bij het creëren van een gelijkmatige textuur op gipsplaten, wat essentieel is voor een esthetisch aantrekkelijke uitstraling.",
-          },
-          {
-            id: 5,
-            title: "Professionele Afwerking",
-            text: "Het plamuren van gipsplaten geeft een professionele afwerking aan muren en oppervlakken, waardoor je interieur een hoogwaardige uitstraling krijgt.",
+            text: "plamuren wordt uitgevoerd met een vulmiddel of speciaal plamuursel, aangebracht met een plamuurmes",
           },
         ],
         image: Plamuurwerken,

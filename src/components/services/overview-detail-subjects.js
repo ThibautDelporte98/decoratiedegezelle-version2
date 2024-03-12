@@ -51,7 +51,6 @@ const ServiceSubject = ({ items }) => {
                               className="subjects-object-list--item "
                               key={pro.id}
                             >
-                              <h4>{pro.title}</h4>
                               <p>{pro.text}</p>
                             </li>
                           ))}
