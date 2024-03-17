@@ -22,9 +22,7 @@ function Service() {
       <Nav />
       <Header
         title={service.title}
-        text=" Wilt u uw interieur een frisse make-over geven? Ontdek dan ons uitgebreide aanbod voor binnenhuis schilderwerken 
-        Onze klassieke schildertechnieken bieden een breed scala aan mogelijkheden, variërend van het verfraaien van uw trap, plafonds, deuren tot het aanpakken van muren en meer. 
-        We staan klaar om alle opties met u door te nemen, zodat u weloverwogen de juiste keuzes kunt maken voor een vernieuwd en stijlvol interieur."
+        text={service.IntroTxt}
         image={service.image}
         showImage={true}
         showGoBack={true}

@@ -19,7 +19,7 @@ import Calco2 from "../../../images/Services/Decoratieve technieken/Calco/Calco2
 import Clay2 from "../../../images/Services/Decoratieve technieken/Clay/Claystuc2.webp";
 import Tusk2 from "../../../images/Services/Decoratieve technieken/Tusk/tusk2.webp";
 import Spuitwerk from "../../../images/Services/spuitwerk/spuitwerk.webp";
-import Spuitwerk2 from "../../../images/Services/spuitwerk/spuitwerk.webp";
+import Spuitwerk2 from "../../../images/Services/spuitwerk/spuitwerk2.webp";
 
 
 
@@ -643,8 +643,8 @@ const Services = [
     url: "spuitwerk",
     image: Spuitwerk,
     title: "Spuitwerk",
-    subject: "Gordijnen jaloezieën en meer",
-    IntroTxt: `Transformeer uw interieur met raamdecoratie! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de juiste stof & kleuren, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
+    subject: "snel, duurzaam & goedkoper",
+    IntroTxt: `Bent u op zoek naar een frisse look voor uw interieur? Of wilt u die ene saaie muur nieuw leven inblazen met wat kleur? Bij ons vindt u de perfecte oplossing. Ontdek alles over onze spuitwerkdiensten en hoe we elke ruimte in uw huis kunnen transformeren tot iets prachtigs.`,
    
     Services: [
       {
@@ -652,39 +652,34 @@ const Services = [
         customOrder: true,
         category: "Raamdecoratie",
         subject: "Raamdecoratie",
-        title: "Gordijnen, jaloezieën en meer",
-        subTitle: "Waarom Kiezen voor Elegante Raamdecoratie",
+        title: "Schilderen met spuitpistool",
+        subTitle: "Waarom u kiest voor spuitwerk",
         descriptions: [
-          "Breng de finishing touch aan in je interieur met elegante raamdecoratie, waaronder gordijnen, jaloezieën en meer. Deze essentiële elementen voegen niet alleen stijl toe aan je ruimte, maar bieden ook praktische voordelen zoals privacy, lichtregulering en een warme, uitnodigende sfeer. Ontdek de veelzijdigheid van raamdecoratie en transformeer je vensters in een visueel hoogtepunt.",
+          "Bij onze spuitwerkdiensten passen we een combinatie van hoge en lage druk toe, afhankelijk van de oppervlaktegrootte, om de verf gelijkmatig te verspreiden. Een nauwkeurige afplakprocedure is essentieel voorafgaand aan het spuitwerk, waarbij ramen, deuren, kozijnen en trappen zorgvuldig met plastic worden beschermd. Deze voorzorgsmaatregelen verminderen onze schoonmaakinspanningen en besparen zowel tijd als kosten.",
         ],
         pros: [
           {
             id: 1,
-            title: "Stijlvolle Esthetiek",
-            text: "Gordijnen, jaloezieën en andere raamdecoraties voegen een stijlvolle esthetiek toe aan je interieur, waardoor een verfijnde uitstraling ontstaat.",
+            text: "Het aanbrengen van verf met een spuitpistool is aanzienlijk sneller dan traditioneel schilderen met een roller of borstel.",
           },
           {
             id: 2,
-            title: "Privacy en Lichtregulering",
-            text: "Raamdecoratie biedt de mogelijkheid om de hoeveelheid natuurlijk licht te regelen en tegelijkertijd privacy te behouden, waardoor een gebalanceerde sfeer ontstaat.",
+            text: "Bovendien resulteert spuitwerk vaak in een fraaier eindresultaat. Het elimineert strepen, biedt een consistente afwerking en creëert een gelijkmatig oppervlak.",
           },
           {
             id: 3,
-            title: "Variatie in Ontwerp",
-            text: "Met een breed scala aan ontwerpen, texturen en kleuren biedt raamdecoratie talloze mogelijkheden om je persoonlijke stijl te uiten en je interieur aan te vullen.",
+            text: "De dekking van verf bij spuitwerk is superieur; doorgaans volstaat één laag. ",
           },
           {
             id: 4,
-            title: "Warmte en Comfort",
-            text: "Gordijnen voegen niet alleen visuele warmte toe, maar kunnen ook bijdragen aan het verbeteren van de akoestiek in de ruimte, waardoor een gezellige en comfortabele atmosfeer ontstaat.",
+            text: "Het spuiten van verf maakt het gemakkelijker om lastige hoeken en randen te bereiken vergeleken met het gebruik van een borstel of roller.",
           },
           {
             id: 5,
-            title: "Functionele Flexibiliteit",
-            text: "Of je nu kiest voor zware gordijnen voor totale verduistering of jaloezieën voor subtiele lichtinval, raamdecoratie biedt functionele flexibiliteit om aan verschillende behoeften te voldoen.",
+            text: "Moderne technologieën zorgen ervoor dat spuitwerk vrijwel nevelvrij kan worden uitgevoerd.",
           },
         ],
-        image: Raamdecoratie2,
+        image: Spuitwerk2,
       },
     ],
   },
