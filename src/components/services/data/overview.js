@@ -172,23 +172,18 @@ const Services = [
         pros: [
           {
             id: 1,
-            title: "Bescherming tegen Weersinvloeden",
-            text: "Hoogwaardige lak en verf beschermen het buitenhoutwerk tegen blootstelling aan zon, regen, sneeuw en wind, waardoor veroudering en verval worden verminderd.",
+            title: "Weerbestendige Bescherming",
+            text: "Het genieten van de mooie buitenkant van je huis.",
           },
           {
             id: 2,
-            title: "Onderhoud van Structuur",
-            text: "Door het schilderen van buitenhoutwerk behoud je de structurele integriteit van de gevel, ramen, deuren en andere elementen, wat essentieel is voor de levensduur van je huis.",
+            title: "Verlenging van Levensduur",
+            text: "Hout dat regelmatig wordt geschilderd gaat langer mee.",
           },
           {
             id: 3,
-            title: "Verbetering van Curb Appeal",
-            text: "Een frisse verflaag verbetert de esthetiek van je huis, waardoor de 'curb appeal' toeneemt en de waarde van je woning stijgt.",
-          },
-          {
-            id: 4,
-            title: "Aanpassing aan Architectuur:",
-            text: "De kleurkeuze en afwerking kunnen worden aangepast aan de architectuur van je huis, waardoor een harmonieuze uitstraling ontstaat die de stijl van de woning complementeert.",
+            title: "Onderhoudsarm",
+            text: "Het gebruik van goede lakverf voor buiten zorgt ervoor dat je 10 jaar lang niet hoeft te schilderen.",
           },
         ],
         image: ExDoor2,
@@ -207,28 +202,23 @@ const Services = [
         pros: [
           {
             id: 1,
-            title: "Bescherming tegen Weerselementen",
-            text: "Hoogwaardige verf vormt een beschermende barrière tegen regen, wind, UV-stralen en andere weersinvloeden, waardoor de gevel wordt beschermd tegen veroudering en schade.",
+            text: "De stijl van uw huis gemakkelijk veranderen.",
           },
           {
             id: 2,
-            title: "Structurele Integriteit Behouden",
-            text: "Het schilderen van de gevel draagt bij aan het behoud van de structurele integriteit van je huis, waardoor potentiële problemen zoals scheuren en afbladderen worden voorkomen.",
+            text: "Oneffenheden wegwerken.",
           },
           {
             id: 3,
-            title: "Esthetische Transformatie",
-            text: "Een nieuwe verflaag kan de uitstraling van je woning volledig transformeren, waardoor het een eigentijdse en aantrekkelijke look krijgt die bij je stijl past.",
+            text: "U verlengt de levensduur van uw gevel en kozijnen.",
           },
           {
             id: 4,
-            title: "Weerstand tegen Schimmel en Vocht",
-            text: "Kwalitatieve verf beschermt tegen vochtindringing en schimmelgroei, wat essentieel is om de binnenmuren droog en gezond te houden.",
+            text: "Eventueel te combineren met isolatie.",
           },
           {
             id: 5,
-            title: "Verhoogde Waarde van het Vastgoed",
-            text: "Een goed onderhouden exterieurgevel draagt bij aan de algehele waarde van je woning, waardoor het aantrekkelijker wordt voor potentiële kopers.",
+            text: "Garantie op de kleurechtheid van uw huis.",
           },
         ],
         image: Gevel1,
@@ -248,23 +238,19 @@ const Services = [
           {
             id: 1,
             title: "Weerbestendige Bescherming",
-            text: "Kwalitatieve verf op de dakgoot fungeert als een beschermende laag tegen diverse weersomstandigheden, zoals regen, zon en vorst, waardoor corrosie en roestvorming worden voorkomen.",
+            text: "Het reinigen van dakgoten zorgt ervoor dat je dakgoten en je woning er weer netjes en verzorgd uitzien.",
           },
           {
             id: 2,
             title: "Verlenging van Levensduur",
-            text: "Dakgootschilderen vertraagt het natuurlijke verouderingsproces van het materiaal, waardoor de levensduur van de dakgoot wordt verlengd en de noodzaak van frequente vervanging wordt verminderd.",
+            text: "Het verbeteren van de kwaliteit van de dakgoten en het voorkomen van lekkages",
           },
           {
             id: 3,
             title: "Onderhoudsarm",
-            text: "Een geschilderde dakgoot is over het algemeen minder vatbaar voor ophoping van vuil, bladeren en ander afval, waardoor het onderhoud aanzienlijk wordt verminderd.",
+            text: "Het is een belangrijk onderdeel van het onderhoud aan dakgoten.",
           },
-          {
-            id: 4,
-            title: "Esthetische Afwerking",
-            text: "Het schilderen van de dakgoot draagt bij aan de algemene uitstraling van je woning, waardoor het een verzorgde en aantrekkelijke uitstraling krijgt.",
-          },
+
         ],
         
         image: ExDakgoot2,
