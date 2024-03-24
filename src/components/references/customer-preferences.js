@@ -18,8 +18,7 @@ const CustomerPreferences = ({ items }) => {
               <div className="preferences-request">
                 <h2>De keuze van de klant</h2>
                 <p>
-                  De klant maakte een weloverwogen keuze voor de voordeur,
-                  waarbij de focus lag op tijdloze elegantie en duurzaamheid.
+                 {realisation.preferences.customer}
                 </p>
                 <p>Hier zijn de details van de gekozen specificaties:</p>
               </div>

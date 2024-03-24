@@ -262,7 +262,7 @@ const Services = [
     url: "decoratieve-technieken",
     image: AquaSensa,
     title: "Decoratieve technieken",
-    subject: "aqae sensa, calco, tusk & claystuc",
+    subject: "aqua sensa, calco, tusk & claystuc",
     IntroTxt: `Transformeer uw interieur met onze decoratieve technieken! Een prachtige manier om de uitstraling van uw huis te verfraaien en te versterken. Een deskundige vakman staat klaar om u te adviseren bij het selecteren van de perfecte kleuren en afwerkingen, terwijl u kunt rekenen op een snelle en efficiënte uitvoering zonder onnodige hinder.`,
    
     Services: [
@@ -270,7 +270,7 @@ const Services = [
         id: 1,
         category: "Decoratieve technieken",
         subject: "Decoratieve Technieken",
-        title: "Aqua-Sensa (Voorbereiding Ardex 8 + 9 natte omgeving)",
+        title: "Aqua-Sensa",
         subTitle: "Wat is Aqua Sensa?",
         customOrder: false,
 
@@ -597,7 +597,7 @@ const Services = [
           {
             id: 1,
             title: "Eenvoudige Toepassing",
-            text: "Vliesbehang staat bekend om zijn gemakkelijke toepassing. Met de juiste lijmtechniek is het aanbrengen een moeiteloos proces, zelfs voor doe-het-zelvers.",
+            text: "Deze techniek biedt een breed scala aan decoratieve mogelijkheden, van moderne texturen tot klassieke afwerkingen, waardoor je de stijl van je ruimte naar wens kunt aanpassen.",
           },
           {
             id: 2,
@@ -613,11 +613,6 @@ const Services = [
             id: 4,
             title: "Variatie in Stijl en Patroon",
             text: "Vliesbehang is beschikbaar in een breed scala aan stijlen, patronen en texturen, waardoor je eindeloos kunt variëren en je persoonlijke smaak kunt uiten.",
-          },
-          {
-            id: 5,
-            title: "Makkelijk Verwijderbaar",
-            text: "Bij renovaties of verandering van smaak is vliesbehang gemakkelijk te verwijderen zonder de muur te beschadigen, waardoor het een flexibele keuze is.",
           },
         ],
         image: behangen3,

@@ -55,6 +55,13 @@ import Kortrijk6 from "../../../images/References/Interieur/Kortrijk-FrituurNatu
 import Kortrijk7 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A7.webp";
 //Interier Harelbeke Aqua sensa
 import HarelbekeAS2 from "../../../images/References/Decoratieve technieken/AS2.webp";
+import HarelbekeAS3 from "../../../images/References/Decoratieve technieken/harelbeke-aquasensa.webp";
+
+//Exterieur Harlbeke
+import ExHarelbeke from "../../../images/References/Exterieur/Harelbeke/AE1.webp";
+import ExHarelbeke2 from "../../../images/References/Exterieur/Harelbeke/AE2.webp";
+import ExHarelbeke3 from "../../../images/References/Exterieur/Harelbeke/AE3.webp";
+
 //Onbekend Exterieur
 import OnbekendExterieur from "../../../images/References/Exterieur/Onbekend/onbekend.webp";
 import OnbekendExterieur2 from "../../../images/References/Exterieur/Onbekend/A1.webp";
@@ -101,7 +108,11 @@ import MarkeIn9 from "../../../images/References/Interieur/Marke/A9.webp";
 import MarkeBe from "../../../images/References/Behangen/Marke/A1.webp";
 import MarkeBe2 from "../../../images/References/Behangen/Marke/A2.webp";
 import Elasto from "../../../images/References/Exterieur/Komen-waasten/elasto.png";
-
+import Matineau from "../../../images/References/Exterieur/Harelbeke/matineau.webp";
+import BossflowSilk from "../../../images/References/Interieur/Wevelgem/silk.webp";
+import PlafondMat from "../../../images/References/Interieur/Wevelgem/plafondmat.webp";
+import Claystuc from "../../../images/References/Interieur/Gullegem/claystuc.webp"
+import BossFlowMat from "../../../images/References/products/bossflowmat.webp";
 const References = [
   {
     id: 1,
@@ -113,6 +124,9 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Schilderen voordeur",
+    introText: "test",
+    introText: "test",
+
     techniques: [
       {
         id: 1,
@@ -126,6 +140,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "test",
       color: [
         {
           id: 1,
@@ -162,7 +177,6 @@ const References = [
     ],
 
     images: [
-
       {
         id: 1,
         image: after1,
@@ -216,6 +230,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "De klant heeft muren met Bossflow Silk en het plafond met Boss Planfond Mat geschilderd voor een harmonieuze uitstraling. Geschikt materiaal en overweging van omgevingscondities zijn cruciaal voor een optimaal resultaat.",
       color: [
         {
           id: 1,
@@ -229,18 +244,26 @@ const References = [
       product: [
         {
           id: 1,
-          title: "Bescherming",
+          title: "Afwerking",
           showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+          productImage: BossflowSilk,
+          productName: "Bossflow Silk",
+          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
+        },
+        {
+          id: 2,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: PlafondMat,
+          productName: "Boss Planfond Mat",
+          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
         },
       ],
 
       goalChoice: {
         title: "Doel van keuze",
         text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
+        showGoalChoice: false,
       },
     },
     review: [
@@ -253,55 +276,15 @@ const References = [
     images: [
       {
         id: 1,
-        image: before,
+        image: Bissegem,
       },
       {
         id: 2,
-        image: before1,
+        image: Bissegem2,
       },
       {
         id: 3,
-        image: before2,
-      },
-      {
-        id: 4,
-        image: before3,
-      },
-      {
-        id: 5,
-        image: before4,
-      },
-      {
-        id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
+        image: Bissegem3,
       },
     ],
   },
@@ -314,7 +297,9 @@ const References = [
     city: "Gullegem",
     height: 30,
     defaultHeight: 25,
-    title: "Etalage in Gullegem",
+    title: "Kledingzaak in Gullegem",
+    introText: "test",
+
     techniques: [
       {
         id: 1,
@@ -328,6 +313,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "test",
       color: [
         {
           id: 1,
@@ -341,11 +327,11 @@ const References = [
       product: [
         {
           id: 1,
-          title: "Bescherming",
+          title: "Afwerking",
           showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+          productImage: Claystuc,
+          productName: "Claystuc",
+          productInfo: "Decoratieve stuctechniek op basis van klei en minerale additieven.",
         },
       ],
 
@@ -365,55 +351,39 @@ const References = [
     images: [
       {
         id: 1,
-        image: before,
+        image: Gullegem,
       },
       {
         id: 2,
-        image: before1,
+        image: Gullegem2,
       },
       {
         id: 3,
-        image: before2,
+        image: Gullegem3,
       },
       {
         id: 4,
-        image: before3,
+        image: Gullegem4,
       },
       {
         id: 5,
-        image: before4,
+        image: Gullegem5,
       },
       {
         id: 6,
-        image: before5,
+        image: Gullegem6,
       },
       {
         id: 7,
-        image: before6,
+        image: Gullegem7,
       },
       {
         id: 8,
-        image: after1,
+        image: Gullegem8,
       },
       {
         id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
+        image: Gullegem9,
       },
     ],
   },
@@ -427,6 +397,9 @@ const References = [
     height: 30,
     defaultHeight: 25,
     title: "Woning in Wevelgem",
+
+    introText: "In de wereld van huisdecoratie is het maken van de juiste keuzes essentieel om de gewenste sfeer en uitstraling te bereiken. Elke klant heeft zijn eigen unieke visie en voorkeuren bij het schilderen van hun huis, waarbij zowel esthetische als functionele aspecten een rol spelen.",
+
     techniques: [
       {
         id: 1,
@@ -440,6 +413,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "De klant heeft gekozen voor schilderen van muren met Bossflow Silk en het plafond met Boss Planfond Mat voor een harmonieuze uitstraling. Geschikt materiaal en overweging van omgevingscondities zijn cruciaal voor een optimaal resultaat.",
       color: [
         {
           id: 1,
@@ -453,19 +427,22 @@ const References = [
       product: [
         {
           id: 1,
-          title: "Bescherming",
+          title: "Afwerking",
           showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+          productImage: BossflowSilk,
+          productName: "Bossflow Silk",
+          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
+        },
+        {
+          id: 2,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: PlafondMat,
+          productName: "Boss Planfond Mat",
+          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
         },
       ],
 
-      goalChoice: {
-        title: "Doel van keuze",
-        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
-      },
     },
     review: [
       {
@@ -476,56 +453,42 @@ const References = [
     images: [
       {
         id: 1,
-        image: before,
+        image: WevelgemIn9,
       },
       {
         id: 2,
-        image: before1,
+        image: WevelgemIn3,
       },
       {
         id: 3,
-        image: before2,
+        image: WevelgemIn4,
       },
       {
         id: 4,
-        image: before3,
+        image: WevelgemIn5,
       },
       {
         id: 5,
-        image: before4,
+        image: WevelgemIn6,
       },
       {
         id: 6,
-        image: before5,
+        image: WevelgemIn7,
       },
       {
         id: 7,
-        image: before6,
+        image: WevelgemIn8,
       },
       {
         id: 8,
-        image: after1,
+        image: WevelgemIn9,
       },
       {
         id: 9,
-        image: after2,
+        image: WevelgemIn10,
       },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
-      },
+
+
     ],
   },
   {
@@ -538,6 +501,8 @@ const References = [
     height: 30,
     defaultHeight: 25,
     title: "Project in Harelbeke",
+    introText: "",
+
     techniques: [
       {
         id: 1,
@@ -551,6 +516,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "niet van toepassing.",
       color: [
         {
           id: 1,
@@ -564,19 +530,23 @@ const References = [
       product: [
         {
           id: 1,
-          title: "Bescherming",
+          title: "Afwerking",
           showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+          productImage: BossflowSilk,
+          productName: "Bossflow Silk",
+          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
+        },
+        {
+          id: 2,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: PlafondMat,
+          productName: "Boss Planfond Mat",
+          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
         },
       ],
 
-      goalChoice: {
-        title: "Doel van keuze",
-        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
-      },
+
     },
     review: [
       {
@@ -588,68 +558,62 @@ const References = [
     images: [
       {
         id: 1,
-        image: before,
+        image: Harelbeke2,
       },
       {
         id: 2,
-        image: before1,
+        image: Harelbeke3,
       },
       {
         id: 3,
-        image: before2,
+        image: Harelbeke4,
       },
       {
         id: 4,
-        image: before3,
+        image: Harelbeke5,
       },
       {
         id: 5,
-        image: before4,
+        image: Harelbeke6,
       },
       {
         id: 6,
-        image: before5,
+        image: Harelbeke7,
       },
       {
         id: 7,
-        image: before6,
+        image: Harelbeke8,
       },
       {
         id: 8,
-        image: after1,
+        image: Harelbeke9,
       },
       {
         id: 9,
-        image: after2,
+        image: Harelbeke10,
       },
       {
         id: 10,
-        image: after3,
+        image: Harelbeke9,
       },
       {
         id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
+        image: Harelbeke11,
       },
     ],
   },
   {
     id: 6,
-    url: "Interieur-Kortrijk",
+    url: "Interieur-Marke",
     image: Kortrijk,
     category: "interieur",
     subject: "Interieur ",
-    city: "Kortrijk",
+    city: "Marke",
     height: 30,
     defaultHeight: 25,
-    title: "Project Frituur Natuur",
+    title: "Frituur renovatie",
+    introText: "",
+
     techniques: [
       {
         id: 1,
@@ -663,6 +627,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "Snelle renovatie van hun frituur",
       color: [
         {
           id: 1,
@@ -675,22 +640,23 @@ const References = [
       ],
       product: [
         {
-          id: 2,
-          title: "Bescherming",
+          id: 1,
+          title: "Afwerking",
           showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+          productImage: BossFlowMat,
+          productName: "Bossflow mat",
+          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren en plafonds.",
         },
       ],
 
       goalChoice: [
         {
-        id:3,
-        title: "Doel van keuze",
-        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
-      }],
+          id: 3,
+          title: "Doel van keuze",
+          text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+          showGoalChoice: true,
+        },
+      ],
     },
     review: [
       {
@@ -702,170 +668,98 @@ const References = [
     images: [
       {
         id: 1,
-        image: before,
+        image: Kortrijk2,
       },
       {
         id: 2,
-        image: before1,
+        image: Kortrijk3,
       },
       {
         id: 3,
-        image: before2,
+        image: Kortrijk4,
       },
       {
         id: 4,
-        image: before3,
+        image: Kortrijk5,
       },
       {
         id: 5,
-        image: before4,
+        image: Kortrijk6,
       },
       {
         id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
+        image: Kortrijk7,
       },
     ],
   },
-  {
-    id: 7,
-    url: "Interieur-Harelbeke2",
-    image: Harelbeke21,
-    category: "interieur",
-    subject: "Interieur ",
-    city: "Harelbeke",
-    height: 35,
-    defaultHeight: 25,
-    title: "Project Frituur Natuur",
-    techniques: [
-      {
-        id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
-      },
-      {
-        id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
-      },
-    ],
-    preferences: {
-      color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
-      ],
-      product: [
-        {
-          id: 1,
-          title: "Bescherming",
-          showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
-        },
-      ],
+  // {
+  //   id: 7,
+  //   url: "Interieur-Harelbeke2",
+  //   image: Harelbeke21,
+  //   category: "interieur",
+  //   subject: "Interieur ",
+  //   city: "Harelbeke",
+  //   height: 35,
+  //   defaultHeight: 25,
+  //   title: "",
+  //   introText: "test",
 
-      goalChoice: {
-        title: "Doel van keuze",
-        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
-      },
-    },
-    review: [
-      {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
-      },
-    ],
+  //   techniques: [
+  //     {
+  //       id: 1,
+  //       title: "Exterieur | Buiten Houtwerk",
+  //       url: "/diensten",
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "Dakgoot schilderen",
+  //       url: "/diensten",
+  //     },
+  //   ],
+  //   preferences: {
+  //     customer: "test",
+  //     color: [
+  //       {
+  //         id: 1,
+  //         title: "Kleur",
+  //         showColor: true,
+  //         color: "#ffffff",
+  //         colorName: "Tijdeloos wit",
+  //         colorInfo: "ral - 9012",
+  //       },
+  //     ],
+  //     product: [
+  //       {
+  //         id: 1,
+  //         title: "Bescherming",
+  //         showProduct: true,
+  //         productImage: Elasto,
+  //         productName: "Elastosatin One",
+  //         productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+  //       },
+  //     ],
 
-    images: [
-      {
-        id: 1,
-        image: before,
-      },
-      {
-        id: 2,
-        image: before1,
-      },
-      {
-        id: 3,
-        image: before2,
-      },
-      {
-        id: 4,
-        image: before3,
-      },
-      {
-        id: 5,
-        image: before4,
-      },
-      {
-        id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
-      },
-    ],
-  },
+  //     goalChoice: {
+  //       title: "Doel van keuze",
+  //       text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+  //       showGoalChoice: true,
+  //     },
+  //   },
+  //   review: [
+  //     {
+  //       text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
+  //       owner: "Peggy Herrisen - eigenaresse",
+  //     },
+  //   ],
+
+  //   images: [
+  //     {
+  //       id: 1,
+  //       image: Harelbeke22,
+  //     },
+    
+  //   ],
+  // },
   {
     id: 8,
     url: "Aqua-Sensa-Oostduinkerke",
@@ -876,6 +770,8 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Harelbeke",
+    introText: "test",
+
     techniques: [
       {
         id: 1,
@@ -889,6 +785,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "test",
       color: [
         {
           id: 1,
@@ -926,55 +823,11 @@ const References = [
     images: [
       {
         id: 1,
-        image: before,
+        image:HarelbekeAS2,
       },
       {
         id: 2,
-        image: before1,
-      },
-      {
-        id: 3,
-        image: before2,
-      },
-      {
-        id: 4,
-        image: before3,
-      },
-      {
-        id: 5,
-        image: before4,
-      },
-      {
-        id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
+        image: HarelbekeAS3,
       },
     ],
   },
@@ -989,6 +842,8 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Buitenschilder project",
+    introText: "test",
+
     techniques: [
       {
         id: 1,
@@ -1002,6 +857,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "test",
       color: [
         {
           id: 1,
@@ -1038,55 +894,23 @@ const References = [
     images: [
       {
         id: 1,
-        image: before,
+        image: OnbekendExterieur2,
       },
       {
         id: 2,
-        image: before1,
+        image: OnbekendExterieur3,
       },
       {
         id: 3,
-        image: before2,
+        image: OnbekendExterieur4,
       },
       {
         id: 4,
-        image: before3,
+        image: OnbekendExterieur5,
       },
       {
         id: 5,
-        image: before4,
-      },
-      {
-        id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
+        image: OnbekendExterieur6,
       },
     ],
   },
@@ -1100,6 +924,8 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Wevelgem",
+    introText: "test",
+
     techniques: [
       {
         id: 1,
@@ -1113,6 +939,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "test",
       color: [
         {
           id: 1,
@@ -1212,6 +1039,9 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Moen",
+
+    introText: "test",
+
     techniques: [
       {
         id: 1,
@@ -1225,6 +1055,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "test",
       color: [
         {
           id: 1,
@@ -1324,6 +1155,8 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Harelbeke",
+    introText: "Als klant heb je altijd de vrijheid om te kiezen wat het beste bij jouw behoeften en voorkeuren past. En in het geval van het schilderen van raamwerk buiten, heb we gekozen voor een verfproduct dat niet alleen esthetisch aantrekkelijk is, maar ook duurzaam en bestand tegen de elementen.",
+
     techniques: [
       {
         id: 1,
@@ -1337,6 +1170,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "De klant heeft gekozen voor Matineau buitenlak, een duurzame en matte variant van Satineau, ideaal voor buiten. Voor het aanbrengen is aangepast materiaal nodig en moeten de weersomstandigheden in acht worden genomen voor het beste resultaat.",
       color: [
         {
           id: 1,
@@ -1352,77 +1186,37 @@ const References = [
           id: 1,
           title: "Bescherming",
           showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+          productImage: Matineau,
+          productName: "Matineau",
+          productInfo: "Watergedragen matte acrylaatlak voor buiten.",
         },
       ],
 
       goalChoice: {
         title: "Doel van keuze",
         text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
+        showGoalChoice: false,
       },
     },
     review: [
       {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
+        text: "",
+        owner: "",
       },
     ],
 
     images: [
       {
         id: 1,
-        image: before,
+        image: ExHarelbeke2,
       },
       {
         id: 2,
-        image: before1,
+        image: ExHarelbeke3,
       },
       {
         id: 3,
-        image: before2,
-      },
-      {
-        id: 4,
-        image: before3,
-      },
-      {
-        id: 5,
-        image: before4,
-      },
-      {
-        id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
+        image: ExHarelbeke,
       },
     ],
   },
@@ -1436,6 +1230,9 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Marke",
+
+    introText: "test",
+
     techniques: [
       {
         id: 1,
@@ -1449,6 +1246,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "test",
       color: [
         {
           id: 1,
@@ -1547,6 +1345,9 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Marke",
+
+    introText: "test",
+
     techniques: [
       {
         id: 1,
@@ -1560,6 +1361,7 @@ const References = [
       },
     ],
     preferences: {
+      customer: "test",
       color: [
         {
           id: 1,
