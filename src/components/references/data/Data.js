@@ -42,9 +42,7 @@ import Harelbeke9 from "../../../images/References/Interieur/Harelbeke/A8.webp";
 import Harelbeke10 from "../../../images/References/Interieur/Harelbeke/A9.webp";
 import Harelbeke11 from "../../../images/References/Interieur/Harelbeke/A10.webp";
 
-//Interieur Harelebeke2
-import Harelbeke21 from "../../../images/References/Interieur/Harelbeke2/A1.webp";
-import Harelbeke22 from "../../../images/References/Interieur/Harelbeke2/A2.webp";
+
 //Interieur Kortrijk Frituur Natuur
 import Kortrijk from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/FrituurNatuur.webp";
 import Kortrijk2 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A1.webp";
@@ -53,9 +51,7 @@ import Kortrijk4 from "../../../images/References/Interieur/Kortrijk-FrituurNatu
 import Kortrijk5 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A4.webp";
 import Kortrijk6 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A5.webp";
 import Kortrijk7 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A7.webp";
-//Interier Harelbeke Aqua sensa
-import HarelbekeAS2 from "../../../images/References/Decoratieve technieken/AS2.webp";
-import HarelbekeAS3 from "../../../images/References/Decoratieve technieken/harelbeke-aquasensa.webp";
+
 
 //Exterieur Harlbeke
 import ExHarelbeke from "../../../images/References/Exterieur/Harelbeke/AE1.webp";
@@ -113,9 +109,43 @@ import BossflowSilk from "../../../images/References/Interieur/Wevelgem/silk.web
 import PlafondMat from "../../../images/References/Interieur/Wevelgem/plafondmat.webp";
 import Claystuc from "../../../images/References/Interieur/Gullegem/claystuc.webp"
 import BossFlowMat from "../../../images/References/products/bossflowmat.webp";
+import Persisto from "../../../images/References/products/persisto.webp";
+import Woodcolor from "../../../images/References/products/woodcolor.webp";
+import AquaSensaPoeder from "../../../images/References/products/aquasensa-poeder.webp";
+import AquaSensaBindmiddel from "../../../images/References/products/aquasensa-bindmiddel.webp";
+import OmniprimExtreme from "../../../images/References/products/Omniprim-extreme.webp";
+import Bolatex from "../../../images/References/products/bolatex.webp"
+
+
+
+
+
+//Project trap Harelbeke 
+import HarelbekeInterier from "../../../images/References/Interieur/harelbeke3/6.webp";
+import HarelbekeInterier2 from "../../../images/References/Interieur/harelbeke3/5.webp"
+import HarelbekeInterier3 from "../../../images/References/Interieur/harelbeke3/4.webp"
+import HarelbekeInterier4 from "../../../images/References/Interieur/harelbeke3/3.webp"
+import HarelbekeInterier5 from "../../../images/References/Interieur/harelbeke3/2.webp"
+import HarelbekeInterier6 from "../../../images/References/Interieur/harelbeke3/1.webp"
+
+//Aqua Sensa Bissegem
+import ASBissegem from "../../../images/References/Decoratieve technieken/AquaSensa-Bissegem/1.webp";
+import ASBissegem2 from "../../../images/References/Decoratieve technieken/AquaSensa-Bissegem/2.webp";
+import ASBissegem3 from "../../../images/References/Decoratieve technieken/AquaSensa-Bissegem/3.webp";
+import ASBissegem4 from "../../../images/References/Decoratieve technieken/AquaSensa-Bissegem/4.webp";
+import ASBissegem5 from "../../../images/References/Decoratieve technieken/AquaSensa-Bissegem/5.webp";
+import ASBissegem6 from "../../../images/References/Decoratieve technieken/AquaSensa-Bissegem/6.webp";
+
+//Houtwerk Kuurne 
+import Kuurne from "../../../images/References/Interieur/Kuurne/1.webp";
+import Kuurne2 from "../../../images/References/Interieur/Kuurne/2.webp";
+import Kuurne3 from "../../../images/References/Interieur/Kuurne/3.webp";
+import Kuurne4 from "../../../images/References/Interieur/Kuurne/4.webp";
+
 const References = [
   {
     id: 1,
+    priority: false,
     url: "Exterieur-Komen-waasten",
     image: Front,
     category: "exterieur",
@@ -124,8 +154,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Schilderen voordeur",
-    introText: "test",
-    introText: "test",
+    introText: "",
 
     techniques: [
       {
@@ -140,7 +169,7 @@ const References = [
       },
     ],
     preferences: {
-      customer: "test",
+      customer: "niet van toepassing.",
       color: [
         {
           id: 1,
@@ -209,6 +238,7 @@ const References = [
   },
   {
     id: 2,
+    priority: false,
     url: "Interieur-Bissegem",
     image: Bissegem,
     category: "interieur",
@@ -289,7 +319,8 @@ const References = [
     ],
   },
   {
-    id: 3,
+    id: 2,
+    priority: false,
     url: "Interieur-Gullegem",
     image: Gullegem,
     category: "interieur",
@@ -388,7 +419,8 @@ const References = [
     ],
   },
   {
-    id: 4,
+    id: 3,
+    priority: false,
     url: "Interieur-Wevelgem",
     image: WevelgemIn,
     category: "interieur",
@@ -492,7 +524,8 @@ const References = [
     ],
   },
   {
-    id: 5,
+    id: 4,
+    priority: false,
     url: "Interieur-Harelbeke",
     image: Harelbeke,
     category: "interieur",
@@ -603,7 +636,8 @@ const References = [
     ],
   },
   {
-    id: 6,
+    id: 5,
+    priority: false,
     url: "Interieur-Marke",
     image: Kortrijk,
     category: "interieur",
@@ -692,147 +726,9 @@ const References = [
       },
     ],
   },
-  // {
-  //   id: 7,
-  //   url: "Interieur-Harelbeke2",
-  //   image: Harelbeke21,
-  //   category: "interieur",
-  //   subject: "Interieur ",
-  //   city: "Harelbeke",
-  //   height: 35,
-  //   defaultHeight: 25,
-  //   title: "",
-  //   introText: "test",
-
-  //   techniques: [
-  //     {
-  //       id: 1,
-  //       title: "Exterieur | Buiten Houtwerk",
-  //       url: "/diensten",
-  //     },
-  //     {
-  //       id: 2,
-  //       title: "Dakgoot schilderen",
-  //       url: "/diensten",
-  //     },
-  //   ],
-  //   preferences: {
-  //     customer: "test",
-  //     color: [
-  //       {
-  //         id: 1,
-  //         title: "Kleur",
-  //         showColor: true,
-  //         color: "#ffffff",
-  //         colorName: "Tijdeloos wit",
-  //         colorInfo: "ral - 9012",
-  //       },
-  //     ],
-  //     product: [
-  //       {
-  //         id: 1,
-  //         title: "Bescherming",
-  //         showProduct: true,
-  //         productImage: Elasto,
-  //         productName: "Elastosatin One",
-  //         productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
-  //       },
-  //     ],
-
-  //     goalChoice: {
-  //       title: "Doel van keuze",
-  //       text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-  //       showGoalChoice: true,
-  //     },
-  //   },
-  //   review: [
-  //     {
-  //       text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-  //       owner: "Peggy Herrisen - eigenaresse",
-  //     },
-  //   ],
-
-  //   images: [
-  //     {
-  //       id: 1,
-  //       image: Harelbeke22,
-  //     },
-    
-  //   ],
-  // },
   {
-    id: 8,
-    url: "Aqua-Sensa-Oostduinkerke",
-    image: HarelbekeAS2,
-    category: "decoratieve technieken",
-    subject: "Aqua Sensa ",
-    city: "Oostduinkerke",
-    height: 35,
-    defaultHeight: 25,
-    title: "Project in Harelbeke",
-    introText: "test",
-
-    techniques: [
-      {
-        id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
-      },
-      {
-        id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
-      },
-    ],
-    preferences: {
-      customer: "test",
-      color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
-      ],
-      product: [
-        {
-          id: 1,
-          title: "Bescherming",
-          showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
-        },
-      ],
-
-      goalChoice: {
-        title: "Doel van keuze",
-        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
-      },
-    },
-    review: [
-      {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
-      },
-    ],
-
-    images: [
-      {
-        id: 1,
-        image:HarelbekeAS2,
-      },
-      {
-        id: 2,
-        image: HarelbekeAS3,
-      },
-    ],
-  },
-  {
-    id: 9,
+    id: 6,
+    priority: false,
     url: "Exterieur-Zwevegem",
     image: OnbekendExterieur,
     category: "exterieur",
@@ -915,7 +811,8 @@ const References = [
     ],
   },
   {
-    id: 10,
+    id: 7,
+    priority: false,
     url: "Exterieur-Wevelgem",
     image: WevelgemEx,
     category: "exterieur",
@@ -924,7 +821,7 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Wevelgem",
-    introText: "test",
+    introText: "",
 
     techniques: [
       {
@@ -939,216 +836,52 @@ const References = [
       },
     ],
     preferences: {
-      customer: "test",
+      customer: "niet van toepassing.  ",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
       ],
       product: [
         {
           id: 1,
+          title: "Grondlaag",
+          showProduct: true,
+          productImage: OmniprimExtreme,
+          productName: "Omniprim Extreme",
+          productInfo: "Grondlaag met extreme hechtingseigenschappen.",
+        },
+        {
+          id: 1,
           title: "Bescherming",
           showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+          productImage: Matineau,
+          productName: "Matineau",
+          productInfo: "Watergedragen matte acrylaatlak voor buiten.",
         },
       ],
 
-      goalChoice: {
-        title: "Doel van keuze",
-        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
-      },
     },
     review: [
       {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
+        text: "",
+        owner: "",
       },
     ],
 
     images: [
       {
         id: 1,
-        image: before,
+        image: WevelgemEx2,
       },
       {
         id: 2,
-        image: before1,
-      },
-      {
-        id: 3,
-        image: before2,
-      },
-      {
-        id: 4,
-        image: before3,
-      },
-      {
-        id: 5,
-        image: before4,
-      },
-      {
-        id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
+        image: WevelgemEx3,
       },
     ],
   },
   {
-    id: 11,
-    url: "Exterieur-Moen",
-    image: Moen,
-    category: "exterieur",
-    subject: "Exterieur ",
-    city: "Izegem",
-    height: 35,
-    defaultHeight: 25,
-    title: "Project in Moen",
-
-    introText: "test",
-
-    techniques: [
-      {
-        id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
-      },
-      {
-        id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
-      },
-    ],
-    preferences: {
-      customer: "test",
-      color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
-      ],
-      product: [
-        {
-          id: 1,
-          title: "Bescherming",
-          showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
-        },
-      ],
-
-      goalChoice: {
-        title: "Doel van keuze",
-        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
-      },
-    },
-    review: [
-      {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
-      },
-    ],
-
-    images: [
-      {
-        id: 1,
-        image: before,
-      },
-      {
-        id: 2,
-        image: before1,
-      },
-      {
-        id: 3,
-        image: before2,
-      },
-      {
-        id: 4,
-        image: before3,
-      },
-      {
-        id: 5,
-        image: before4,
-      },
-      {
-        id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
-      },
-    ],
-  },
-  {
-    id: 12,
+    id: 8,
+    priority: false,
     url: "Exterieur-Harelbeke",
-    image: HarelbekeEx,
+    image: ExHarelbeke2,
     category: "exterieur",
     subject: "Exterieur ",
     city: "Harelbeke",
@@ -1208,135 +941,17 @@ const References = [
     images: [
       {
         id: 1,
-        image: ExHarelbeke2,
-      },
-      {
-        id: 2,
         image: ExHarelbeke3,
       },
       {
-        id: 3,
+        id: 2,
         image: ExHarelbeke,
       },
     ],
   },
   {
-    id: 13,
-    url: "Exterieur-Oostduinkerke",
-    image: MarkeIn,
-    category: "interieur",
-    subject: "Interieur",
-    city: "Oostduinkerke",
-    height: 35,
-    defaultHeight: 25,
-    title: "Project in Marke",
-
-    introText: "test",
-
-    techniques: [
-      {
-        id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
-      },
-      {
-        id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
-      },
-    ],
-    preferences: {
-      customer: "test",
-      color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
-      ],
-      product: [
-        {
-          id: 1,
-          title: "Bescherming",
-          showProduct: true,
-          productImage: Elasto,
-          productName: "Elastosatin One",
-          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
-        },
-      ],
-
-      goalChoice: {
-        title: "Doel van keuze",
-        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
-      },
-    },
-    review: [
-      {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
-      },
-    ],
-    images: [
-      {
-        id: 1,
-        image: before,
-      },
-      {
-        id: 2,
-        image: before1,
-      },
-      {
-        id: 3,
-        image: before2,
-      },
-      {
-        id: 4,
-        image: before3,
-      },
-      {
-        id: 5,
-        image: before4,
-      },
-      {
-        id: 6,
-        image: before5,
-      },
-      {
-        id: 7,
-        image: before6,
-      },
-      {
-        id: 8,
-        image: after1,
-      },
-      {
-        id: 9,
-        image: after2,
-      },
-      {
-        id: 10,
-        image: after3,
-      },
-      {
-        id: 11,
-        image: after4,
-      },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
-      },
-    ],
-  },
-  {
-    id: 14,
+    id: 9,
+    priority: false,
     url: "Behangwerken-Marke",
     image: MarkeBe,
     category: "behangwerken",
@@ -1346,7 +961,7 @@ const References = [
     defaultHeight: 25,
     title: "Project in Marke",
 
-    introText: "test",
+    introText: "",
 
     techniques: [
       {
@@ -1391,64 +1006,240 @@ const References = [
     },
     review: [
       {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
+        text: "Alexandro is een TOPKEREL, steeds behulpzaam,heeft oog voor detail,werkt met precizie,steeds vriendelijk, komt zijn beloftes na en zijn werk is zeker naar behoren gedaan en prachtig afgewerkt. Wij zijn heel tevreden met het resultaat en hij mag de rest van onze woning komen afwerken zoals beloofd.",
+        owner: "Van Maldeghem Sandrine - eigenaresse",
       },
     ],
 
     images: [
       {
         id: 1,
-        image: before,
+        image: MarkeBe2,
       },
       {
         id: 2,
-        image: before1,
+        image: MarkeBe,
+      },
+    ],
+  },
+  {
+    id: 10,
+    priority: true,
+    url: "Trap-Harelbeke",
+    image: HarelbekeInterier,
+    category: "interieur",
+    subject: "Interieur",
+    city: "Harelbeke",
+    height: 30,
+    defaultHeight: 25,
+    title: "Trap te harelbeke",
+
+    introText: "Ontdek onze recente traprealisatie in Harelbeke, waarbij we gebruik hebben gemaakt van Persisto Mat RAL 9005 verf. De bovenste trede is subtiel geaccentueerd met een woodcolor afwerking en matte vernis, waardoor een unieke uitstraling ontstaat.",
+
+    techniques: [
+      {
+        id: 1,
+        title: "Interieur | Houtwerk",
+        url: "/diensten/interieur",
+      },
+
+    ],
+    preferences: {
+      customer: "De klant koos voor een opvallende twist door de bovenste trede in woodcolor te laten staan, die vervolgens is afgewerkt met een matte vernis. Deze keuze resulteerde in een unieke en persoonlijke uitstraling die perfect past bij het interieur van de klant.",
+      color: [
+        {
+          id: 1,
+          title: "Kleur",
+          showColor: true,
+          color: "#ffffff",
+          colorName: "Tijdeloos wit",
+          colorInfo: "ral - 9012",
+        },
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Persisto,
+          productName: "Persisto PU Mat",
+          productInfo: "Matte afwerklak voor zeer krasvaste afwerking.",
+        },
+        
+      ],
+    },
+    review: [
+      {
+        text: "",
+        owner: "",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: HarelbekeInterier2,
+      },
+      {
+        id: 2,
+        image: HarelbekeInterier3,
       },
       {
         id: 3,
-        image: before2,
+        image: HarelbekeInterier4,
       },
       {
         id: 4,
-        image: before3,
+        image: HarelbekeInterier5,
       },
       {
         id: 5,
-        image: before4,
+        image: HarelbekeInterier6,
+      },
+
+    ],
+  },
+  {
+    id: 11,
+    priority: true,
+    url: "Aqua-sensa-Bissegem",
+    image:  ASBissegem,
+    category: "interieur",
+    subject: "Interieur",
+    city: "Bissegem",
+    height: 35,
+    defaultHeight: 25,
+    title: "Badkamer in Aqua sensa",
+
+    techniques: [
+      {
+        id: 1,
+        title: "Interieur | Houtwerk",
+        url: "/diensten/interieur",
+      },
+
+    ],
+    preferences: {
+      customer: "Met een vleugje verfrissende sereniteit heeft de klant gekozen om de badkamer te schilderen in Aqua Sensa. Deze tinten brengen rust en vernieuwing, en creëren een tijdloze esthetiek voor dagelijkse verjonging.",
+      color: [
+
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: AquaSensaPoeder,
+          productName: "Aqua Sensa Poeder",
+          productInfo: "Decoratieve waterbestendige afwerking voor binnenmuren en vloeren.",
+        },
+        {
+          id: 2,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: AquaSensaBindmiddel,
+          productName: "Aqua Sensa Bindmiddel",
+          productInfo: "Toeslagstof voor Aqua Sensa poeder.",
+        },
+        
+      ],
+    },
+    review: [
+      {
+        text: "Heel tevreden van het geleverde werk en advies inzake kleuren en er wordt gewerkt met de topprodukten van Boss.Er wordt proper gewerkt en ook opgekuist.Volgende project staat al vast 🙂Er wordt proper gewerkt en ook opgekuist.Volgende project staat al vast 🙂",
+        owner: "Sabrina Bekaert - eigenaresse",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: ASBissegem2,
       },
       {
-        id: 6,
-        image: before5,
+        id: 2,
+        image: ASBissegem3,
       },
       {
-        id: 7,
-        image: before6,
+        id: 3,
+        image: ASBissegem4,
       },
       {
-        id: 8,
-        image: after1,
+        id: 4,
+        image: ASBissegem5,
       },
       {
-        id: 9,
-        image: after2,
+        id: 5,
+        image: ASBissegem6,
+      },
+
+    ],
+  },
+  {
+    id: 12,
+    priority: true,
+    url: "houtwerk-Kuurne",
+    image:  Kuurne,
+    category: "interieur",
+    subject: "Interieur",
+    city: "Kuurne",
+    height: 35,
+    defaultHeight: 25,
+    title: "Schilderen van houtwerk",
+    techniques: [
+      {
+        id: 1,
+        title: "Interieur | Houtwerk",
+        url: "/diensten/interieur",
+      },
+
+    ],
+    preferences: {
+      customer: "In project Te Kuurne laten we de keuze volledig aan de klant over. Het houtwerk is uitgevoerd in Persisto Mat RAL 9016, terwijl de muur is afgewerkt met Bolatex R9016. We streven ernaar om de wensen van onze klanten perfect te vervullen, tot in de kleinste details.",
+      color: [
+
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: Persisto,
+          productName: "Persisto PU Mat",
+          productInfo: "Matte afwerklak voor zeer krasvaste afwerking.",
+        },
+        {
+          id: 2,
+          title: "Bescherming",
+          showProduct: true,
+          productImage: Bolatex,
+          productName: "Bolatex",
+          productInfo: "Krasvaste lak voor houtwerk.",
+        },
+        
+      ],
+    },
+    review: [
+      {
+        text: "Heel tevreden over het resultaat: goeie planning , snelle en duidelijke communicatie, fijne afwerking voor een eerlijke prijs .Alexandro kent zijn stiel en zouden we zeker aanraden. ",
+        owner: "Koen Carpentier - eigenaar",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: Kuurne2,
       },
       {
-        id: 10,
-        image: after3,
+        id: 2,
+        image: Kuurne3,
       },
       {
-        id: 11,
-        image: after4,
+        id: 3,
+        image: Kuurne4,
       },
-      {
-        id: 12,
-        image: after5,
-      },
-      {
-        id: 13,
-        image: after6,
-      },
+
     ],
   },
 ];

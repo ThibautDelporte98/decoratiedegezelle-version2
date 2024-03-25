@@ -18,11 +18,14 @@ const Overview = ({ items }) => {
     );
   };
 
+  // Sort items by priority
+  const sortedItems = [...items].sort((a, b) => (a.priority === b.priority ? 0 : a.priority ? -1 : 1));
+
   return (
     <div className="overview">
       <div className="container-xl">
         <div className="row">
-          {items.slice(0, visibleItems).map((item, index) => (
+          {sortedItems.slice(0, visibleItems).map((item, index) => (
             <div className="col-12 col-md-6 col-lg-4" key={index}>
               <Link
                 className="overview-link"
@@ -34,12 +37,12 @@ const Overview = ({ items }) => {
                   <div className="overlay">
                     <h2>{item.title}</h2>
                   </div>
-                  <img src={item.image} />
+                  <img src={item.image} alt={item.title} />
                 </div>
               </Link>
             </div>
           ))}
-          {visibleItems < items.length && (
+          {visibleItems < sortedItems.length && (
             <LoadMoreButton text="meer diensten" color="white" bgColor="" bgborder="#caa35c" onClick={loadMore} />
           )}
         </div>
@@ -49,3 +52,4 @@ const Overview = ({ items }) => {
 };
 
 export default Overview;
+

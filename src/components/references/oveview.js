@@ -50,11 +50,13 @@ const ReferencesItems = ({ items }) => {
     setVisibleItems((prevVisibleItems) => prevVisibleItems + 6);
   };
 
-  const filteredItems = items.filter((item) =>
-    selectedCategory === "Alle items"
-      ? true
-      : item.category === selectedCategory
+  // Filter items based on selected category
+  let filteredItems = items.filter((item) =>
+    selectedCategory === "Alle items" ? true : item.category === selectedCategory
   );
+
+  // Move items with priority to the top
+  filteredItems.sort((a, b) => (a.priority === b.priority ? 0 : a.priority ? -1 : 1));
 
   return (
     <div className="References">
