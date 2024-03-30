@@ -256,13 +256,13 @@ const References = [
     techniques: [
       {
         id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
+        title: "Interieur | Schilderen van muren",
+        url: "/diensten/interieur",
       },
       {
         id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
+        title: "Interieur | Plafond schilderen",
+        url: "/diensten/interieur",
       },
     ],
     preferences: {
@@ -333,13 +333,8 @@ const References = [
     techniques: [
       {
         id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
-      },
-      {
-        id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
+        title: "Decoratieve Technieken | Claystuc",
+        url: "/Decoratieve-technieken",
       },
     ],
     preferences: {
@@ -425,13 +420,13 @@ const References = [
     techniques: [
       {
         id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
+        title: "Interieur | Schilderen van muren",
+        url: "/diensten/interieur",
       },
       {
         id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
+        title: "Interieur | Plafond schilderen",
+        url: "/diensten/interieur",
       },
     ],
     preferences: {
@@ -522,13 +517,13 @@ const References = [
     techniques: [
       {
         id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
+        title: "Interieur | Schilderen van muren",
+        url: "/diensten/interieur",
       },
       {
         id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
+        title: "Interieur | Plafond schilderen",
+        url: "/diensten/interieur",
       },
     ],
     preferences: {
@@ -627,13 +622,13 @@ const References = [
     techniques: [
       {
         id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
+        title: "Interieur | Schilderen van muren",
+        url: "/diensten/interieur",
       },
       {
         id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
+        title: "Interieur | Plafond schilderen",
+        url: "/diensten/interieur",
       },
     ],
     preferences: {
@@ -701,22 +696,17 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Buitenschilder project",
-    introText: "test",
+    introText: "",
 
     techniques: [
       {
         id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
-      },
-      {
-        id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
+        title: "Exterieur | Gevel schilderen",
+        url: "/diensten/exterieur",
       },
     ],
     preferences: {
-      customer: "test",
+      customer: "niet van toepassing",
       color: [
 
       ],
@@ -739,8 +729,8 @@ const References = [
     },
     review: [
       {
-        text: "Mijn verouderde inrichting was aan vernieuwing toe. Zelf schilderen was geen optie dus op zoek naar een schilder. Gelukkig via mond op mond reclame contact genomen met Decoratie Degezelle wat een schot in de roos blijkt te zijn. Strakke planning, goeie begeleiding, mooie afgewerkte schilderwerken en een zeer eerlijke prijs voor dit alles. Mijn living is een pareltje geworden. Bedankt Alexandro",
-        owner: "Peggy Herrisen - eigenaresse",
+        text: "",
+        owner: "",
       },
     ],
     images: [
@@ -783,12 +773,7 @@ const References = [
       {
         id: 1,
         title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
-      },
-      {
-        id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
+        url: "/diensten/exterieur",
       },
     ],
     preferences: {
@@ -909,19 +894,12 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Marke",
-
     introText: "",
-
     techniques: [
       {
         id: 1,
-        title: "Exterieur | Buiten Houtwerk",
-        url: "/diensten",
-      },
-      {
-        id: 2,
-        title: "Dakgoot schilderen",
-        url: "/diensten",
+        title: "Behangwerken | Behangen met motief",
+        url: "/diensten/behangwerken/#motief",
       },
     ],
     preferences: {
