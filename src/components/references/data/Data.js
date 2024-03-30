@@ -114,7 +114,8 @@ import Woodcolor from "../../../images/References/products/woodcolor.webp";
 import AquaSensaPoeder from "../../../images/References/products/aquasensa-poeder.webp";
 import AquaSensaBindmiddel from "../../../images/References/products/aquasensa-bindmiddel.webp";
 import OmniprimExtreme from "../../../images/References/products/Omniprim-extreme.webp";
-import Bolatex from "../../../images/References/products/bolatex.webp"
+import Bolatex from "../../../images/References/products/bolatex.webp";
+import TopvliesCp from "../../../images/References/products/topvliesCp.webp";
 
 
 
@@ -141,6 +142,18 @@ import Kuurne from "../../../images/References/Interieur/Kuurne/1.webp";
 import Kuurne2 from "../../../images/References/Interieur/Kuurne/2.webp";
 import Kuurne3 from "../../../images/References/Interieur/Kuurne/3.webp";
 import Kuurne4 from "../../../images/References/Interieur/Kuurne/4.webp";
+
+//Houtwerk Kuurne 
+import houtwerkKortrijk from "../../../images/References/Interieur/houtwerk-kortrijk/1.webp";
+import houtwerkKortrijk2 from "../../../images/References/Interieur/houtwerk-kortrijk/2.webp";
+import houtwerkKortrijk3 from "../../../images/References/Interieur/houtwerk-kortrijk/3.webp";
+import houtwerkKortrijk4 from "../../../images/References/Interieur/houtwerk-kortrijk/4.webp";
+import houtwerkKortrijk5 from "../../../images/References/Interieur/houtwerk-kortrijk/5.webp";
+import houtwerkKortrijk6 from "../../../images/References/Interieur/houtwerk-kortrijk/6.webp";
+import houtwerkKortrijk7 from "../../../images/References/Interieur/houtwerk-kortrijk/7.webp";
+import houtwerkKortrijk8 from "../../../images/References/Interieur/houtwerk-kortrijk/8.webp";
+import houtwerkKortrijk9 from "../../../images/References/Interieur/houtwerk-kortrijk/9.webp";
+
 
 const References = [
   {
@@ -171,14 +184,7 @@ const References = [
     preferences: {
       customer: "niet van toepassing.",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
@@ -262,14 +268,7 @@ const References = [
     preferences: {
       customer: "De klant heeft muren met Bossflow Silk en het plafond met Boss Planfond Mat geschilderd voor een harmonieuze uitstraling. Geschikt materiaal en overweging van omgevingscondities zijn cruciaal voor een optimaal resultaat.",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
@@ -286,7 +285,7 @@ const References = [
           showProduct: true,
           productImage: PlafondMat,
           productName: "Boss Planfond Mat",
-          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
+          productInfo: "Extra matte afwerklaag voor plafonds.",
         },
       ],
 
@@ -323,12 +322,12 @@ const References = [
     priority: false,
     url: "Interieur-Gullegem",
     image: Gullegem,
-    category: "interieur",
-    subject: "Interieur ",
+    category: "decoratieve technieken",
+    subject: "decoratieve technieken ",
     city: "Gullegem",
     height: 30,
     defaultHeight: 25,
-    title: "Kledingzaak in Gullegem",
+    title: "Kledingzaak in claystuc",
     introText: "test",
 
     techniques: [
@@ -346,14 +345,7 @@ const References = [
     preferences: {
       customer: "test",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
@@ -367,9 +359,7 @@ const References = [
       ],
 
       goalChoice: {
-        title: "Doel van keuze",
-        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-        showGoalChoice: true,
+
       },
     },
     review: [
@@ -447,14 +437,7 @@ const References = [
     preferences: {
       customer: "De klant heeft gekozen voor schilderen van muren met Bossflow Silk en het plafond met Boss Planfond Mat voor een harmonieuze uitstraling. Geschikt materiaal en overweging van omgevingscondities zijn cruciaal voor een optimaal resultaat.",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
@@ -471,7 +454,7 @@ const References = [
           showProduct: true,
           productImage: PlafondMat,
           productName: "Boss Planfond Mat",
-          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
+          productInfo: "Extra matte afwerklaag voor plafonds.",
         },
       ],
 
@@ -551,14 +534,7 @@ const References = [
     preferences: {
       customer: "niet van toepassing.",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
@@ -575,7 +551,7 @@ const References = [
           showProduct: true,
           productImage: PlafondMat,
           productName: "Boss Planfond Mat",
-          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
+          productInfo: "Extra matte afwerklaag voor plafonds.",
         },
       ],
 
@@ -663,14 +639,7 @@ const References = [
     preferences: {
       customer: "Snelle renovatie van hun frituur",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
@@ -684,12 +653,6 @@ const References = [
       ],
 
       goalChoice: [
-        {
-          id: 3,
-          title: "Doel van keuze",
-          text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
-          showGoalChoice: true,
-        },
       ],
     },
     review: [
@@ -755,14 +718,7 @@ const References = [
     preferences: {
       customer: "test",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
@@ -905,14 +861,7 @@ const References = [
     preferences: {
       customer: "De klant heeft gekozen voor Matineau buitenlak, een duurzame en matte variant van Satineau, ideaal voor buiten. Voor het aanbrengen is aangepast materiaal nodig en moeten de weersomstandigheden in acht worden genomen voor het beste resultaat.",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
@@ -978,14 +927,7 @@ const References = [
     preferences: {
       customer: "test",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
@@ -1047,19 +989,12 @@ const References = [
     preferences: {
       customer: "De klant koos voor een opvallende twist door de bovenste trede in woodcolor te laten staan, die vervolgens is afgewerkt met een matte vernis. Deze keuze resulteerde in een unieke en persoonlijke uitstraling die perfect past bij het interieur van de klant.",
       color: [
-        {
-          id: 1,
-          title: "Kleur",
-          showColor: true,
-          color: "#ffffff",
-          colorName: "Tijdeloos wit",
-          colorInfo: "ral - 9012",
-        },
+
       ],
       product: [
         {
           id: 1,
-          title: "Bescherming",
+          title: "Bescherming/afwerking",
           showProduct: true,
           productImage: Persisto,
           productName: "Persisto PU Mat",
@@ -1104,8 +1039,8 @@ const References = [
     priority: true,
     url: "Aqua-sensa-Bissegem",
     image:  ASBissegem,
-    category: "interieur",
-    subject: "Interieur",
+    category: "decoratieve technieken",
+    subject: "decoratieve technieken",
     city: "Bissegem",
     height: 35,
     defaultHeight: 25,
@@ -1202,7 +1137,7 @@ const References = [
       product: [
         {
           id: 1,
-          title: "Afwerking",
+          title: "Bescherming/afwerking",
           showProduct: true,
           productImage: Persisto,
           productName: "Persisto PU Mat",
@@ -1210,7 +1145,7 @@ const References = [
         },
         {
           id: 2,
-          title: "Bescherming",
+          title: "Bescherming/afwerking",
           showProduct: true,
           productImage: Bolatex,
           productName: "Bolatex",
@@ -1238,6 +1173,109 @@ const References = [
       {
         id: 3,
         image: Kuurne4,
+      },
+
+    ],
+  },
+  {
+    id: 13,
+    priority: true,
+    url: "houtwerk-Kortrijk",
+    image:  houtwerkKortrijk,
+    category: "interieur",
+    subject: "Interieur",
+    city: "Kortrijk",
+    height: 35,
+    defaultHeight: 25,
+    title: "Schilderen van houtwerk",
+    techniques: [
+      {
+        id: 1,
+        title: "Interieur | Houtwerk",
+        url: "/diensten/interieur",
+      },
+
+    ],
+    preferences: {
+      customer: "In project Te Kuurne laten we de keuze volledig aan de klant over. Het houtwerk is uitgevoerd in Persisto Mat RAL 9016, terwijl de muur is afgewerkt met Bolatex R9016. We streven ernaar om de wensen van onze klanten perfect te vervullen, tot in de kleinste details.",
+      color: [
+
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Voorbereiding",
+          showProduct: true,
+          productImage: TopvliesCp,
+          productName: "Topvlies CP",
+          productInfo: "Super glad Soft Touch vlies om te overschilderen.",
+        },
+        {
+          id: 2,
+          title: "Bescherming/afwerking",
+          showProduct: true,
+          productImage: Persisto,
+          productName: "Persisto PU Mat",
+          productInfo: "Matte afwerklak voor zeer krasvaste afwerking.",
+        },
+        {
+          id: 3,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: BossFlowMat,
+          productName: "Bossflow mat",
+          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren en plafonds.",
+        },
+        {
+          id: 4,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: PlafondMat,
+          productName: "Boss Planfond Mat",
+          productInfo: "Extra matte afwerklaag voor plafonds.",
+        },
+        
+      ],
+    },
+    review: [
+      {
+        text: "",
+        owner: "",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: houtwerkKortrijk3,
+      },
+      {
+        id: 2,
+        image: houtwerkKortrijk2,
+      },
+      {
+        id: 3,
+        image: houtwerkKortrijk4,
+      },
+      {
+        id: 4,
+        image: houtwerkKortrijk5,
+      },
+      {
+        id: 5,
+        image: houtwerkKortrijk6,
+      },
+      {
+        id: 6,
+        image: houtwerkKortrijk7,
+      },
+      {
+        id: 7,
+        image: houtwerkKortrijk8,
+      },
+      {
+        id: 8,
+        image: houtwerkKortrijk9,
       },
 
     ],
