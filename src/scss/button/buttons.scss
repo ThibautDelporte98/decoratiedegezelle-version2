@@ -11,6 +11,10 @@
     display: flex;
     width: auto;
     text-decoration: none;
+    &--cookies{
+      display: block;
+      padding: .25rem 0;
+    }
     @media screen and (max-width:1024px) {
       width: 100%;
     }

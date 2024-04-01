@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { RouterProvider} from "react-router-dom";
 import Cookies from "js-cookie";
-import Button from "../buttons/button";
+import Button from "../buttons/button-cookies.js";
 import "../../scss/cookies/cookies.scss";
 
 const CookieBanner = () => {
@@ -96,16 +96,12 @@ const CookieBanner = () => {
                 ))}
               </div>
               <div className="cookies-button">
-                <div className="cookies-button-width display-flex-start">
-                  <Button color={"black"} bgborder={"black"} onClick={acceptCookies}>
+                  <Button color={"gray"} bgborder={"black"} onClick={acceptCookies}>
                     Accepteren
                   </Button>
-                </div>
-                <div className="cookies-button-width display-flex-end">
                   <Button color={"gray"} bgborder={"lightgray"} onClick={declineCookies}>
                     Weigeren
                   </Button>
-                </div>
               </div>
             </div>
           </div>
@@ -137,7 +133,7 @@ const getContentText = (item) => {
   switch (item) {
     case "waarom":
       return (
-        "Beste bezoeker, Wij maken gebruik van cookies, waaronder die " +
+        "Beste bezoeker, Wij maken gebruik van cookies, waaronder " +
         "Google Analytics, om uw browse-ervaring op onze website te " +
         "verbeteren. De verzamelde gegevens helpen ons beter inzicht " +
         "te krijgen in hoe u onze site ervaart, welke pagina's het " +
