@@ -13,6 +13,7 @@ import Realisation from "./pages/realisatie";
 import ConditionsPage from "./pages/algemene-voorwaarden";
 import PolicyPage from "./pages/privacybeleid";
 import NotFound from "./pages/NotFound";
+import CookieBanner from "./components/cookies/cookie";
 import reportWebVitals from "./reportWebVitals";
 
 const router = createBrowserRouter([

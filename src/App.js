@@ -11,7 +11,7 @@ import DataProjects from "./components/services/data/overview";
 import DataRefs from "./components/references/data/Data";
 import Footer from "./components/footer/Footer";
 import Cta from "./components/call-to-actions/cta";
-// import CookieAcceptance from "./components/cookies/cookie";
+import CookieAcceptance from "./components/cookies/cookie";
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      {/* <CookieAcceptance /> */}
+      <CookieAcceptance />
       <Nav />
       <HeaderLarge
         title="schilder & decoratiewerken"

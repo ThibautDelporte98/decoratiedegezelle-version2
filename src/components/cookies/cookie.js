@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { RouterProvider} from "react-router-dom";
 import Cookies from "js-cookie";
 import Button from "../buttons/button";
 import "../../scss/cookies/cookies.scss";

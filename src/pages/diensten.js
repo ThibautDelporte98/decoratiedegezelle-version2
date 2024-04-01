@@ -5,12 +5,13 @@ import Overview from "../components/services/overview.js";
 import Data from "../components/services/data/overview.js";
 import Cta from "../components/call-to-actions/cta.js";
 import Header from "../components/page-title/header.js";
-// import CookieBanner from "../components/cookies/cookie.js";
+import CookieBanner from "../components/cookies/cookie.js";
 
 function Services() {
   return (
     <div>
       <Nav />
+      <CookieBanner />
       <Header
         height={40}
         heightState={true}
@@ -24,7 +25,6 @@ function Services() {
       />
       <Overview items={Data} />
       <Cta />
-      {/* <CookieBanner /> */}
       <Footer />
     </div>
   );

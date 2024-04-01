@@ -4,6 +4,8 @@ import Footer from "../components/footer/Footer.js";
 import Overview from "../components/references/oveview.js";
 import Header from "../components/page-title/header.js";
 import Data from "../components/references/data/Data.js";
+import CookieBanner from "../components/cookies/cookie.js";
+
 
 
 function References() {
@@ -11,6 +13,7 @@ function References() {
   return (
     <div>
       <Nav />
+      <CookieBanner />
       <Header
         height={40}
         heightState={true}
