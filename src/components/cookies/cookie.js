@@ -26,7 +26,7 @@ const CookieBanner = () => {
 
   const setStyles = () => {
     setIsHidden((document.body.style.overflow = isCookieOpen ? "hidden" : "auto"));
-    setZIndex(isCookieOpen ? 1000 : -100);
+    setZIndex(isCookieOpen ? 1000 : 0);
   };
 
   const toggleTextVisibility = (item) => {
