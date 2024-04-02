@@ -13,7 +13,7 @@ function Contact() {
   return (
     <div>
       <Nav />
-      <CookieBanner />
+      {/* <CookieBanner /> */}
       <Header
         title="Vrijblijvend contact"
         text="Aarzel niet om contact met ons op te nemen bij vragen of nood aan advies!"

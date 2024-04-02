@@ -11,7 +11,7 @@ function Services() {
   return (
     <div>
       <Nav />
-      <CookieBanner />
+      {/* <CookieBanner /> */}
       <Header
         height={40}
         heightState={true}

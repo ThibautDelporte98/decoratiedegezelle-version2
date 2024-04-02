@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <CookieAcceptance />
+      {/* <CookieAcceptance /> */}
       <Nav />
       <HeaderLarge
         title="schilder & decoratiewerken"
