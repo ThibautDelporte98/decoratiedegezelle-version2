@@ -17,7 +17,7 @@ function Services() {
         heightState={true}
         title="Ons aanbod"
         text="              
-              Met een ongeëvenaarde mix van creativiteit en vakmanschap
+              Met een ongeëvenaarde mix van creativiteit en ervaring
               transformeren onze diensten uw woning tot een meesterwerk van
               verfijnde schoonheid, stimuleren ze persoonlijke groei en
               verrijken ze jouw leven. Ervaar de kracht van maatwerk speciaal

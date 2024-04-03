@@ -17,7 +17,7 @@ const data = [
   {
     id: 4,
     title: "Klantgericht",
-    text: "Mocht 'vertrouwen' het canvas zijn van ons schilderwerk, dan is 'klantgericht' de kleur die het uniek maakt. We streven niet alleen naar perfectie op de muur, maar ook naar een perfecte klantbeleving. We begrijpen dat uw tevredenheid de essentie is van ons vakmanschap. Ontdek een wereld waarin klantgerichtheid niet alleen een belofte is, maar een kunst die we met toewijding en enthousiasme tot leven brengen, van eerste consult tot de laatste verfkwast.",
+    text: "Mocht 'vertrouwen' het canvas zijn van ons schilderwerk, dan is 'klantgericht' de kleur die het uniek maakt. We werken niet alleen naar perfectie op de muur, maar ook naar een perfecte klantbeleving. We begrijpen dat uw tevredenheid de essentie is van ons vakmanschap. Ontdek een wereld waarin klantgerichtheid niet alleen een belofte is, maar een kunst die we met toewijding en enthousiasme tot leven brengen, van eerste consult tot de laatste verfkwast.",
   },
   {
     id: 5,

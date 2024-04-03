@@ -98,10 +98,10 @@ function Form() {
           privacyAgreement: false,
         };
         const response = await emailjs.send(
-          "service_rjxs6hj",
-          "template_j0rev1i",
+          "service_dqiu03a",
+          "template_dezcscm",
           templateParams,
-          "VB6hnEqEIq71Pygt1"
+          "aWvUK359hGkMJ98r6"
         );
         console.log("oke", response);
         setShowPopup(true);
