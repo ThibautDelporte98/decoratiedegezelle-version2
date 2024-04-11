@@ -186,7 +186,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-6">
-              <Link className="made-by">Made by Thibaut Delporte</Link>
+              <Link className="made-by">Made by &copy;Delporte</Link>
             </div>
           </div>
         </div>
