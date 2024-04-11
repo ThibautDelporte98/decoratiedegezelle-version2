@@ -1175,7 +1175,7 @@ const References = [
 
     ],
     preferences: {
-      customer: "In project Te Kuurne laten we de keuze volledig aan de klant over. Het houtwerk is uitgevoerd in Persisto Mat RAL 9016, terwijl de muur is afgewerkt met Bolatex R9016. We streven ernaar om de wensen van onze klanten perfect te vervullen, tot in de kleinste details.",
+      customer: "",
       color: [
 
       ],
