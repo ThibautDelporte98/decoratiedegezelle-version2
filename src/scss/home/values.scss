@@ -98,3 +98,15 @@
     opacity: 1 !important;
     transition: all .25s ease-out;  
 }
+
+
+.click-me{
+    position: absolute;
+    width: 7rem;
+    left: -7rem;
+    top: -2.5rem;
+    @media screen  and (max-width:576px) {
+        width: 6rem;
+        left: -5rem;
+    }
+}

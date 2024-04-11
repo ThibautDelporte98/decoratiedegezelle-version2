@@ -1,7 +1,7 @@
-import React, {useEffect, useState, Ref, useRef} from "react";
-import { Link  } from "react-router-dom";
+import React, {useEffect, useState, useRef} from "react";
 import "../../scss/home/values.scss";
 import Title from "../title/title";
+import ClickMeImage from "../../images/UX/ClickMeImage.png";
 
 const Values = ({ items }) => {
   const [showMore, setShowMore] = useState(items.map((_,index) => index === 0));
@@ -54,6 +54,9 @@ const Values = ({ items }) => {
                         <h3 onClick={() => handleShowMoreClick(index)}>
                           {showMore[index] ? null : <span className="closed-indicator">"</span>}
                           <span>{item.title}</span>
+                          <div className={`ux-clickcomp ${showMore[index] ? 'display-none' : ''}`}>
+                            {index === 1 &&  <img className="click-me" src={ClickMeImage} alt="Klik mij!" /> }
+                          </div>
                         </h3>
                           <p className={`text ${showMore[index] ? 'text-slide-in' : 'text'}`} ref={textRefs.current[index]}>
                             {showMore[index] ? item.text : `${item.text.substring(0, 0)}`}
