@@ -38,7 +38,7 @@ const CookieBanner = () => {
 
 
   const acceptCookies = () => {
-    Cookies.set("cookiesAccepted", "true", { expires: 365 });
+    Cookies.set("cookiesAccepted", "true", { expires: 90 });
     setShowBanner(false);
     setLoadGA(true);
     setIsCookieOpen(false);
@@ -71,7 +71,7 @@ const CookieBanner = () => {
       setIsHidden("hidden");
       setZIndex(0);
     }
-  };
+};
 
 
 

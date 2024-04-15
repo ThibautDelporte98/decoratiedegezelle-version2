@@ -16,23 +16,15 @@ import CookieAcceptance from "./components/cookies/cookie";
 
 function App() {
   const keywords = [
-    "Schilder en decoratiewerken",
-    "Schilder inhuren",
-    "Binnen- en buitenschilderwerk",
-    "Professionele schilders",
-    "Schilder offerte",
-    "Muurschilderingen",
-    "Kleuradvies schilderen",
-    "Decoratief schilderwerk",
-    "Schilderwerk renovatie",
-    "Particuliere schilder",
-    "Zakelijke schilder",
-    "Schilders en onderhoudsbedrijf",
-    "Decoratieve technieken",
-    "Interieur schilderen",
-    "Exterieur schilderen",
-    "schilderbedrijf",
+    "schilder en decoratiewerken",
     "schilder",
+    "binnen- en buitenschilderwerk",
+    "professionele schilders",
+    "schilder offerte",
+    "decoratieve technieken",
+    "interieur schilderen",
+    "exterieur schilderen",
+    "schilderbedrijf",
     "verf",
     "schilderwerk",
   ];
@@ -192,7 +184,6 @@ function App() {
     <>
       <HelmetProvider>
         {/* <CookieAcceptance /> */}
-
         <Helmet>
           <title>
             Schilder & Decoratiewerken | Decoratie Degezelle (Schilderwerk in
