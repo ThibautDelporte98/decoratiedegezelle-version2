@@ -886,14 +886,14 @@ const References = [
   {
     id: 9,
     priority: false,
-    url: "Behangwerken-Marke",
+    url: "Behangwerken-Harelbeke",
     image: MarkeBe,
     category: "behangwerken",
     subject: "Behangwerken",
-    city: "Marke",
+    city: "Harelbeke",
     height: 35,
     defaultHeight: 25,
-    title: "Project in Marke",
+    title: "Project in Harelbeke",
     introText: "",
     techniques: [
       {
