@@ -83,7 +83,7 @@ const Cta = ({}) => {
                 </span>
               </div>
               <div className="reviews-item">
-                <div className="reviews-title">Thrustlocal reviews</div>
+                <div className="reviews-title">Trustlocal reviews</div>
                 <div className="stars">{generateStars(averageScoreLocal)}</div>
                 <Link
                   className="reviews-amount"
