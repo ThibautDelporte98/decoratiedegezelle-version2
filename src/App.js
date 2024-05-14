@@ -186,7 +186,7 @@ function App() {
         {/* <CookieAcceptance /> */}
         <Helmet>
           <title>
-            Schilder & Decoratiewerken | Decoratie Degezelle (Schilderwerk in
+            Schilder & Decoratiewerken | Decoratie Degezelle (in
             jouw regio!)
           </title>
           <meta

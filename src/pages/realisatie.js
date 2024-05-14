@@ -35,7 +35,7 @@ function References() {
       <CustomerReview items={Data} />
       <Text
         text={
-          "Beweeg de slider van links naar rechts om getuige te zijn van de opmerkelijke verandering. Deze afbeeldingen onthullen twee gezichten van elke plek, moment, of item - de 'voor' en 'na'. Een visuele reis in één frame. Benieuwd naar de transformatie? Neem de controle, klik op de pijltjes en ervaar de kracht van verandering."
+          "Nieuwsgierig naar de transformatie? Neem de controle, klik op de pijltjes en ervaar de kracht van verandering."
         }
         layout="start"
         colorText="black"

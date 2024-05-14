@@ -103,6 +103,8 @@ import MarkeIn9 from "../../../images/References/Interieur/Marke/A9.webp";
 //Marke Behangen
 import MarkeBe from "../../../images/References/Behangen/Marke/A1.webp";
 import MarkeBe2 from "../../../images/References/Behangen/Marke/A2.webp";
+
+//Porducts
 import Elasto from "../../../images/References/Exterieur/Komen-waasten/elasto.png";
 import Matineau from "../../../images/References/Exterieur/Harelbeke/matineau.webp";
 import BossflowSilk from "../../../images/References/Interieur/Wevelgem/silk.webp";
@@ -116,6 +118,7 @@ import AquaSensaBindmiddel from "../../../images/References/products/aquasensa-b
 import OmniprimExtreme from "../../../images/References/products/Omniprim-extreme.webp";
 import Bolatex from "../../../images/References/products/bolatex.webp";
 import TopvliesCp from "../../../images/References/products/topvliesCp.webp";
+import Pastime from "../../../images/References/products/pastime.webp";
 
 
 
@@ -153,6 +156,22 @@ import houtwerkKortrijk6 from "../../../images/References/Interieur/houtwerk-kor
 import houtwerkKortrijk7 from "../../../images/References/Interieur/houtwerk-kortrijk/7.webp";
 import houtwerkKortrijk8 from "../../../images/References/Interieur/houtwerk-kortrijk/8.webp";
 import houtwerkKortrijk9 from "../../../images/References/Interieur/houtwerk-kortrijk/9.webp";
+
+// Exterieur - Oostend 14/05
+import OostendeEx from "../../../images/References/Exterieur/Oostende/3hor.webp";
+import OostendeEx2 from "../../../images/References/Exterieur/Oostende/2hor.webp";
+import OostendeEx3 from "../../../images/References/Exterieur/Oostende/1hor.webp";
+import OostendeEx4 from "../../../images/References/Exterieur/Oostende/4hor.webp";
+import OostendeEx5 from "../../../images/References/Exterieur/Oostende/5hor.webp";
+import OostendeEx6 from "../../../images/References/Exterieur/Oostende/6hor.webp";
+import OostendeEx7 from "../../../images/References/Exterieur/Oostende/10ver.webp";
+import OostendeEx8 from "../../../images/References/Exterieur/Oostende/8hor.webp";
+import OostendeEx9 from "../../../images/References/Exterieur/Oostende/9hor.webp";
+import OostendeEx10 from "../../../images/References/Exterieur/Oostende/12hor.webp";
+
+
+
+
 
 
 const References = [
@@ -945,6 +964,83 @@ const References = [
   {
     id: 10,
     priority: true,
+    url: "Exterieur-Oostende",
+    image:  OostendeEx,
+    category: "exterieur",
+    subject: "Exterieur",
+    city: "Oostende",
+    height: 35,
+    defaultHeight: 25,
+    title: "Schilderen van houtwerk",
+    introText: "Het is weer die tijd van het jaar! De lente is in volle gang en de zomer nadert snel, wat betekent dat het perfecte seizoen voor buitenschilderwerk is aangebroken. De milde temperaturen en langere dagen maken dit de ideale periode om uw huis of bedrijfspand een frisse, nieuwe uitstraling te geven. (14-05-2024)",
+    techniques: [
+      {
+        id: 1,
+        title: "Interieur | Houtwerk",
+        url: "/diensten/interieur",
+      },
+
+    ],
+    preferences: {
+      customer: "",
+      color: [
+
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Gevelafwerking",
+          showProduct: true,
+          productImage: Pastime,
+          productName: "Pastime",
+          productInfo: "Matte gekorrelde watergedragen gevelverf met kalei-uitzicht.",
+        },
+        
+      ],
+    },
+    review: [
+      {
+        text: "",
+        owner: "",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: OostendeEx2,
+      },
+      {
+        id: 2,
+        image: OostendeEx4,
+      },
+      {
+        id: 3,
+        image: OostendeEx5,
+      },
+      {
+        id: 4,
+        image: OostendeEx6,
+      },
+      {
+        id: 5,
+        image: OostendeEx7,
+      },
+      {
+        id: 6,
+        image: OostendeEx9,
+      },
+      {
+        id: 7,
+        image: OostendeEx10,
+      },
+
+
+    ],
+  },
+  {
+    id: 11,
+    priority: true,
     url: "Trap-Harelbeke",
     image: HarelbekeInterier,
     category: "interieur",
@@ -1013,7 +1109,7 @@ const References = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     priority: true,
     url: "Aqua-sensa-Bissegem",
     image:  ASBissegem,
@@ -1089,7 +1185,7 @@ const References = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     priority: true,
     url: "houtwerk-Kuurne",
     image:  Kuurne,
@@ -1156,7 +1252,7 @@ const References = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     priority: true,
     url: "houtwerk-Kortrijk",
     image:  houtwerkKortrijk,
@@ -1261,3 +1357,6 @@ const References = [
 ];
 
 export default References;
+
+
+
