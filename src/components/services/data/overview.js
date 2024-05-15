@@ -259,7 +259,7 @@ const Services = [
   },
   {
     id: 3,
-    url: "decoratieve-technieken",
+    url: "decoratieve technieken",
     image: AquaSensa,
     title: "Decoratieve technieken",
     subject: "aqua sensa, calco, tusk & claystuc",
