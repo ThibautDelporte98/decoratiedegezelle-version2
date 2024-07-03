@@ -3,7 +3,6 @@ import { useLocation, Link } from "react-router-dom";
 import ConfirmPopUp from "./ComfirmPopUp";
 import emailjs from "@emailjs/browser";
 import Button from "../buttons/button";
-// import "../../scss/Contact/Form.scss";
 import "../../scss/index.scss";
 import "../../scss/contact/form.scss";
 

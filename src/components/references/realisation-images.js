@@ -50,7 +50,7 @@ const Slider = ({items}) => {
                   className={`slide ${index === currentIndex ? "active" : ""}`}
                   style={{ transform: `translateX(-${currentIndex * 100}%)` }}
                 >
-                  <img src={image.image} alt={`Slide ${index}`} />
+                  <img src={image.image} alt={`schilder transformaties ${index}`} />
                 </div>
               ))}
             </div>

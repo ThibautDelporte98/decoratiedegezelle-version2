@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import phone from "../../images/icons/phone.png";
@@ -7,7 +7,6 @@ import adress from "../../images/icons/location.png";
 import btw from "../../images/icons/btw-white.png";
 import facebook from "../../images/icons/facebook.png";
 import instagram from "../../images/icons/instagram.png";
-import logo from "../../images/logo/logo.png";
 import "../../scss/footer/footer.scss";
 
 function Footer() {
@@ -155,12 +154,12 @@ function Footer() {
                 <ul className="d-flex">
                   <li className="data-item data-item-start">
                     <Link to={"https://www.facebook.com/profile.php?id=100090360757782"} target="_blank">
-                      <img src={facebook} alt="facebook" />
+                      <img src={facebook} alt="Vind meer over ons schilder werk op Facebook" />
                     </Link>
                   </li>
                   <li className="data-item">
                     <Link to={"https://www.instagram.com/decoratie_degezelle/"} onClick={openInstagramApp}>
-                      <img src={instagram} alt="facebook" />
+                      <img src={instagram} alt="Vind meer over ons schilder werk op Instagram." />
                     </Link>
                   </li>
                 </ul>
@@ -174,13 +173,13 @@ function Footer() {
               <div className="conditions">
                 <ul>
                   <li className="conditions-item">
-                    <Link to={'/algemene-voorwaarden'} onClick={handleNavLinkClick} >Algemene voorwaarden</Link>
+                    <Link to={'/algemene-voorwaarden'} onClick={handleNavLinkClick} title="Bekijk onze algemene voorwaarden">Algemene voorwaarden</Link>
                   </li>
                   <li className="conditions-item">
-                    <Link to={'/privacypolicy'} onClick={handleNavLinkClick}>Privacy policy</Link>
+                    <Link to={'/privacypolicy'} onClick={handleNavLinkClick} title="Bekijk onze privacy policy">Privacy policy</Link>
                   </li>
                   <li className="conditions-item">
-                    <Link to={'https://www.boss.be/'} target="_blank" >Products by Bosspaint</Link>
+                    <Link to={'https://www.boss.be/'} target="_blank">Products by Bosspaint</Link>
                   </li>
                 </ul>
               </div>

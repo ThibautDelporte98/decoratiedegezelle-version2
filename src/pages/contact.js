@@ -3,9 +3,7 @@ import Nav from "../components/nav/nav.js";
 import Header from "../components/page-title/header.js";
 import Footer from "../components/footer/Footer.js";
 import ContactElements from "../components/contact/contact.js";
-import dataWithLinks from "../components/contact/data/social.js";
 import image from "../images/contact/contact.webp";
-import CookieBanner from "../components/cookies/cookie.js";
 
 
 function Contact() {

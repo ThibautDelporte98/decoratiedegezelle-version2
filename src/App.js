@@ -12,11 +12,10 @@ import DataProjects from "./components/services/data/overview";
 import DataRefs from "./components/references/data/Data";
 import Footer from "./components/footer/Footer";
 import Cta from "./components/call-to-actions/cta";
-import CookieAcceptance from "./components/cookies/cookie";
 
 function App() {
   const keywords = [
-    "schilder en decoratiewerken",
+    "schilder en decoratiewerk",
     "schilder",
     "binnen- en buitenschilderwerk",
     "professionele schilders",
@@ -68,9 +67,6 @@ function App() {
     slogan: "Verf je wereld binnen en buiten!",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://decoratiedegezelle.be/search?q={search_term_string}",
-      "query-input": "required name=search_term_string",
-      "@type": "OrganizeAction",
       target: {
         "@type": "EntryPoint",
         urlTemplate: "https://decoratiedegezelle.be/contact",
@@ -183,11 +179,9 @@ function App() {
   return (
     <>
       <HelmetProvider>
-        {/* <CookieAcceptance /> */}
         <Helmet>
           <title>
-            Schilder & Decoratiewerken | Decoratie Degezelle (in
-            jouw regio!)
+            Schilder in jouw regio! | Decoratie Degezelle 
           </title>
           <meta
             name="description"
@@ -228,8 +222,8 @@ function App() {
           showCarousel={true}
         />
         <About />
-        <Values items={DataValues} />
         <ServiceOverview items={DataProjects} />
+        <Values items={DataValues} />
         <References items={DataRefs} />
         <Cta />
         <Footer />

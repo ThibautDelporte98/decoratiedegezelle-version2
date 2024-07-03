@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import "../../scss/page-title/header-large.scss";
 import PropTypes from "prop-types";
 import Image1 from "../../images/carouselImages/home/header-home-1.webp";
@@ -19,7 +18,7 @@ const HeaderLarge = ({ title, subtitle, text, color, showCarousel }) => {
     }, 6000);
 
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, []);
 
   return (
     <div className="component mt-8 mt-8-9">
@@ -65,7 +64,7 @@ const HeaderLarge = ({ title, subtitle, text, color, showCarousel }) => {
                 className={`carousel ${index === current ? "active" : ""}`}
                 key={index}
               >
-                <img src={url} alt={`Image ${index + 1}`} />
+                <img src={url} alt={`${index + 1}`} />
               </div>
             ))}
           </>

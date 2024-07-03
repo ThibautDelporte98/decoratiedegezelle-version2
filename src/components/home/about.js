@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Button from "../buttons/button";
 import { Link } from "react-router-dom";
 import Person from "../../images/home/cta-about/call-to-action-about-home.webp";
@@ -27,10 +27,7 @@ function About() {
                 Elke penseelstreek verteld een verhaal, en jouw huis of
                 bedrijfsruimte is het canvas waarop dit verhaal tot leven komt.
                 Laat ons jou begeleiden door de kunst van schilderen, waar
-                passie, vakmanschap en creativiteit samenkomen om een unieke en
-                inspirerende omgeving te creëren. Welkom bij Decoratie
-                Degezelle, waar we niet alleen je wereld binnen en buiten
-                verven, maar jouw omgeving ook nieuw leven in blazen.
+                passie, vakmanschap en creativiteit samenkomen.
               </p>
               <Button
                 to={"./overons"}
@@ -46,13 +43,13 @@ function About() {
                 <div className="list">
                   <ul className="table-of-content">
                     <li className="content-item">
-                      <Link onClick={() => scrollToSection("principals")}>
-                        Principes
+                      <Link onClick={() => scrollToSection("service-overview")}>
+                        Dienst overzicht
                       </Link>
                     </li>
                     <li className="content-item">
-                      <Link onClick={() => scrollToSection("service-overview")}>
-                        Dienst overzicht
+                      <Link onClick={() => scrollToSection("principals")}>
+                        Principes
                       </Link>
                     </li>
                     <li className="content-item">
@@ -70,7 +67,7 @@ function About() {
               </div>
             </div>
             <div className="about-item ">
-              <img src={Person} alt="Over ons" loading="lazy" />
+              <img src={Person} alt="schilder bedrijf Decoratie Degezelle" loading="lazy" />
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ function AboutSubject({ title,  text, image}) {
           <div className="row">
             <div className="col-12 col-lg-5 order-lg-1">
               <div className="subjects-object-image">
-                <img src={image} alt="test afbeelding" />
+                <img src={image} alt="Meer over schilderen bij ons!" />
               </div>
             </div>
             <div className="col-12 col-lg-7 order-lg-2">

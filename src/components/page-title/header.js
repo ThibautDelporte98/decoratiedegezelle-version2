@@ -1,15 +1,10 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import Breadcrumb from "../breadcrumb/breadcrumb";
 import "../../scss/page-title/header.scss";
 
 function Header({ title, text, height, image, showImage}) {
-  const navigate = useNavigate();
 
-  const goBack = () => {
-    navigate(-1);
-  };
 
   const dividerStyle = {
     color: "orange",

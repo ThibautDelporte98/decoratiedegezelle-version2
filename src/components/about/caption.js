@@ -8,7 +8,7 @@ function Caption({ text, layout, image}) {
       <div className="container">
         <div className={`caption-content ${getLayoutClass(layout)}`}>
           <div className="caption-bg">
-            <img src={image} alt="ervaringen en certificaten" />
+            <img src={image} alt="schilder ervaringen en certificaten DecoratieDegezelle"/>
            </div>
           <p className={`text-align-start`} >
             {text}

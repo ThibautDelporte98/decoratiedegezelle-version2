@@ -3,13 +3,11 @@ import Form from "./form";
 import Social from "./social";
 import ContactInfo from "./contact-info";
 import Hours from "./hours";
-import Info from "./info";
 import "../../scss/contact/contact.scss";
 import dataWithLinks from "./data/contact-info";
 import data from "./data/social";
 
 const ContactElements = () => {
-  const id = [1, 2];
 
   return (
     <div className="Contact">

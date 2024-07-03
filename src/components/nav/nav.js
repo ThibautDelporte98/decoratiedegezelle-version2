@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect} from "react";
 import { useLocation } from "react-router-dom";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../images/logo/logoLight.webp";
@@ -10,7 +10,7 @@ import "../../scss/nav.scss";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 992);
+  const [, setIsSmallScreen] = useState(window.innerWidth < 992);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);

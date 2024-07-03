@@ -4,7 +4,6 @@ import "../../scss/references/References.scss";
 import "../../scss/references/filter.scss";
 import LoadMoreButton from "../buttons/load-more";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import Header from "../page-title/header";
 
 const ReferencesItems = ({ items }) => {
   const location = useLocation();
@@ -125,7 +124,7 @@ const ReferencesItems = ({ items }) => {
                                       ? `${item.defaultHeight}rem`
                                       : "auto",
                                 }}
-                                alt="referentie 1"
+                                alt="Schilderen in Vlaanderen."
                               />
                             </div>
                             <div className="c-references__overlay">

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../../scss/services/overview-detail-steps.scss";
-import image from "../../images/icons/prev.png";
 
 const WayOfWork = ({ items }) => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -8,9 +7,6 @@ const WayOfWork = ({ items }) => {
 
   const totalPages = Math.ceil(items.length / itemsPerPage);
 
-  const handleClick = (page) => {
-    setCurrentPage(page);
-  };
 
   const handlePrevPage = () => {
     setCurrentPage((prevPage) => prevPage - 1);

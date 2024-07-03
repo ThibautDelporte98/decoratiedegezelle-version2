@@ -37,7 +37,7 @@ const Overview = ({ items }) => {
                   <div className="overlay">
                     <h2>{item.title}</h2>
                   </div>
-                  <img src={item.image} alt={item.title} />
+                  <img src={item.image} alt="schilder diensten op uw maat!"/>
                 </div>
               </Link>
             </div>

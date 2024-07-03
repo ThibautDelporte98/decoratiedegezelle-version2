@@ -21,7 +21,7 @@ const Breadcrumb = () => {
               {isLast ? (
                 <span>{name}</span>
               ) : (
-                <Link to={routeTo}>{name}</Link>
+                <Link to={routeTo} title={name}>{name}</Link>
               )}
             </li>
           );

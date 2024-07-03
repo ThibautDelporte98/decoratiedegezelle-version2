@@ -1,6 +1,5 @@
 import React, { useMemo } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import Button from "../buttons/button";
+import { Link} from "react-router-dom";
 import Title from "../title/title";
 import "../../scss/home/references.scss";
 
@@ -50,7 +49,7 @@ const References = ({ items }) => {
                   >
                     <div className="item-project-image">
                       <div className="item-project-location">{item.city}</div>
-                      <img src={item.image} alt="realisatie" loading="lazy" />
+                      <img src={item.image} alt="Realisaties Vlaanderen Decoratie Degezelle " loading="lazy" />
                     </div>
                   </Link>
                   <div className="content">

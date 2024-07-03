@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { animateScroll as scroll } from "react-scroll";
 import Title from "../title/title";
 import Button from "../buttons/button";
 import "../../scss/home/services-overview.scss";
@@ -62,7 +61,7 @@ const ServiceOverview = ({ items }) => {
           item.id === mouseHover ? "fade-in" : "fade-out"
         )}`}
         src={selectedImage}
-        alt={`Dienst ${
+        alt={`Verschillende schilderdiensten: ${
           windowWidth >= 1024
             ? mouseHover
               ? (items.find((item) => item.id === mouseHover) || {}).title

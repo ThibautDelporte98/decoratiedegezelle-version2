@@ -8,8 +8,6 @@ import DataDienst from "../components/services/data/overview.js";
 import WayOfWork from "../components/services/overview-detail-steps.js";
 import steps from "../components/services/data/wayofwork.js";
 import ServiceSubject from "../components/services/overview-detail-subjects.js";
-// import Data from "../components/services/data/overview.js"
-import image from "../images/carouselImages/home/A1.webp";
 
 function Service() {
   const { url } = useParams();

@@ -55,7 +55,7 @@ const Values = ({ items }) => {
                           {showMore[index] ? null : <span className="closed-indicator">"</span>}
                           <span>{item.title}</span>
                           <div className={`ux-clickcomp ${showMore[index] ? 'display-none' : ''}`}>
-                            {index === 1 &&  <img className="click-me" src={ClickMeImage} alt="Klik mij!" /> }
+                            {index === 1 &&  <img className="click-me" src={ClickMeImage} alt="Onze principes als schilderbedrijf in regio Kortrijk!" /> }
                           </div>
                         </h3>
                           <p className={`text ${showMore[index] ? 'text-slide-in' : 'text'}`} ref={textRefs.current[index]}>

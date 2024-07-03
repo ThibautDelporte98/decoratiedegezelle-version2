@@ -1,19 +1,13 @@
 import React from "react";
 import Nav from "../components/nav/nav.js";
 import Footer from "../components/footer/Footer.js";
-import Caption from "../components/about/caption.js";
-import Caption2 from "../components/about/caption.js";
-import Caption3 from "../components/about/caption.js";
 import Header from "../components/page-title/header.js";
-import HeaderLarge from "../components/page-title/header-large.js";
 import Announcement from "../components/about/announcement.js";
 import image from "../images/about/about-us.webp";
 import AboutSubject from "../components/about/about-subjects.js";
 import trust from "../images/about/trust.webp";
 import experience from "../images/about/experience.webp";
 import Text from "../components/references/text.js";
-import Image from "../components/about/image.js";
-import Owner from "../components/about/owner.js";
 import Cta from "../components/call-to-actions/cta.js";
 
 function About() {

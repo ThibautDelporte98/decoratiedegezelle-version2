@@ -1,23 +1,16 @@
 //Komen-Waasten
 import Front from "../../../images/Services/Exterieur/Exterieur.webp";
-import before from "../../../images/References/Exterieur/Komen-waasten/before/A1.webp";
-import before1 from "../../../images/References/Exterieur/Komen-waasten/before/A1.webp";
 import before2 from "../../../images/References/Exterieur/Komen-waasten/before/A2.webp";
 import before3 from "../../../images/References/Exterieur/Komen-waasten/before/A3.webp";
 import before4 from "../../../images/References/Exterieur/Komen-waasten/before/A4.webp";
-import before5 from "../../../images/References/Exterieur/Komen-waasten/before/KW5.webp";
-import before6 from "../../../images/References/Exterieur/Komen-waasten/before/KW6.webp";
 import after1 from "../../../images/References/Exterieur/Komen-waasten/after/B1.webp";
 import after2 from "../../../images/References/Exterieur/Komen-waasten/after/B2.webp";
 import after3 from "../../../images/References/Exterieur/Komen-waasten/after/B3.webp";
 import after4 from "../../../images/References/Exterieur/Komen-waasten/after/B4.webp";
-import after5 from "../../../images/References/Exterieur/Komen-waasten/after/KW5.webp";
-import after6 from "../../../images/References/Exterieur/Komen-waasten/after/KW6.webp";
 //Interieur Bissegem
 import Bissegem from "../../../images/References/Interieur/Bissegem/Bissegem.webp";
 import Bissegem2 from "../../../images/References/Interieur/Bissegem/A2.webp";
 import Bissegem3 from "../../../images/References/Interieur/Bissegem/A3.webp";
-import Bissegem4 from "../../../images/References/Interieur/Bissegem/A5.webp";
 //Interieur Gullegem
 import Gullegem from "../../../images/References/Interieur/Gullegem/Gullegem2.webp";
 import Gullegem2 from "../../../images/References/Interieur/Gullegem/Gullegem.webp";
@@ -69,17 +62,10 @@ import OnbekendExterieur6 from "../../../images/References/Exterieur/Onbekend/A5
 import WevelgemEx from "../../../images/References/Exterieur/Wevelgem/Wevelgem.webp";
 import WevelgemEx2 from "../../../images/References/Exterieur/Wevelgem/Wevelgem2.webp";
 import WevelgemEx3 from "../../../images/References/Exterieur/Wevelgem/A1.webp";
-import WevelgemEx4 from "../../../images/References/Exterieur/Wevelgem/A2.webp";
-import WevelgemEx5 from "../../../images/References/Exterieur/Wevelgem/A3.webp";
-//Moen Exterieur
-import Moen from "../../../images/References/Exterieur/Moen/A1.webp";
-//Harelbeke Exterieur
-import HarelbekeEx from "../../../images/References/Exterieur/Harelbeke/AE1.webp";
-import HarelbekeEx2 from "../../../images/References/Exterieur/Harelbeke/AE2.webp";
-import HarelbekeEx3 from "../../../images/References/Exterieur/Harelbeke/AE3.webp";
+
+
 //Wevelgem2 Interieur
 import WevelgemIn from "../../../images/References/Interieur/Wevelgem/A1.webp";
-import WevelgemIn2 from "../../../images/References/Interieur/Wevelgem/A2.webp";
 import WevelgemIn3 from "../../../images/References/Interieur/Wevelgem/A3.webp";
 import WevelgemIn4 from "../../../images/References/Interieur/Wevelgem/A4.webp";
 import WevelgemIn5 from "../../../images/References/Interieur/Wevelgem/A5.webp";
@@ -88,18 +74,8 @@ import WevelgemIn7 from "../../../images/References/Interieur/Wevelgem/A7.webp";
 import WevelgemIn8 from "../../../images/References/Interieur/Wevelgem/A8.webp";
 import WevelgemIn9 from "../../../images/References/Interieur/Wevelgem/A9.webp";
 import WevelgemIn10 from "../../../images/References/Interieur/Wevelgem/A10.webp";
-import WevelgemIn11 from "../../../images/References/Interieur/Wevelgem/A11.webp";
-import WevelgemIn12 from "../../../images/References/Interieur/Wevelgem/A12.webp";
-//Marke Interieur
-import MarkeIn from "../../../images/References/Interieur/Marke/A1.webp";
-import MarkeIn2 from "../../../images/References/Interieur/Marke/A2.webp";
-import MarkeIn3 from "../../../images/References/Interieur/Marke/A3.webp";
-import MarkeIn4 from "../../../images/References/Interieur/Marke/A4.webp";
-import MarkeIn5 from "../../../images/References/Interieur/Marke/A5.webp";
-import MarkeIn6 from "../../../images/References/Interieur/Marke/A6.webp";
-import MarkeIn7 from "../../../images/References/Interieur/Marke/A7.webp";
-import MarkeIn8 from "../../../images/References/Interieur/Marke/A8.webp";
-import MarkeIn9 from "../../../images/References/Interieur/Marke/A9.webp";
+
+
 //Marke Behangen
 import MarkeBe from "../../../images/References/Behangen/Marke/A1.webp";
 import MarkeBe2 from "../../../images/References/Behangen/Marke/A2.webp";
@@ -112,7 +88,6 @@ import PlafondMat from "../../../images/References/Interieur/Wevelgem/plafondmat
 import Claystuc from "../../../images/References/Interieur/Gullegem/claystuc.webp"
 import BossFlowMat from "../../../images/References/products/bossflowmat.webp";
 import Persisto from "../../../images/References/products/persisto.webp";
-import Woodcolor from "../../../images/References/products/woodcolor.webp";
 import AquaSensaPoeder from "../../../images/References/products/aquasensa-poeder.webp";
 import AquaSensaBindmiddel from "../../../images/References/products/aquasensa-bindmiddel.webp";
 import OmniprimExtreme from "../../../images/References/products/Omniprim-extreme.webp";
@@ -160,12 +135,10 @@ import houtwerkKortrijk9 from "../../../images/References/Interieur/houtwerk-kor
 // Exterieur - Oostend 14/05
 import OostendeEx from "../../../images/References/Exterieur/Oostende/3hor.webp";
 import OostendeEx2 from "../../../images/References/Exterieur/Oostende/2hor.webp";
-import OostendeEx3 from "../../../images/References/Exterieur/Oostende/1hor.webp";
 import OostendeEx4 from "../../../images/References/Exterieur/Oostende/4hor.webp";
 import OostendeEx5 from "../../../images/References/Exterieur/Oostende/5hor.webp";
 import OostendeEx6 from "../../../images/References/Exterieur/Oostende/6hor.webp";
 import OostendeEx7 from "../../../images/References/Exterieur/Oostende/10ver.webp";
-import OostendeEx8 from "../../../images/References/Exterieur/Oostende/8hor.webp";
 import OostendeEx9 from "../../../images/References/Exterieur/Oostende/9hor.webp";
 import OostendeEx10 from "../../../images/References/Exterieur/Oostende/12hor.webp";
 
@@ -710,7 +683,6 @@ const References = [
     image: OnbekendExterieur,
     category: "exterieur",
     subject: "Exterieur | Zwevegem",
-    subject: "Exterieur ",
     city: "Zwevegem",
     height: 35,
     defaultHeight: 25,
@@ -787,7 +759,6 @@ const References = [
     defaultHeight: 25,
     title: "Project in Wevelgem",
     introText: "",
-
     techniques: [
       {
         id: 1,

@@ -38,7 +38,7 @@ const generateStars = (rating) => {
   return stars;
 };
 
-const Cta = ({}) => {
+const Cta = () => {
   const totalRatingsGoogle = dataGoogle.length;
   const totalScoreGoogle = dataGoogle.reduce((sum, item) => sum + item.rating, 0);
   const averageScoreGoogle = totalRatingsGoogle > 0 ? (totalScoreGoogle / totalRatingsGoogle).toFixed(1) : "0.0";
@@ -58,7 +58,7 @@ const Cta = ({}) => {
               <div className="score">
                 {averageScoreGoogle}
                 <span className="review-logo">
-                  <img src={google} />
+                  <img src={google} alt="Onze Google score!" />
                 </span>
               </div>
               <div className="reviews-item">
@@ -79,7 +79,7 @@ const Cta = ({}) => {
               <div className="score">
                 {averageScoreLocal}
                 <span className="review-logo">
-                  <img src={thrustlocal} />
+                  <img src={thrustlocal} alt="Onze trustlocal score"/>
                 </span>
               </div>
               <div className="reviews-item">

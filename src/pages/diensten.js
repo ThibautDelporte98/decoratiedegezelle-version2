@@ -5,7 +5,6 @@ import Overview from "../components/services/overview.js";
 import Data from "../components/services/data/overview.js";
 import Cta from "../components/call-to-actions/cta.js";
 import Header from "../components/page-title/header.js";
-import CookieBanner from "../components/cookies/cookie.js";
 
 function Services() {
   return (
@@ -19,9 +18,7 @@ function Services() {
         text="              
               Met een ongeëvenaarde mix van creativiteit en ervaring
               transformeren onze diensten uw woning tot een meesterwerk van
-              verfijnde schoonheid, stimuleren ze persoonlijke groei en
-              verrijken ze jouw leven. Ervaar de kracht van maatwerk speciaal
-              ontworpen om aan jouw behoeften te voldoen."
+              verfijnde schoonheid."
       />
       <Overview items={Data} />
       <Cta />
