@@ -25,9 +25,9 @@ function App() {
     "exterieur schilderen",
     "schilderbedrijf",
     "verf",
-    "schilderwerk",
+    "schilderwerk"
   ];
-
+  
   const websiteSchema = {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -36,7 +36,7 @@ function App() {
     url: "https://decoratiedegezelle.be/",
     sameAs: [
       "https://www.facebook.com/people/Decoratie-Degezelle/100090360757782/",
-      "https://www.instagram.com/decoratie_degezelle/",
+      "https://www.instagram.com/decoratie_degezelle/"
     ],
     about: {
       "@type": "Organization",
@@ -48,21 +48,21 @@ function App() {
         streetAddress: "Kouterstraat 42",
         addressLocality: "Harelbeke",
         postalCode: "8530",
-        addressCountry: "BE",
+        addressCountry: "BE"
       },
       email: "info@decoratiedegezelle.be",
       telephone: "+32 478 366 070",
       sameAs: [
         "https://www.facebook.com/people/Decoratie-Degezelle/100090360757782/",
-        "https://www.instagram.com/decoratie_degezelle/",
-      ],
+        "https://www.instagram.com/decoratie_degezelle/"
+      ]
     },
     brand: {
       "@type": "Brand",
       name: "Decoratie Degezelle",
       description:
         "Uw partner voor hoogwaardige decoratieve schildersdiensten met passie voor vakmanschap en creativiteit.",
-      logo: "https://decoratiedegezelle.be/Thumbnail.webp",
+      logo: "https://decoratiedegezelle.be/Thumbnail.webp"
     },
     slogan: "Verf je wereld binnen en buiten!",
     potentialAction: {
@@ -74,61 +74,42 @@ function App() {
         actionPlatform: [
           "http://schema.org/DesktopWebPlatform",
           "http://schema.org/IOSPlatform",
-          "http://schema.org/AndroidPlatform",
-        ],
+          "http://schema.org/AndroidPlatform"
+        ]
       },
-      expectsAcceptanceOf: {
-        "@type": "Offer",
-        priceSpecification: {
-          "@type": "CompoundPriceSpecification",
-          priceComponent: [
-            {
-              "@type": "UnitPriceSpecification",
-              name: "Toegangsprijs",
-              price: "0",
-              priceCurrency: "EUR",
-              valueAddedTaxIncluded: "false",
-              referenceQuantity: {
-                "@type": "QuantitativeValue",
-                value: 1,
-                unitCode: "MON",
-              },
-            },
-          ],
-        },
-      },
+      "query-input": "required name=search_term_string"
     },
     kernwaarden: [
       {
         "@type": "PropertyValue",
         name: "Kwaliteit",
-        value: "Hoogwaardige kwaliteit staat bij ons voorop.",
+        value: "Hoogwaardige kwaliteit staat bij ons voorop."
       },
       {
         "@type": "PropertyValue",
         name: "Service",
-        value: "Wij bieden uitmuntende service aan onze klanten.",
+        value: "Wij bieden uitmuntende service aan onze klanten."
       },
       {
         "@type": "PropertyValue",
         name: "Vertrouwen",
-        value: "Vertrouwen is de basis van onze relaties met klanten.",
+        value: "Vertrouwen is de basis van onze relaties met klanten."
       },
       {
         "@type": "PropertyValue",
         name: "Klantgericht",
         value:
-          "Onze dienstverlening is volledig gericht op de behoeften van onze klanten.",
+          "Onze dienstverlening is volledig gericht op de behoeften van onze klanten."
       },
       {
         "@type": "PropertyValue",
         name: "Flexibel",
         value:
-          "Wij passen ons aan en zijn flexibel om aan de wensen van onze klanten te voldoen.",
-      },
-    ],
+          "Wij passen ons aan en zijn flexibel om aan de wensen van onze klanten te voldoen."
+      }
+    ]
   };
-
+  
   const breadcrumbListSchema = {
     "@context": "http://schema.org",
     "@type": "BreadcrumbList",
@@ -138,42 +119,42 @@ function App() {
         position: 1,
         item: {
           "@id": "https://decoratiedegezelle.be/",
-          name: "Home",
-        },
+          name: "Home"
+        }
       },
       {
         "@type": "ListItem",
         position: 2,
         item: {
           "@id": "https://decoratiedegezelle.be/diensten",
-          name: "Diensten",
-        },
+          name: "Diensten"
+        }
       },
       {
         "@type": "ListItem",
         position: 3,
         item: {
           "@id": "https://decoratiedegezelle.be/realisaties",
-          name: "Referenties",
-        },
+          name: "Referenties"
+        }
       },
       {
         "@type": "ListItem",
         position: 4,
         item: {
           "@id": "https://decoratiedegezelle.be/overons",
-          name: "Over ons",
-        },
+          name: "Over ons"
+        }
       },
       {
         "@type": "ListItem",
         position: 5,
         item: {
           "@id": "https://decoratiedegezelle.be/contact",
-          name: "Offerte aanvragen",
-        },
-      },
-    ],
+          name: "Offerte aanvragen"
+        }
+      }
+    ]
   };
 
   return (
