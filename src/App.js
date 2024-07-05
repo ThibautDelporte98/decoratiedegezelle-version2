@@ -69,7 +69,7 @@ function App() {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://decoratiedegezelle.be/contact",
+        urlTemplate: "https://decoratiedegezelle.be/?search_term_string={search_term_string}",
         inLanguage: "nl-BE",
         actionPlatform: [
           "http://schema.org/DesktopWebPlatform",
@@ -166,7 +166,7 @@ function App() {
           </title>
           <meta
             name="description"
-            content="Ontdek een uitgebreid overzicht van onze diensten en bekijk onze recente projecten. Laat ons vakmanschap en toewijding jouw ruimte transformeren naar iets buitengewoons."
+            content="Ontdek een uitgebreid overzicht van onze diensten en bekijk onze recente projecten."
           />
           <meta name="keywords" content={keywords} />
           <meta name="author" content="Alexandro Degezelle" />
