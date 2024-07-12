@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Title from "../title/title";
 import "../../scss/home/references.scss";
 
@@ -14,20 +14,16 @@ const References = ({ items }) => {
   };
 
   return (
-    <div className="references" id="recent-projects">
+    <section className="references" id="recent-projects">
       <div className="introduction">
         <div className="container">
-        <Title 
-          title="Projecten"
-          children="Realisaties"
-          color={"black"}>
-      </Title>
+          <Title title="Projecten" children="Realisaties" color={"black"} />
           <div className="intro">
             <h2>Ontdek ons vakmanschap</h2>
             <p>
-              Neem een kijkje in onze projecten en beleef het meet van begin tot
-              einde. Wij zorgen voor een vernieuwde uitstraling om jouw omgeving
-              een warmer en sfeervoller gevoel te geven.
+              Neem een kijkje in onze projecten en beleef het met ons van begin
+              tot einde. Wij zorgen voor een vernieuwde uitstraling om jouw
+              omgeving een warmer en sfeervoller gevoel te geven.
             </p>
           </div>
         </div>
@@ -37,7 +33,7 @@ const References = ({ items }) => {
         <div className="container">
           <div className="items">
             {randomItems.map((item, index) => (
-              <div
+              <article
                 className={`item ${index % 2 === 0 ? "right" : ""}`}
                 key={index}
               >
@@ -49,12 +45,16 @@ const References = ({ items }) => {
                   >
                     <div className="item-project-image">
                       <div className="item-project-location">{item.city}</div>
-                      <img src={item.image} alt="Realisaties Vlaanderen Decoratie Degezelle " loading="lazy" />
+                      <img
+                        src={item.image}
+                        alt={`${item.city} project door Decoratie Degezelle`}
+                        loading="lazy"
+                      />
                     </div>
                   </Link>
                   <div className="content">
                     <h3>
-                      {item.subject}| {item.title}
+                      {item.subject} | {item.title}
                     </h3>
                     <ul>
                       {item.techniques &&
@@ -68,12 +68,12 @@ const References = ({ items }) => {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

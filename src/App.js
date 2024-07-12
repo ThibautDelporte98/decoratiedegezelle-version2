@@ -15,15 +15,14 @@ import Cta from "./components/call-to-actions/cta";
 
 function App() {
   const keywords = [
-    "schilder en decoratiewerk",
+    "decoratiewerk",
     "schilder",
-    "binnen- en buitenschilderwerk",
-    "professionele schilders",
-    "schilder offerte",
+    "binnenschilderwerk",
+    "buitenschilderwerk",
     "decoratieve technieken",
-    "interieur schilderen",
-    "exterieur schilderen",
-    "schilderbedrijf",
+    "interieur",
+    "exterieur",
+    "schildersbedrijf",
     "verf",
     "schilderwerk"
   ];
@@ -162,11 +161,11 @@ function App() {
       <HelmetProvider>
         <Helmet>
           <title>
-            Schilder in jouw regio! | Decoratie Degezelle 
+            Schildersbedrijf | Decoratie Degezelle 
           </title>
           <meta
             name="description"
-            content="Ontdek een uitgebreid overzicht van onze diensten en bekijk onze recente projecten."
+            content="Ontdek hoogwaardige schilder- en decoratiediensten in West-Vlaanderen bij Decoratie Degezelle. Uw partner voor binnen- en buitenschilderwerk."
           />
           <meta name="keywords" content={keywords} />
           <meta name="author" content="Alexandro Degezelle" />

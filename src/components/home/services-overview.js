@@ -77,7 +77,7 @@ const ServiceOverview = ({ items }) => {
   };
 
   return (
-    <div className="service" id="service-overview">
+    <section className="service" id="service-overview">
       <Title 
         title="Dienst overzicht"
         children="Aanbod"
@@ -175,7 +175,7 @@ const ServiceOverview = ({ items }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
