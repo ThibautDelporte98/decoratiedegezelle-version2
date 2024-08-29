@@ -952,7 +952,7 @@ const References = [
     height: 30,
     defaultHeight: 25,
     title: "Schilderen van gevel",
-    introText: " Met trots presenteren we onze nieuwste realisatie: In dit project hebben we het houtwerk grondig onder handen genomen. Alles werd zorgvuldig geschuurd om een perfect gladde basis te creëren. Vervolgens brachten we twee afwerklagen aan met Elasto Satin One, een duurzame en hoogwaardige verf die niet alleen zorgt voor een prachtig eindresultaat, maar ook optimale bescherming biedt. Het resultaat is een schitterende, strak afgewerkte look die het houtwerk weer als nieuw doet stralen! (29-08-2024)",
+    introText: "Met trots presenteren we onze nieuwste realisatie: In dit project hebben we het houtwerk en de buitengevel grondig onder handen genomen. Alles werd zorgvuldig geschuurd om een perfect gladde basis te creëren. Voor de gevel gebruikten we Subliprim wit als grondlaag en Sublimat wit als afwerklaag. Het houtwerk werd afgewerkt met twee lagen Elasto Satin One, drie duurzame en hoogwaardige verven die zorgen voor een prachtig eindresultaat en optimale bescherming. Het resultaat is een schitterende, strak afgewerkte look die zowel het houtwerk als de gevel weer als nieuw doet stralen! (29-08-2024)",
     techniques: [
       {
         id: 1,
