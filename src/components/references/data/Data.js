@@ -94,8 +94,8 @@ import OmniprimExtreme from "../../../images/References/products/Omniprim-extrem
 import Bolatex from "../../../images/References/products/bolatex.webp";
 import TopvliesCp from "../../../images/References/products/topvliesCp.webp";
 import Pastime from "../../../images/References/products/pastime.webp";
-
-
+import Sublimat from "../../../images/References/products/sublimat.webp";
+import Subliprim from "../../../images/References/products/subliprim-30.png";
 
 
 
@@ -142,7 +142,16 @@ import OostendeEx7 from "../../../images/References/Exterieur/Oostende/10ver.web
 import OostendeEx9 from "../../../images/References/Exterieur/Oostende/9hor.webp";
 import OostendeEx10 from "../../../images/References/Exterieur/Oostende/12hor.webp";
 
-
+// Exterieur - Harelbeke 28/08
+import harelebek2408Ex1 from "../../../images/References/Exterieur/Harelbeke2/1.webp";
+import harelebek2408Ex2 from "../../../images/References/Exterieur/Harelbeke2/2.webp";
+import harelebek2408Ex3 from "../../../images/References/Exterieur/Harelbeke2/3.webp";
+import harelebek2408Ex4 from "../../../images/References/Exterieur/Harelbeke2/4.webp";
+import harelebek2408Ex5 from "../../../images/References/Exterieur/Harelbeke2/5.webp";
+import harelebek2408Ex6 from "../../../images/References/Exterieur/Harelbeke2/6.webp";
+import harelebek2408Ex7 from "../../../images/References/Exterieur/Harelbeke2/7.webp";
+import harelebek2408Ex8 from "../../../images/References/Exterieur/Harelbeke2/8.webp";
+import harelebek2408Ex9 from "../../../images/References/Exterieur/Harelbeke2/9.webp";
 
 
 
@@ -900,7 +909,7 @@ const References = [
       product: [
         {
           id: 1,
-          title: "Bescherming",
+          title: "Grondlaag/Afwerking",
           showProduct: true,
           productImage: Elasto,
           productName: "Elastosatin One",
@@ -935,6 +944,99 @@ const References = [
   {
     id: 10,
     priority: true,
+    url: "Exterieur-Harelbeke2",
+    image:  harelebek2408Ex1,
+    category: "exterieur",
+    subject: "Exterieur",
+    city: "Harelbeke",
+    height: 30,
+    defaultHeight: 25,
+    title: "Schilderen van gevel",
+    introText: " Met trots presenteren we onze nieuwste realisatie: In dit project hebben we het houtwerk grondig onder handen genomen. Alles werd zorgvuldig geschuurd om een perfect gladde basis te creëren. Vervolgens brachten we twee afwerklagen aan met Elasto Satin One, een duurzame en hoogwaardige verf die niet alleen zorgt voor een prachtig eindresultaat, maar ook optimale bescherming biedt. Het resultaat is een schitterende, strak afgewerkte look die het houtwerk weer als nieuw doet stralen! (29-08-2024)",
+    techniques: [
+      {
+        id: 1,
+        title: "Exterieur | Houtwerk",
+        url: "/diensten/Exterieur",
+      },
+
+    ],
+    preferences: {
+      customer: "",
+      color: [
+
+      ],
+      product: [
+        {
+          id: 1,
+          title: "Grondlaag/Afwerking",
+          showProduct: true,
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
+        },
+        {
+          id: 2,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: Sublimat,
+          productName: "Sublimat",
+          productInfo: "Matte dispersieverf voor buitenmuren.",
+        },
+        {
+          id: 3,
+          title: "Grondlaag",
+          showProduct: true,
+          productImage: Subliprim,
+          productName: "Subliprim",
+          productInfo: "Dekkende watergedragen grondlaag voor buitenmuren.",
+        },
+        
+      ],
+    },
+    review: [
+      {
+        text: "",
+        owner: "",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: harelebek2408Ex2,
+      },
+      {
+        id: 2,
+        image: harelebek2408Ex3,
+      },
+      {
+        id: 3,
+        image: harelebek2408Ex4,
+      },
+      {
+        id: 4,
+        image: harelebek2408Ex5,
+      },
+      {
+        id: 5,
+        image: harelebek2408Ex6,
+      },
+      {
+        id: 6,
+        image: harelebek2408Ex7,
+      },
+      {
+        id: 7,
+        image: harelebek2408Ex8,
+      },
+
+
+    ],
+  },
+  {
+    id: 11,
+    priority: true,
     url: "Exterieur-Oostende",
     image:  OostendeEx,
     category: "exterieur",
@@ -947,7 +1049,7 @@ const References = [
     techniques: [
       {
         id: 1,
-        title: "Interieur | Houtwerk",
+        title: "Exterieur | Houtwerk",
         url: "/diensten/interieur",
       },
 
@@ -1010,7 +1112,7 @@ const References = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     priority: true,
     url: "Trap-Harelbeke",
     image: HarelbekeInterier,
@@ -1080,7 +1182,7 @@ const References = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     priority: true,
     url: "Aqua-sensa-Bissegem",
     image:  ASBissegem,
@@ -1156,7 +1258,7 @@ const References = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     priority: true,
     url: "houtwerk-Kuurne",
     image:  Kuurne,
@@ -1223,7 +1325,7 @@ const References = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     priority: true,
     url: "houtwerk-Kortrijk",
     image:  houtwerkKortrijk,
@@ -1249,35 +1351,11 @@ const References = [
       product: [
         {
           id: 1,
-          title: "Voorbereiding",
+          title: "Bescherming",
           showProduct: true,
-          productImage: TopvliesCp,
-          productName: "Topvlies CP",
-          productInfo: "Super glad Soft Touch vlies om te overschilderen.",
-        },
-        {
-          id: 2,
-          title: "Bescherming/afwerking",
-          showProduct: true,
-          productImage: Persisto,
-          productName: "Persisto PU Mat",
-          productInfo: "Matte afwerklak voor zeer krasvaste afwerking.",
-        },
-        {
-          id: 3,
-          title: "Afwerking",
-          showProduct: true,
-          productImage: BossFlowMat,
-          productName: "Bossflow mat",
-          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren en plafonds.",
-        },
-        {
-          id: 4,
-          title: "Afwerking",
-          showProduct: true,
-          productImage: PlafondMat,
-          productName: "Boss Planfond Mat",
-          productInfo: "Extra matte afwerklaag voor plafonds.",
+          productImage: Elasto,
+          productName: "Elastosatin One",
+          productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
         },
         
       ],
