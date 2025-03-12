@@ -1,5 +1,4 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import Nav from "../components/nav/nav.js";
 import Footer from "../components/footer/Footer.js";
 import Header from "../components/page-title/header.js";

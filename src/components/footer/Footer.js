@@ -11,7 +11,7 @@ import "../../scss/footer/footer.scss";
 
 function Footer() {
   const [email, setEmail] = useState("");
-  const [textToCopy, setTextToCopy] = useState("BTW BE0797.449.965"); // The text you want to copy
+  const [textToCopy ] = useState("BTW BE0797.449.965"); // The text you want to copy
   const [isCopied, setIsCopied] = useState(false);
 
 

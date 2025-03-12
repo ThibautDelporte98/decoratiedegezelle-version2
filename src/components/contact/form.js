@@ -59,7 +59,7 @@ function Form() {
   const [message, setMessage] = useState("");
   const [formData, setFormData] = useState({
     name: name,
-    email: preFilledEmail,
+    email: preFilledEmail || email,
     tel: tel,
     subject: subject,
     message: message,

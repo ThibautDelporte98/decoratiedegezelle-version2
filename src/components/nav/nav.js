@@ -41,39 +41,11 @@ function Nav() {
     };
   }, [isMenuOpen]);
 
-  // Active State
-  const [isActiveHome, setIsActiveHome] = useState(false);
-  const [isActiveDiensten, setIsActiveDiensten] = useState(false);
-  const [isActiveReferenties, setIsActiveReferenties] = useState(false);
-  const [isActiveOverons, setIsActiveOverons] = useState(false);
-  const [isActiveContact, setIsActiveContact] = useState(false);
   const location = useLocation();
 
   const isHomepage = location.pathname === "/";
 
 
-  useEffect(() => {
-    // Extract the pathname from the location object
-    const { pathname } = location;
-    // Update the active state based on the current pathname
-    if (pathname === "/") {
-      setIsActiveHome(true);
-    } else if (pathname === "/diensten") {
-      setIsActiveDiensten(true);
-    } else if (pathname === "/realisaties") {
-      setIsActiveReferenties(true);
-    } else if (pathname === "/overons") {
-      setIsActiveOverons(true);
-    } else if (pathname === "/contact") {
-      setIsActiveContact(true);
-    } else {
-      setIsActiveHome(false);
-      setIsActiveDiensten(false);
-      setIsActiveReferenties(false);
-      setIsActiveOverons(false);
-      setIsActiveContact(false);
-    }
-  }, [location]);
 
   const handleNavLinkClick = () => {
     window.scrollTo(

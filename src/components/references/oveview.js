@@ -10,7 +10,7 @@ const ReferencesItems = ({ items }) => {
   const queryParams = new URLSearchParams(location.search);
   const initialCategory = queryParams.get("category") || "Alle items";
   const [selectedCategory, setSelectedCategory] = useState(initialCategory);
-  const [animate, setAnimate] = useState(false);
+  const  [animate ] = useState(false);
   const [visibleItems, setVisibleItems] = useState(6);
   const navigate = useNavigate();
 
@@ -22,7 +22,7 @@ const ReferencesItems = ({ items }) => {
     "plamuurwerken",
     "behangwerken",
     "raamdecoratie",
-    "vloer egaliseren",
+    "vloeren",
   ];
 
   const handleOptionSelect = (e) => {

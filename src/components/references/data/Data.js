@@ -35,7 +35,6 @@ import Harelbeke9 from "../../../images/References/Interieur/Harelbeke/A8.webp";
 import Harelbeke10 from "../../../images/References/Interieur/Harelbeke/A9.webp";
 import Harelbeke11 from "../../../images/References/Interieur/Harelbeke/A10.webp";
 
-
 //Interieur Kortrijk Frituur Natuur
 import Kortrijk from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/FrituurNatuur.webp";
 import Kortrijk2 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A1.webp";
@@ -44,7 +43,6 @@ import Kortrijk4 from "../../../images/References/Interieur/Kortrijk-FrituurNatu
 import Kortrijk5 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A4.webp";
 import Kortrijk6 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A5.webp";
 import Kortrijk7 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A7.webp";
-
 
 //Exterieur Harlbeke
 import ExHarelbeke from "../../../images/References/Exterieur/Harelbeke/AE1.webp";
@@ -63,7 +61,6 @@ import WevelgemEx from "../../../images/References/Exterieur/Wevelgem/Wevelgem.w
 import WevelgemEx2 from "../../../images/References/Exterieur/Wevelgem/Wevelgem2.webp";
 import WevelgemEx3 from "../../../images/References/Exterieur/Wevelgem/A1.webp";
 
-
 //Wevelgem2 Interieur
 import WevelgemIn from "../../../images/References/Interieur/Wevelgem/A1.webp";
 import WevelgemIn3 from "../../../images/References/Interieur/Wevelgem/A3.webp";
@@ -75,37 +72,40 @@ import WevelgemIn8 from "../../../images/References/Interieur/Wevelgem/A8.webp";
 import WevelgemIn9 from "../../../images/References/Interieur/Wevelgem/A9.webp";
 import WevelgemIn10 from "../../../images/References/Interieur/Wevelgem/A10.webp";
 
-
 //Marke Behangen
 import MarkeBe from "../../../images/References/Behangen/Marke/A1.webp";
 import MarkeBe2 from "../../../images/References/Behangen/Marke/A2.webp";
+
+//Ruiselede Behangen
+import Ruiselede from "../../../images/References/Behangen/Ruiselede/ruiselede1.jpg";
+import Ruiselede2 from "../../../images/References/Behangen/Ruiselede/ruiselede2.jpg";
+import Ruiselede3 from "../../../images/References/Behangen/Ruiselede/ruiselede3.jpg";
+import Ruiselede4 from "../../../images/References/Behangen/Ruiselede/ruiselede4.jpg";
+import Ruiselede5 from "../../../images/References/Behangen/Ruiselede/ruiselede5.jpg";
 
 //Porducts
 import Elasto from "../../../images/References/Exterieur/Komen-waasten/elasto.png";
 import Matineau from "../../../images/References/Exterieur/Harelbeke/matineau.webp";
 import BossflowSilk from "../../../images/References/Interieur/Wevelgem/silk.webp";
 import PlafondMat from "../../../images/References/Interieur/Wevelgem/plafondmat.webp";
-import Claystuc from "../../../images/References/Interieur/Gullegem/claystuc.webp"
+import Claystuc from "../../../images/References/Interieur/Gullegem/claystuc.webp";
 import BossFlowMat from "../../../images/References/products/bossflowmat.webp";
 import Persisto from "../../../images/References/products/persisto.webp";
 import AquaSensaPoeder from "../../../images/References/products/aquasensa-poeder.webp";
 import AquaSensaBindmiddel from "../../../images/References/products/aquasensa-bindmiddel.webp";
 import OmniprimExtreme from "../../../images/References/products/Omniprim-extreme.webp";
 import Bolatex from "../../../images/References/products/bolatex.webp";
-import TopvliesCp from "../../../images/References/products/topvliesCp.webp";
 import Pastime from "../../../images/References/products/pastime.webp";
 import Sublimat from "../../../images/References/products/sublimat.webp";
 import Subliprim from "../../../images/References/products/subliprim-30.png";
 
-
-
-//Project trap Harelbeke 
+//Project trap Harelbeke
 import HarelbekeInterier from "../../../images/References/Interieur/harelbeke3/6.webp";
-import HarelbekeInterier2 from "../../../images/References/Interieur/harelbeke3/5.webp"
-import HarelbekeInterier3 from "../../../images/References/Interieur/harelbeke3/4.webp"
-import HarelbekeInterier4 from "../../../images/References/Interieur/harelbeke3/3.webp"
-import HarelbekeInterier5 from "../../../images/References/Interieur/harelbeke3/2.webp"
-import HarelbekeInterier6 from "../../../images/References/Interieur/harelbeke3/1.webp"
+import HarelbekeInterier2 from "../../../images/References/Interieur/harelbeke3/5.webp";
+import HarelbekeInterier3 from "../../../images/References/Interieur/harelbeke3/4.webp";
+import HarelbekeInterier4 from "../../../images/References/Interieur/harelbeke3/3.webp";
+import HarelbekeInterier5 from "../../../images/References/Interieur/harelbeke3/2.webp";
+import HarelbekeInterier6 from "../../../images/References/Interieur/harelbeke3/1.webp";
 
 //Aqua Sensa Bissegem
 import ASBissegem from "../../../images/References/Decoratieve technieken/AquaSensa-Bissegem/1.webp";
@@ -115,13 +115,13 @@ import ASBissegem4 from "../../../images/References/Decoratieve technieken/AquaS
 import ASBissegem5 from "../../../images/References/Decoratieve technieken/AquaSensa-Bissegem/5.webp";
 import ASBissegem6 from "../../../images/References/Decoratieve technieken/AquaSensa-Bissegem/6.webp";
 
-//Houtwerk Kuurne 
+//Houtwerk Kuurne
 import Kuurne from "../../../images/References/Interieur/Kuurne/1.webp";
 import Kuurne2 from "../../../images/References/Interieur/Kuurne/2.webp";
 import Kuurne3 from "../../../images/References/Interieur/Kuurne/3.webp";
 import Kuurne4 from "../../../images/References/Interieur/Kuurne/4.webp";
 
-//Houtwerk Kuurne 
+//Houtwerk Kuurne
 import houtwerkKortrijk from "../../../images/References/Interieur/houtwerk-kortrijk/1.webp";
 import houtwerkKortrijk2 from "../../../images/References/Interieur/houtwerk-kortrijk/2.webp";
 import houtwerkKortrijk3 from "../../../images/References/Interieur/houtwerk-kortrijk/3.webp";
@@ -151,10 +151,20 @@ import harelebek2408Ex5 from "../../../images/References/Exterieur/Harelbeke2/5.
 import harelebek2408Ex6 from "../../../images/References/Exterieur/Harelbeke2/6.webp";
 import harelebek2408Ex7 from "../../../images/References/Exterieur/Harelbeke2/7.webp";
 import harelebek2408Ex8 from "../../../images/References/Exterieur/Harelbeke2/8.webp";
-import harelebek2408Ex9 from "../../../images/References/Exterieur/Harelbeke2/9.webp";
 
+// Vloeren Nieuwpoort
+import Nieuwpoort1 from "../../../images/References/Vloeren/nieuwpoort1.jpg";
+import Nieuwpoort3 from "../../../images/References/Vloeren/nieuwpoort3.jpg";
+import Nieuwpoort4 from "../../../images/References/Vloeren/nieuwpoort4.jpg";
+import Nieuwpoort5 from "../../../images/References/Vloeren/nieuwpoort5.jpg";
 
-
+// Interieur Nieuwpoort
+import Nieuwpoort from "../../../images/References/Interieur/Nieuwpoort/nieuwpoort.jpg";
+import Nieuwpoort6 from "../../../images/References/Interieur/Nieuwpoort/nieuwpoort6.jpg";
+import Nieuwpoort7 from "../../../images/References/Interieur/Nieuwpoort/nieuwpoort7.jpg";
+import Nieuwpoort8 from "../../../images/References/Interieur/Nieuwpoort/nieuwpoort8.jpg";
+import Nieuwpoort9 from "../../../images/References/Interieur/Nieuwpoort/nieuwpoort9.jpg";
+import Nieuwpoort10 from "../../../images/References/Interieur/Nieuwpoort/nieuwpoort10.jpg";
 
 const References = [
   {
@@ -184,9 +194,7 @@ const References = [
     ],
     preferences: {
       customer: "niet van toepassing.",
-      color: [
-
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -267,10 +275,9 @@ const References = [
       },
     ],
     preferences: {
-      customer: "De klant heeft muren met Bossflow Silk en het plafond met Boss Planfond Mat geschilderd voor een harmonieuze uitstraling. Geschikt materiaal en overweging van omgevingscondities zijn cruciaal voor een optimaal resultaat.",
-      color: [
-
-      ],
+      customer:
+        "De klant heeft muren met Bossflow Silk en het plafond met Boss Planfond Mat geschilderd voor een harmonieuze uitstraling. Geschikt materiaal en overweging van omgevingscondities zijn cruciaal voor een optimaal resultaat.",
+      color: [],
       product: [
         {
           id: 1,
@@ -340,9 +347,7 @@ const References = [
     ],
     preferences: {
       customer: "test",
-      color: [
-
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -350,13 +355,12 @@ const References = [
           showProduct: true,
           productImage: Claystuc,
           productName: "Claystuc",
-          productInfo: "Decoratieve stuctechniek op basis van klei en minerale additieven.",
+          productInfo:
+            "Decoratieve stuctechniek op basis van klei en minerale additieven.",
         },
       ],
 
-      goalChoice: {
-
-      },
+      goalChoice: {},
     },
     review: [
       {
@@ -416,7 +420,8 @@ const References = [
     defaultHeight: 25,
     title: "Woning in Wevelgem",
 
-    introText: "In de wereld van huisdecoratie is het maken van de juiste keuzes essentieel om de gewenste sfeer en uitstraling te bereiken. Elke klant heeft zijn eigen unieke visie en voorkeuren bij het schilderen van hun huis, waarbij zowel esthetische als functionele aspecten een rol spelen.",
+    introText:
+      "In de wereld van huisdecoratie is het maken van de juiste keuzes essentieel om de gewenste sfeer en uitstraling te bereiken. Elke klant heeft zijn eigen unieke visie en voorkeuren bij het schilderen van hun huis, waarbij zowel esthetische als functionele aspecten een rol spelen.",
 
     techniques: [
       {
@@ -431,10 +436,9 @@ const References = [
       },
     ],
     preferences: {
-      customer: "De klant heeft gekozen voor schilderen van muren met Bossflow Silk en het plafond met Boss Planfond Mat voor een harmonieuze uitstraling. Geschikt materiaal en overweging van omgevingscondities zijn cruciaal voor een optimaal resultaat.",
-      color: [
-
-      ],
+      customer:
+        "De klant heeft gekozen voor schilderen van muren met Bossflow Silk en het plafond met Boss Planfond Mat voor een harmonieuze uitstraling. Geschikt materiaal en overweging van omgevingscondities zijn cruciaal voor een optimaal resultaat.",
+      color: [],
       product: [
         {
           id: 1,
@@ -453,7 +457,6 @@ const References = [
           productInfo: "Extra matte afwerklaag voor plafonds.",
         },
       ],
-
     },
     review: [
       {
@@ -498,8 +501,6 @@ const References = [
         id: 9,
         image: WevelgemIn10,
       },
-
-
     ],
   },
   {
@@ -529,9 +530,7 @@ const References = [
     ],
     preferences: {
       customer: "niet van toepassing.",
-      color: [
-
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -550,8 +549,6 @@ const References = [
           productInfo: "Extra matte afwerklaag voor plafonds.",
         },
       ],
-
-
     },
     review: [
       {
@@ -634,9 +631,7 @@ const References = [
     ],
     preferences: {
       customer: "Snelle renovatie van hun frituur",
-      color: [
-
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -644,12 +639,12 @@ const References = [
           showProduct: true,
           productImage: BossFlowMat,
           productName: "Bossflow mat",
-          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren en plafonds.",
+          productInfo:
+            "Hoogkwalitatieve afwerklaag voor binnenmuren en plafonds.",
         },
       ],
 
-      goalChoice: [
-      ],
+      goalChoice: [],
     },
     review: [
       {
@@ -707,9 +702,7 @@ const References = [
     ],
     preferences: {
       customer: "niet van toepassing",
-      color: [
-
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -777,8 +770,7 @@ const References = [
     ],
     preferences: {
       customer: "niet van toepassing.  ",
-      color: [
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -797,7 +789,6 @@ const References = [
           productInfo: "Watergedragen matte acrylaatlak voor buiten.",
         },
       ],
-
     },
     review: [
       {
@@ -828,7 +819,8 @@ const References = [
     height: 35,
     defaultHeight: 25,
     title: "Project in Harelbeke",
-    introText: "Als klant heb je altijd de vrijheid om te kiezen wat het beste bij jouw behoeften en voorkeuren past. En in het geval van het schilderen van raamwerk buiten, heb we gekozen voor een verfproduct dat niet alleen esthetisch aantrekkelijk is, maar ook duurzaam en bestand tegen de elementen.",
+    introText:
+      "Als klant heb je altijd de vrijheid om te kiezen wat het beste bij jouw behoeften en voorkeuren past. En in het geval van het schilderen van raamwerk buiten, heb we gekozen voor een verfproduct dat niet alleen esthetisch aantrekkelijk is, maar ook duurzaam en bestand tegen de elementen.",
 
     techniques: [
       {
@@ -843,10 +835,9 @@ const References = [
       },
     ],
     preferences: {
-      customer: "De klant heeft gekozen voor Matineau buitenlak, een duurzame en matte variant van Satineau, ideaal voor buiten. Voor het aanbrengen is aangepast materiaal nodig en moeten de weersomstandigheden in acht worden genomen voor het beste resultaat.",
-      color: [
-
-      ],
+      customer:
+        "De klant heeft gekozen voor Matineau buitenlak, een duurzame en matte variant van Satineau, ideaal voor buiten. Voor het aanbrengen is aangepast materiaal nodig en moeten de weersomstandigheden in acht worden genomen voor het beste resultaat.",
+      color: [],
       product: [
         {
           id: 1,
@@ -903,9 +894,7 @@ const References = [
     ],
     preferences: {
       customer: "test",
-      color: [
-
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -944,28 +933,173 @@ const References = [
   {
     id: 10,
     priority: true,
+    url: "Behangen-Ruiselede",
+    image: Ruiselede,
+    category: "behangwerken",
+    subject: "Behangen",
+    city: "Ruiselede",
+    height: 40,
+    defaultHeight: 25,
+    title: "Behangen van traphal.",
+    techniques: [
+      {
+        id: 1,
+        title: "Behangen | Traphal",
+        url: "/diensten/behangen",
+      },
+    ],
+    preferences: {
+      customer: "",
+      color: [],
+      product: [],
+    },
+    review: [
+      {
+        text: "",
+        owner: "",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: Ruiselede2,
+      },
+      {
+        id: 2,
+        image: Ruiselede3,
+      },
+      {
+        id: 3,
+        image: Ruiselede4,
+      },
+      {
+        id: 4,
+        image: Ruiselede5,
+      },
+    ],
+  },
+  {
+    id: 11,
+    priority: true,
+    url: "Vloeren-Nieuwpoort",
+    image: Nieuwpoort1,
+    category: "vloeren",
+    subject: "Vloeren",
+    city: "Nieuwpoort",
+    height: 35,
+    defaultHeight: 25,
+    title: "Vinyl vloer plinten en deurmat.",
+    techniques: [
+      {
+        id: 1,
+        title: "",
+        url: "",
+      },
+    ],
+    preferences: {
+      customer: "",
+      color: [],
+      product: [],
+    },
+    review: [
+      {
+        text: "",
+        owner: "",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: Nieuwpoort3,
+      },
+      {
+        id: 2,
+        image: Nieuwpoort4,
+      },
+      {
+        id: 3,
+        image: Nieuwpoort5,
+      },
+    ],
+  },
+  {
+    id: 11,
+    priority: true,
+    url: "Interieur-Nieuwpoort",
+    image: Nieuwpoort,
+    category: "interieur",
+    subject: "Interieur",
+    city: "Nieuwpoort",
+    height: 40,
+    defaultHeight: 25,
+    title: "Schilderen van woning.",
+    techniques: [
+      {
+        id: 1,
+        title: "",
+        url: "",
+      },
+    ],
+    preferences: {
+      customer: "",
+      color: [],
+      product: [],
+    },
+    review: [
+      {
+        text: "",
+        owner: "",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: Nieuwpoort6,
+      },
+      {
+        id: 2,
+        image: Nieuwpoort7,
+      },
+      {
+        id: 4,
+        image: Nieuwpoort8,
+      },
+      {
+        id: 5,
+        image: Nieuwpoort9,
+      },
+            {
+        id: 6,
+        image: Nieuwpoort10,
+      },
+    ],
+  },
+  {
+    id: 11,
+    priority: true,
     url: "Exterieur-Harelbeke2",
-    image:  harelebek2408Ex1,
+    image: harelebek2408Ex1,
     category: "exterieur",
     subject: "Exterieur",
     city: "Harelbeke",
     height: 30,
     defaultHeight: 25,
     title: "Schilderen van gevel",
-    introText: "Met trots presenteren we onze nieuwste realisatie: In dit project hebben we het houtwerk en de buitengevel grondig onder handen genomen. Alles werd zorgvuldig geschuurd om een perfect gladde basis te creëren. Voor de gevel gebruikten we Subliprim wit als grondlaag en Sublimat wit als afwerklaag. Het houtwerk werd afgewerkt met twee lagen Elasto Satin One, drie duurzame en hoogwaardige verven die zorgen voor een prachtig eindresultaat en optimale bescherming. Het resultaat is een schitterende, strak afgewerkte look die zowel het houtwerk als de gevel weer als nieuw doet stralen! (29-08-2024)",
+    introText:
+      "Met trots presenteren we onze nieuwste realisatie: In dit project hebben we het houtwerk en de buitengevel grondig onder handen genomen. Alles werd zorgvuldig geschuurd om een perfect gladde basis te creëren. Voor de gevel gebruikten we Subliprim wit als grondlaag en Sublimat wit als afwerklaag. Het houtwerk werd afgewerkt met twee lagen Elasto Satin One, drie duurzame en hoogwaardige verven die zorgen voor een prachtig eindresultaat en optimale bescherming. Het resultaat is een schitterende, strak afgewerkte look die zowel het houtwerk als de gevel weer als nieuw doet stralen! (29-08-2024)",
     techniques: [
       {
         id: 1,
         title: "Exterieur | Houtwerk",
         url: "/diensten/Exterieur",
       },
-
     ],
     preferences: {
       customer: "",
-      color: [
-
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -991,7 +1125,6 @@ const References = [
           productName: "Subliprim",
           productInfo: "Dekkende watergedragen grondlaag voor buitenmuren.",
         },
-        
       ],
     },
     review: [
@@ -1030,35 +1163,31 @@ const References = [
         id: 7,
         image: harelebek2408Ex8,
       },
-
-
     ],
   },
   {
-    id: 11,
+    id: 12,
     priority: true,
     url: "Exterieur-Oostende",
-    image:  OostendeEx,
+    image: OostendeEx,
     category: "exterieur",
     subject: "Exterieur",
     city: "Oostende",
     height: 35,
     defaultHeight: 25,
     title: "Schilderen van houtwerk",
-    introText: "Het is weer die tijd van het jaar! De lente is in volle gang en de zomer nadert snel, wat betekent dat het perfecte seizoen voor buitenschilderwerk is aangebroken. De milde temperaturen en langere dagen maken dit de ideale periode om uw huis of bedrijfspand een frisse, nieuwe uitstraling te geven. (14-05-2024)",
+    introText:
+      "Het is weer die tijd van het jaar! De lente is in volle gang en de zomer nadert snel, wat betekent dat het perfecte seizoen voor buitenschilderwerk is aangebroken. De milde temperaturen en langere dagen maken dit de ideale periode om uw huis of bedrijfspand een frisse, nieuwe uitstraling te geven. (14-05-2024)",
     techniques: [
       {
         id: 1,
         title: "Exterieur | Houtwerk",
         url: "/diensten/interieur",
       },
-
     ],
     preferences: {
       customer: "",
-      color: [
-
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -1066,9 +1195,9 @@ const References = [
           showProduct: true,
           productImage: Pastime,
           productName: "Pastime",
-          productInfo: "Matte gekorrelde watergedragen gevelverf met kalei-uitzicht.",
+          productInfo:
+            "Matte gekorrelde watergedragen gevelverf met kalei-uitzicht.",
         },
-        
       ],
     },
     review: [
@@ -1107,23 +1236,22 @@ const References = [
         id: 7,
         image: OostendeEx10,
       },
-
-
     ],
   },
   {
-    id: 12,
+    id: 13,
     priority: true,
     url: "Trap-Harelbeke",
     image: HarelbekeInterier,
     category: "interieur",
     subject: "Interieur",
     city: "Harelbeke",
-    height: 30,
+    height: 35,
     defaultHeight: 25,
     title: "Trap te harelbeke",
 
-    introText: "Ontdek onze recente traprealisatie in Harelbeke, waarbij we gebruik hebben gemaakt van Persisto Mat RAL 9005 verf. De bovenste trede is subtiel geaccentueerd met een woodcolor afwerking en matte vernis, waardoor een unieke uitstraling ontstaat.",
+    introText:
+      "Ontdek onze recente traprealisatie in Harelbeke, waarbij we gebruik hebben gemaakt van Persisto Mat RAL 9005 verf. De bovenste trede is subtiel geaccentueerd met een woodcolor afwerking en matte vernis, waardoor een unieke uitstraling ontstaat.",
 
     techniques: [
       {
@@ -1131,13 +1259,11 @@ const References = [
         title: "Interieur | Houtwerk",
         url: "/diensten/interieur",
       },
-
     ],
     preferences: {
-      customer: "De klant koos voor een opvallende twist door de bovenste trede in woodcolor te laten staan, die vervolgens is afgewerkt met een matte vernis. Deze keuze resulteerde in een unieke en persoonlijke uitstraling die perfect past bij het interieur van de klant.",
-      color: [
-
-      ],
+      customer:
+        "De klant koos voor een opvallende twist door de bovenste trede in woodcolor te laten staan, die vervolgens is afgewerkt met een matte vernis. Deze keuze resulteerde in een unieke en persoonlijke uitstraling die perfect past bij het interieur van de klant.",
+      color: [],
       product: [
         {
           id: 1,
@@ -1147,7 +1273,6 @@ const References = [
           productName: "Persisto PU Mat",
           productInfo: "Matte afwerklak voor zeer krasvaste afwerking.",
         },
-        
       ],
     },
     review: [
@@ -1178,14 +1303,13 @@ const References = [
         id: 5,
         image: HarelbekeInterier6,
       },
-
     ],
   },
   {
-    id: 13,
+    id: 14,
     priority: true,
     url: "Aqua-sensa-Bissegem",
-    image:  ASBissegem,
+    image: ASBissegem,
     category: "decoratieve technieken",
     subject: "decoratieve technieken",
     city: "Bissegem",
@@ -1199,13 +1323,11 @@ const References = [
         title: "Interieur | Houtwerk",
         url: "/diensten/interieur",
       },
-
     ],
     preferences: {
-      customer: "Met een vleugje verfrissende sereniteit heeft de klant gekozen om de badkamer te schilderen in Aqua Sensa. Deze tinten brengen rust en vernieuwing, en creëren een tijdloze esthetiek voor dagelijkse verjonging.",
-      color: [
-
-      ],
+      customer:
+        "Met een vleugje verfrissende sereniteit heeft de klant gekozen om de badkamer te schilderen in Aqua Sensa. Deze tinten brengen rust en vernieuwing, en creëren een tijdloze esthetiek voor dagelijkse verjonging.",
+      color: [],
       product: [
         {
           id: 1,
@@ -1213,7 +1335,8 @@ const References = [
           showProduct: true,
           productImage: AquaSensaPoeder,
           productName: "Aqua Sensa Poeder",
-          productInfo: "Decoratieve waterbestendige afwerking voor binnenmuren en vloeren.",
+          productInfo:
+            "Decoratieve waterbestendige afwerking voor binnenmuren en vloeren.",
         },
         {
           id: 2,
@@ -1223,7 +1346,6 @@ const References = [
           productName: "Aqua Sensa Bindmiddel",
           productInfo: "Toeslagstof voor Aqua Sensa poeder.",
         },
-        
       ],
     },
     review: [
@@ -1254,14 +1376,13 @@ const References = [
         id: 5,
         image: ASBissegem6,
       },
-
     ],
   },
   {
-    id: 14,
+    id: 15,
     priority: true,
     url: "houtwerk-Kuurne",
-    image:  Kuurne,
+    image: Kuurne,
     category: "interieur",
     subject: "Interieur",
     city: "Kuurne",
@@ -1274,13 +1395,11 @@ const References = [
         title: "Interieur | Houtwerk",
         url: "/diensten/interieur",
       },
-
     ],
     preferences: {
-      customer: "In project Te Kuurne laten we de keuze volledig aan de klant over. Het houtwerk is uitgevoerd in Persisto Mat RAL 9016, terwijl de muur is afgewerkt met Bolatex R9016. We streven ernaar om de wensen van onze klanten perfect te vervullen, tot in de kleinste details.",
-      color: [
-
-      ],
+      customer:
+        "In project Te Kuurne laten we de keuze volledig aan de klant over. Het houtwerk is uitgevoerd in Persisto Mat RAL 9016, terwijl de muur is afgewerkt met Bolatex R9016. We streven ernaar om de wensen van onze klanten perfect te vervullen, tot in de kleinste details.",
+      color: [],
       product: [
         {
           id: 1,
@@ -1298,7 +1417,6 @@ const References = [
           productName: "Bolatex",
           productInfo: "Krasvaste lak voor houtwerk.",
         },
-        
       ],
     },
     review: [
@@ -1321,14 +1439,13 @@ const References = [
         id: 3,
         image: Kuurne4,
       },
-
     ],
   },
   {
-    id: 15,
+    id: 16,
     priority: true,
     url: "houtwerk-Kortrijk",
-    image:  houtwerkKortrijk,
+    image: houtwerkKortrijk,
     category: "interieur",
     subject: "Interieur",
     city: "Kortrijk",
@@ -1341,13 +1458,10 @@ const References = [
         title: "Interieur | Houtwerk",
         url: "/diensten/interieur",
       },
-
     ],
     preferences: {
       customer: "",
-      color: [
-
-      ],
+      color: [],
       product: [
         {
           id: 1,
@@ -1357,7 +1471,6 @@ const References = [
           productName: "Elastosatin One",
           productInfo: "Grondlaag en afwerklak voor buitenafwerking op hout.",
         },
-        
       ],
     },
     review: [
@@ -1400,12 +1513,8 @@ const References = [
         id: 8,
         image: houtwerkKortrijk9,
       },
-
     ],
   },
 ];
 
 export default References;
-
-
-
