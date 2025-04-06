@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../../scss/page-title/header-large.scss";
 import PropTypes from "prop-types";
 import Image1 from "../../images/carouselImages/home/header-home-1.webp";
-import Image2 from "../../images/carouselImages/home/header-home-2.webp";
-import Image3 from "../../images/carouselImages/home/header-home-3.webp";
+import Image2 from "../../images/carouselImages/home/NEW1.jpg";
+import Image3 from "../../images/carouselImages/home/NEW2.jpg";
 
 const images = [Image1, Image2, Image3];
 

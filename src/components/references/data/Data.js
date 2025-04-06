@@ -44,6 +44,16 @@ import Kortrijk5 from "../../../images/References/Interieur/Kortrijk-FrituurNatu
 import Kortrijk6 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A5.webp";
 import Kortrijk7 from "../../../images/References/Interieur/Kortrijk-FrituurNatuur/A7.webp";
 
+//Interieur Kortrijk Frituur Natuur
+import Kortrijk6425 from "../../../images/References/Interieur/Kortrijk6425/KORTRIJK.jpg";
+import Kortrijk64251 from "../../../images/References/Interieur/Kortrijk6425/KORTRIJK2.jpg";
+import Kortrijk64252 from "../../../images/References/Interieur/Kortrijk6425/KORTRIJK3.jpg";
+import Kortrijk64253 from "../../../images/References/Interieur/Kortrijk6425/KORTRIJK4.jpg";
+import Kortrijk64254 from "../../../images/References/Interieur/Kortrijk6425/KORTRIJK5.jpg";
+
+
+
+
 //Exterieur Harlbeke
 import ExHarelbeke from "../../../images/References/Exterieur/Harelbeke/AE1.webp";
 import ExHarelbeke2 from "../../../images/References/Exterieur/Harelbeke/AE2.webp";
@@ -82,6 +92,13 @@ import Ruiselede2 from "../../../images/References/Behangen/Ruiselede/ruiselede2
 import Ruiselede3 from "../../../images/References/Behangen/Ruiselede/ruiselede3.jpg";
 import Ruiselede4 from "../../../images/References/Behangen/Ruiselede/ruiselede4.jpg";
 import Ruiselede5 from "../../../images/References/Behangen/Ruiselede/ruiselede5.jpg";
+
+//Ruiselede Behangen
+import Kruisem from "../../../images/References/Decoratieve technieken/AquaSensa-Kruisem/kruisem.jpg";
+import Kruisem2 from "../../../images/References/Decoratieve technieken/AquaSensa-Kruisem/kruisem2.jpg";
+import Kruisem3 from "../../../images/References/Decoratieve technieken/AquaSensa-Kruisem/kruisem3.jpg";
+import Kruisem4 from "../../../images/References/Decoratieve technieken/AquaSensa-Kruisem/kruisem4.jpg";
+import Kruisem5 from "../../../images/References/Decoratieve technieken/AquaSensa-Kruisem/kruisem5.jpg";
 
 //Porducts
 import Elasto from "../../../images/References/Exterieur/Komen-waasten/elasto.png";
@@ -927,6 +944,151 @@ const References = [
       {
         id: 2,
         image: MarkeBe,
+      },
+    ],
+  },
+  {
+    id: 2,
+    priority: true,
+    url: "Interieur-Kortijk",
+    image: Kortrijk6425,
+    category: "interieur",
+    subject: "Interieur ",
+    city: "Kortrijk",
+    height: 40,
+    defaultHeight: 25,
+    title: "Woning te Kortrijk",
+    techniques: [
+      {
+        id: 1,
+        title: "Interieur | Schilderen van muren",
+        url: "/diensten/interieur",
+      },
+      {
+        id: 2,
+        title: "Interieur | Plafond schilderen",
+        url: "/diensten/interieur",
+      },
+    ],
+    preferences: {
+      customer:
+        "",
+      color: [],
+      product: [
+        {
+          id: 1,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: BossflowSilk,
+          productName: "Bossflow Silk",
+          productInfo: "Hoogkwalitatieve afwerklaag voor binnenmuren.",
+        },
+        {
+          id: 2,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: PlafondMat,
+          productName: "Boss Planfond Mat",
+          productInfo: "Extra matte afwerklaag voor plafonds.",
+        },
+      ],
+
+      goalChoice: {
+        title: "Doel van keuze",
+        text: "Het doel van de klant was om zowel duurzaamheid als esthetiek te waarborgen.",
+        showGoalChoice: false,
+      },
+    },
+    review: [
+      {
+        text: "",
+        owner: "",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: Kortrijk64251,
+      },
+      {
+        id: 2,
+        image: Kortrijk64252,
+      },
+      {
+        id: 3,
+        image: Kortrijk64253,
+      },
+      {
+        id: 4,
+        image: Kortrijk64254,
+      },
+    ],
+  },
+  {
+    id: 10,
+    priority: true,
+    url: "Aqua-Sensa-Kruisem",
+    image: Kruisem,
+    category: "decoratieve technieken",
+    subject: "decoratieve technieken ",
+    city: "Kruisem",
+    height: 35,
+    defaultHeight: 25,
+    title: "badkamer in Aqua-Sensa.",
+    techniques: [
+      {
+        id: 1,
+        title: "Decoratieve Technieken | Aqua-Sensa",
+        url: "/diensten/decoratieve%20technieken",
+      },
+    ],
+    preferences: {
+      customer: "Badkamer in Aqua-Sensa.",
+      color: [],
+      product: [
+        {
+          id: 1,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: AquaSensaPoeder,
+          productName: "Aqua Sensa Poeder",
+          productInfo:
+            "Decoratieve waterbestendige afwerking voor binnenmuren en vloeren.",
+        },
+        {
+          id: 2,
+          title: "Afwerking",
+          showProduct: true,
+          productImage: AquaSensaBindmiddel,
+          productName: "Aqua Sensa Bindmiddel",
+          productInfo: "Toeslagstof voor Aqua Sensa poeder.",
+        },
+      ],
+    },
+    review: [
+      {
+        text: "",
+        owner: "",
+      },
+    ],
+
+    images: [
+      {
+        id: 1,
+        image: Kruisem2,
+      },
+      {
+        id: 2,
+        image: Kruisem3,
+      },
+      {
+        id: 3,
+        image: Kruisem4,
+      },
+      {
+        id: 4,
+        image: Kruisem5,
       },
     ],
   },
