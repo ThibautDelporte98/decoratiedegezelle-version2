@@ -172,9 +172,9 @@ function Footer() {
             <div className="col-6">
               <div className="conditions">
                 <ul>
-                  <li className="conditions-item">
+                  {/* <li className="conditions-item">
                     <Link to={'/algemene-voorwaarden'} onClick={handleNavLinkClick} title="Bekijk onze algemene voorwaarden">Algemene voorwaarden</Link>
-                  </li>
+                  </li> */}
                   <li className="conditions-item">
                     <Link to={'/privacypolicy'} onClick={handleNavLinkClick} title="Bekijk onze privacy policy">Privacy policy</Link>
                   </li>
@@ -185,7 +185,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-6">
-              <Link className="made-by">Made by &copy;Delporte</Link>
+              <Link className="made-by" to={"https://delpdesign.com/"} target="_blank">Made by DelpDesign</Link>
             </div>
           </div>
         </div>
